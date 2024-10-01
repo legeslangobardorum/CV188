@@ -20,6 +20,15 @@
 
 /* ***************************************************************** */
 
+.lb[data-rend="below align-right"] + span {
+    margin-left: 100px !important; /*  Valore corretto 34px (= larghezza + padding barra numerica)*/
+}
+
+.lb[data-rend="rubric"] + span {
+    color: red !important;
+}
+
+/* X
 .w[data-rend="red"] {
   color: red !important;
 }
@@ -36,6 +45,7 @@
 .lb[data-rend="align-right"], .seg[data-rend="align-right"] {
   text-align: right !important;
 }
+*/
 
 .term {
 	background-color: coral;

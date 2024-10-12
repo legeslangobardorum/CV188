@@ -494,11 +494,12 @@
     + TUTTA la trascrizione 1-50 è da controllare e completare
     - sistematizzare tutti i "capX.Y"
     - marcare con <num> tutti i numeri riportati
-    + correggere anime/ae in orig/reg
+    + correggere anime/ae in orig/reg (ma vedi anche sotto su dittongo ae)
     - mantenere solidos invece di regolarizzare in solidus
     - valutare se mantenere dittongo ae nelle forme regolarizzate (es. adpraetiatum ma forse più corretto adpretiatum) >>> mantenere registro linguistico uniforme
     - visualizzare supplied solo nell'interpretativa
     - mantenere numeri romani, uniformare con <num>
+    - sostituire <charDecl> con quella esterna
 
     -->
 
@@ -2474,7 +2475,7 @@
           <w>
             <choice>
               <orig>anime</orig>
-              <reg resp="bluhme">animae</reg>
+              <reg>animae</reg>
             </choice></w>
           <w>suae</w>
           <w>incurrat</w>

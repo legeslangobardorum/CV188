@@ -103,6 +103,7 @@
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="parchment">
+                <support>Pergamena.</support>
                 <extent>
                   <measure type="leaves">Il codice si compone di ff. I (carta, rilegatura moderna); II (guardia
                     anteriore); 171 (di cui 5 sono stati aggiunti nel IX sec.); II (guardia posteriore); I (carta,
@@ -230,6 +231,14 @@
           <mapping type="diplomatic">ȳ</mapping>
           <mapping type="normalized">y</mapping>
         </char>
+
+        <glyph xml:id="Eunc">
+          <localProp name="Name" value="LATIN CAPITAL LETTER E UNCIAL FORM"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F10A</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">E</mapping>
+        </glyph>
+        
         <!-- Letter L ltailstrok -->
         <char xml:id="ltailstrok">
           <unicodeProp name="Name" value="LATIN SMALL LETTER LUM"/>

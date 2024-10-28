@@ -1,5 +1,5 @@
 {
-   "indexTitle": "The Edictus Rothari",
+   "indexTitle": "Edictum Rothari - Codex Vercellensis",
    "webSite": "https://edizionicafoscari.unive.it/it/edizioni4/collane/filologie-medievali-e-moderne/",
    "logoUrl": "https://edizionicafoscari.unive.it/static/ecfwebsite_4/assets/Edizioni_Ca_Foscari_VUP.png",
    
@@ -94,7 +94,7 @@
    "toolPinAppEntries": true,
    "toolImageTextLinking": true,
 
-   "namedEntitiesSelector": false,
+   "namedEntitiesSelector": true,
    "namedEntitiesToHandle": [
       {
          "tagName": "persName",
@@ -109,7 +109,7 @@
       {
          "tagName": "orgName",
          "label": "Organizations",
-         "available": true
+         "available": false
       }
    ],
    "otherEntitiesToHandle": [
@@ -118,6 +118,12 @@
          "label": "Role Name",
          "available": false,
          "color": "#cfc"
+      },
+      {
+         "tagName": "term",
+         "label": "Langobardic",
+         "available": true,
+         "color": "#7FFFD4"
       },
       {
          "tagName": "measure",

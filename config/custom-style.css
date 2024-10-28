@@ -20,36 +20,63 @@
 
 /* ***************************************************************** */
 
-.lb[data-rend="below align-right"] + span {
-    margin-left: 100px !important; /*  Valore corretto 34px (= larghezza + padding barra numerica)*/
+.supplied::before {
+    content:"[";
 }
 
-.lb[data-rend="rubric"] + span {
-    color: red !important;
+.supplied::after {
+    content:"]";
 }
 
-/* X
-.w[data-rend="red"] {
-  color: red !important;
-}
-.hi[data-rend="red"] {
-  color: red !important;
-}
-.label[data-rend="red"] {
-  color: red !important;
-}
-.add[data-rend="black"]  {
-  color: black !important;
+.add[data-rend="align-right"] {
+  display: inline !important;
+  margin-left: 300px !important;
 }
 
-.lb[data-rend="align-right"], .seg[data-rend="align-right"] {
+.hi[data-rend="superscript"] {
+  vertical-align: super !important;
+}
+
+.fw[data-rend="align-center"], .fw[data-place="top-center"] {
+  text-align: center !important;
+}
+
+.fw[data-rend="align-right"], .fw[data-place="top-right"] {
   text-align: right !important;
 }
-*/
 
-.term {
-	background-color: coral;
+.fw[data-rend="align-left"], .fw[data-place="top-left"] {
+  text-align: left !important;
 }
+
+.front[data-rend="fontsize_120"] {
+  text-align: justify !important;
+	font-size: 120% !important;
+}
+
+.title {
+  font-style: italic !important;
+}
+
+.titlePart[data-type="main"] {
+  font-style: italic !important;
+  text-align: center !important;
+	font-size: 140% !important;
+}
+
+.head[data-type="main"] {
+  font-style: italic !important;
+  text-align: center !important;
+	font-size: 200% !important;
+}
+
+.label {
+  font-style: italic !important;
+}
+
+/* .term {
+	background-color: coral;
+} */
 
 .figDesc {
 	display: block;

@@ -137,6 +137,18 @@
           Interesse Nazionale (PRIN), dal titolo <title>A digital scholarly edition of the "Leges Langobardorum": social
             memory, historical legacy and valorisation of cultural heritage</title> - CUP H53D23009340001 - finanziato
           dal Bando PRIN 2022 PNRR - D.D. n. 1409 del 14/09/2022.</p>
+
+        <p>Il progetto si compone di due unità di ricerca:
+          
+          <list>
+            
+            <item>Unità di Ca' Foscari Venezia: prof.ssa Marina Buzzoni (PI), prof.ssa Martina Venuti, prof. Franz Fischer</item>
+            
+            <item>Unità di Torino: prof. Roberto Rosselli Del Turco, prof. Ermanno Malaspina</item>
+            
+          </list>
+        </p>
+        
       </projectDesc>
 
       <editorialDecl>
@@ -246,6 +258,28 @@
           <mapping type="diplomatic">ꝲ</mapping>
           <mapping type="normalized">l</mapping>
         </char>
+
+        <glyph xml:id="munc">
+          <localProp name="Name" value="LATIN SMALL LETTER UNCIAL M"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F225</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">m</mapping>
+        </glyph>
+        
+        <glyph xml:id="Munc">
+          <localProp name="Name" value="LATIN CAPITAL LETTER UNCIAL M"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F11A</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">M</mapping>
+        </glyph>
+        
+        <glyph xml:id="muncmacr">
+          <localProp name="Name" value="LATIN SMALL LETTER UNCIAL M WITH MACRON"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F225 U+0304</mapping>
+          <mapping type="diplomatic">̄</mapping>
+          <!-- CHECK -->
+          <mapping type="normalized">m</mapping>
+        </glyph>
 
         <!-- ntilde -->
         <char xml:id="ntilde">
@@ -19394,9 +19428,8 @@
           <w>pa<lb n="12" xml:id="CV188_lb_065r_12"/>tronus</w>
           <w><choice>
               <orig>succedat</orig>
-              <reg>succidat</reg>
+              <reg>succidat</reg><!-- CHECK -->
             </choice></w>
-          <w>at</w>
           <w>sicut</w>
           <w>supra</w>
           <lb n="13" type="rubric" xml:id="CV188_lb_065r_13"/><w><choice>
@@ -19438,14 +19471,14 @@
           <lb n="17" xml:id="CV188_lb_065r_17"/><w>futuri</w>
           <w>temporis</w>
           <w>memoriam</w>
-          <w>ut</w>
+          <w>aut</w>
           <lb n="18" xml:id="CV188_lb_065r_18"/><w><choice>
               <orig>qualibit</orig>
               <reg>qualiter</reg>
             </choice></w>
           <w>liberum</w>
           <w>aut</w>
-          <w>liberam</w>
+          <w>libera</w>
           <w>thin<lb n="19" xml:id="CV188_lb_065r_19"/>ga<c>u</c>erit</w>
           <w>ipsa</w>
           <w>manumissio</w>
@@ -19458,7 +19491,7 @@
           <w>comme<add place="above">mo</add>retur</w>
           <w>et</w>
           <w>si</w>
-          <lb n="21" xml:id="CV188_lb_065r_21"/><w>cartolam</w>
+          <lb n="21" xml:id="CV188_lb_065r_21"/><w>cartam</w>
           <w>non</w>
           <w>fecerit</w>
           <w>tamen</w>
@@ -19472,6 +19505,7 @@
         </p>
 
         <pb n="65v" xml:id="CV188_folio_065v"/>
+
         <p xml:id="CV188_p_065v_225"><lb n="1" type="rubric" xml:id="CV188_lb_065v_1"/><label n="225"><num><w>CCXXV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>filius</w>
@@ -19565,7 +19599,7 @@
           <term ref="#handegawerc" xml:id="CV188_term_handegawerc_225" xml:lang="lng">
             <w>
               <choice>
-                <orig>andecauere</orig>
+                <orig>andecaauerc</orig>
                 <reg>handegawerc</reg>
               </choice>
             </w>
@@ -19575,7 +19609,7 @@
           <term ref="#harigawerc" xml:id="CV188_term_harigawerc_225" xml:lang="lng">
             <w>
               <choice>
-                <orig>arigauuere</orig>
+                <orig>arigauuerc</orig>
                 <reg>harigawerc</reg>
               </choice>
             </w>
@@ -19638,7 +19672,7 @@
           <w>munus</w>
           <lb n="18" xml:id="CV188_lb_065v_18"/><w>conquisi<c>u</c>it</w>
           <w>res</w>
-          <w>ad</w>
+          <w>a</w>
           <w>donatore</w>
           <w>re<c>u</c>er<lb n="19" xml:id="CV188_lb_065v_19"/>tantur</w>
           <orig><pc>.</pc></orig>
@@ -19663,9 +19697,9 @@
           <w>succedat</w>
           <w>sicut</w>
           <w><choice>
-              <sic>parnti</sic>
+              <sic>par<g ref="#muncmacr"/>ti</sic><!-- CHECK -->
               <corr>parenti</corr>
-            </choice>parenti</w>
+            </choice></w>
           <choice>
             <orig><pc>:</pc></orig>
             <reg>.</reg>
@@ -19673,7 +19707,9 @@
         </p>
 
         <pb n="66r" xml:id="CV188_folio_066r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">066r</add></fw>
+
         <p xml:id="CV188_p_066r_226">
           <lb n="1" type="rubric" xml:id="CV188_lb_066r_1"/><label n="226"><num><w>CCXX<am><g ref="#romnumsix"/></am></w></num></label>
           <w><hi rend="cap2.0 halfempty">O</hi>mnes</w>

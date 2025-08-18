@@ -6472,7 +6472,7 @@
           <w>cau<lb n="2"/>sa</w><reg>,</reg>
           <w>duas</w>
           <w>partis</w>
-          <w>praetii</w>
+          <w>pretii</w>
           <w>ipsius</w><reg>,</reg>
           <w><choice>
             <abbr>tamqu<am><g ref="#amacr"/></am></abbr>
@@ -6508,18 +6508,29 @@
             <expan>homine<ex>m</ex></expan>
           </choice></w>
           <lb n="6"/><w>liberum</w>
-          <w>sibi</w><!-- subito --><!-- CHECK segno sopra ultima i -->
+          <w><choice>
+            <sic>sibi<add place="above">to</add></sic>
+            <corr>subito</corr>
+          </choice></w><!-- subito --><!-- CHECK segno sopra ultima i -->
           <w><choice>
             <sic>surgentem</sic><!-- CHECK -->
             <corr>surgente</corr>
           </choice></w>
-          <w>rexa</w>
+          <w><choice>
+            <sic><choice>
+              <abbr>rex<am><g ref="#amacr"/></am></abbr>
+              <expan>rexa<ex>m</ex></expan>
+            </choice></sic>
+            <corr>rexa</corr>
+          </choice></w>
           <lb n="7"/><w>percusserit</w>
+          <pc><orig>:</orig></pc>
           <w>et</w>
           <w>liborem</w>
           <w>aut</w>
           <w><c corresp="#v">u</c>ul<lb n="8"/>nus</w>
           <w>fecerit</w><reg>,</reg>
+          <pc><orig>:</orig></pc>
           <w>pro</w>
           <w>una</w>
           <w><choice>
@@ -6546,7 +6557,10 @@
           <num value="6"><w>sex</w></num><!-- CHECK ligature ex? --><choice><orig>:</orig><reg>;</reg></choice>
           <lb n="10"/><w>si</w>
           <w>tres</w>
-          <w>fecerit</w><reg>,</reg>
+          <w><choice>
+            <sic>fuerit</sic>
+            <corr>fecerit</corr>
+          </choice></w><reg>,</reg>
           <w><choice>
               <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
               <expan>sol<ex>idos</ex></expan>
@@ -6821,7 +6835,10 @@
             <expan>no<ex>n</ex></expan>
           </choice></w>
           <lb rend="align-right"/><w>ad</w>
-          <w>manum</w><choice><orig><pc>:</pc></orig><reg>.</reg></choice><!-- CHECK punteggiatura originale: carattere migliore di ':''? -->
+          <w><choice>
+            <sic>mano</sic>
+            <corr>manum</corr>
+          </choice></w><choice><orig><pc>:</pc></orig><reg>.</reg></choice><!-- CHECK punteggiatura originale: carattere migliore di ':''? -->
         </p>
 
         <p><lb n="5"/><label n="48"><num><w>XL<g ref="#romnumsix"/>II</w></num>
@@ -6966,11 +6983,11 @@
           <w>dentem</w>
           <w>excusserit</w>
           <w>qui</w>
-          <w><g>I</g>n</w>
+          <w>in</w>
           <w>
             <choice>
               <orig>ri<lb n="02" xml:id="CV188_lb_028v_02_orig"/>sum</orig>
-              <reg resp="alim-pi azzara">ri<lb n="02" xml:id="CV188_lb_028v_02_reg"/>so</reg>
+              <reg resp="leges azzara">ri<lb n="02" xml:id="CV188_lb_028v_02_reg"/>so</reg>
               <reg resp="bluhme beyerle">risu</reg>
             </choice>
           </w>
@@ -6979,7 +6996,7 @@
           <w>
             <choice>
               <orig>unum</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">uno</reg>
+              <reg resp="leges azzara bluhme beyerle">uno</reg>
             </choice>
           </w>
           <w>dentem</w>
@@ -7000,21 +7017,21 @@
           <w>
             <choice>
               <orig>plures</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">amplius</reg>
+              <reg resp="leges azzara bluhme beyerle">amplius</reg>
             </choice>
           </w>
           <w>
             <choice>
               <orig>fu<lb n="04" xml:id="CV188_lb_028v_04_orig"/>erent</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">fu<lb n="04" xml:id="CV188_lb_028v_04_reg"/>erint</reg>
+              <reg resp="leges azzara bluhme beyerle">fu<lb n="04" xml:id="CV188_lb_028v_04_reg"/>erint</reg>
             </choice>
           </w>
-          <w><g>I</g>n</w>
+          <w>in</w>
           <w>risu</w>
           <w>
             <choice>
               <orig>aparentis</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">>apparentis</reg>
+              <reg resp="leges azzara bluhme beyerle">>apparentis</reg>
             </choice>
           </w>
           <w>per</w>
@@ -7022,12 +7039,12 @@
           <w>
             <choice>
               <orig>nomiro</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">numero</reg>
+              <reg resp="leges azzara bluhme beyerle">numero</reg>
             </choice>
           </w>
           <w>conponantur</w>
           <w>et</w>
-          <lb n="06" xml:id="CV188_lb_028v_06"/><w><choice><orig>pretietur</orig><reg resp="alim-pi azzara bluhme beyerle">adpretietur</reg>
+          <lb n="06" xml:id="CV188_lb_028v_06"/><w><choice><orig>pretietur</orig><reg resp="leges azzara bluhme beyerle">adpretietur</reg>
             </choice>
           </w>
           <choice>
@@ -7043,7 +7060,7 @@
           <w>
             <choice>
               <orig>maxillaris</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">maxillares</reg>
+              <reg resp="leges azzara bluhme beyerle">maxillares</reg>
             </choice>
           </w>
           <w>si</w>
@@ -7085,23 +7102,23 @@
           <w>
             <choice>
               <orig>aurem</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">aure</reg>
+              <reg resp="leges azzara bluhme beyerle">aure</reg>
             </choice>
           </w>
           <w>
             <choice>
               <orig>abscisam</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">abscisa</reg>
+              <reg resp="leges azzara bluhme beyerle">abscisa</reg>
             </choice>
           </w>
           <w>si</w>
-          <w>qu<gap extent="2" unit="chars"/><supplied reason="illegible" resp="leges">is</supplied></w>
+          <w>qu<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">i</supplied><add place="above">s</add></w>
           <lb n="12" xml:id="CV188_lb_028v_12"/><w>ali<space extent="2"/>i</w>
           <w>aurem</w>
           <w>
             <choice>
               <orig>abs<space extent="1"/>ceder<add place="inline">i</add>t</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">absciderit</reg>
+              <reg resp="leges azzara bluhme beyerle">absciderit</reg>
             </choice>
           </w>
           <reg>,</reg>
@@ -7125,7 +7142,7 @@
           <w>quis</w>
           <w>alii</w>
           <w>plagam</w>
-          <w><g>I</g>n</w>
+          <w>in</w>
           <lb n="15" xml:id="CV188_lb_028v_15"/><w>fa<space/>ciem</w>
           <w>fecerit</w>
           <w>
@@ -7179,7 +7196,7 @@
           <w>
             <choice>
               <orig>reso<lb n="20" xml:id="CV188_lb_028v_20_orig"/>luta<c corresp="#v">u</c>erit</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">reso<lb n="20" xml:id="CV188_lb_028v_20_reg"/>lidaverit</reg>
+              <reg resp="leges azzara bluhme beyerle">reso<lb n="20" xml:id="CV188_lb_028v_20_reg"/>lidaverit</reg>
               <reg>,</reg>
             </choice>
           </w>
@@ -7188,14 +7205,14 @@
           <w>
             <choice>
               <orig>cecha<lb n="21" xml:id="CV188_lb_028v_21_orig"/><space extent="11" unit="chars"/>trices</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">cecha<lb n="21" xml:id="CV188_lb_028v_21_reg"/><space
+              <reg resp="leges azzara bluhme beyerle">cecha<lb n="21" xml:id="CV188_lb_028v_21_reg"/><space
                   extent="11" unit="chars"/>trix</reg>
             </choice>
           </w>
           <w>
             <choice>
               <orig>apareat</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">appareat</reg>
+              <reg resp="leges azzara bluhme beyerle">appareat</reg>
             </choice>
           </w>
           <reg>.</reg>
@@ -7251,7 +7268,7 @@
           <w>
             <choice>
               <orig>resoluta<c corresp="#v">u</c>erit</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">resolidaverit</reg>
+              <reg resp="leges azzara bluhme beyerle">resolidaverit</reg>
             </choice>
           </w>
         </p>
@@ -7270,20 +7287,20 @@
           <w>
             <choice>
               <orig>alii</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">alium</reg>
+              <reg resp="leges azzara bluhme beyerle">alium</reg>
             </choice>
           </w>
           <w>
             <choice>
               <orig>brachium</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">brachio</reg>
+              <reg resp="leges azzara bluhme beyerle">brachio</reg>
             </choice>
           </w>
           <w/>
           <w>
             <choice>
               <orig>puncxe<lb n="06" xml:id="CV188_lb_029r_06_orig"/>rit</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">punxe<lb n="06" xml:id="CV188_lb_029r_06_reg"/>rit</reg>
+              <reg resp="leges azzara bluhme beyerle">punxe<lb n="06" xml:id="CV188_lb_029r_06_reg"/>rit</reg>
             </choice>
           </w>
           <w>et</w>
@@ -7317,7 +7334,7 @@
           <w>
             <choice>
               <orig>pun<lb n="09" xml:id="CV188_lb_029r_09_orig"/><space/>xerit</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">punc<lb n="09" xml:id="CV188_lb_029r_09_reg"/>xerit</reg>
+              <reg resp="leges azzara bluhme beyerle">punc<lb n="09" xml:id="CV188_lb_029r_09_reg"/>xerit</reg>
             </choice>
           </w>
           <w>et</w>
@@ -7379,7 +7396,7 @@
               ><num><w>LX</w></num></label>
           <w><hi rend="cap red">D</hi>e</w>
           <w>plaga</w>
-          <w><g>I</g>n</w>
+          <w>in</w>
           <w>coxa</w>
           <orig>.</orig>
           <w>si</w>
@@ -7425,7 +7442,7 @@
           <w>
             <choice>
               <orig>transfora<lb n="17" xml:id="CV188_lb_029r_17_orig"/>ta</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">transfora<lb n="17" xml:id="CV188_lb_029r_17_reg"/>tum</reg>
+              <reg resp="leges azzara bluhme beyerle">transfora<lb n="17" xml:id="CV188_lb_029r_17_reg"/>tum</reg>
             </choice>
           </w>
           <w>non</w>
@@ -7455,7 +7472,7 @@
           <w>
             <choice>
               <orig>nomiro</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">numero</reg>
+              <reg resp="leges azzara bluhme beyerle">numero</reg>
             </choice>
           </w>
           <w>plagarum</w>
@@ -7479,7 +7496,7 @@
           <w>tantumodo</w>
           <choice>
             <orig>nomiren<lb n="21" xml:id="CV188_lb_029r_21_orig"/><space extent="19" unit="chars"/>tur</orig>
-            <reg resp="alim-pi azzara bluhme beyerle">numeren<lb n="21" xml:id="CV188_lb_029r_21_reg"/><space
+            <reg resp="leges azzara bluhme beyerle">numeren<lb n="21" xml:id="CV188_lb_029r_21_reg"/><space
                 extent="19" unit="chars"/>tur</reg>
           </choice>
           <choice>
@@ -7526,13 +7543,13 @@
           <w>absciderit</w>
           <w>medi<lb n="6" xml:id="CV188_lb_029v_06"/>etatem</w>
           <w>pretii</w>
-          <w><g>I</g>psius</w>
+          <w>ipsius</w>
           <w>sicut</w>
           <w>
             <choice>
               <orig>adpr<gap extent="1" unit="chars"/><supplied reason="invisible" resp="leges">e</supplied><lb n="7"
                   xml:id="CV188_lb_029v_07_orig"/>tiatus</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">adpre<lb n="7" xml:id="CV188_lb_029v_07_reg"/>tiatus</reg>
+              <reg resp="leges azzara bluhme beyerle">adpre<lb n="7" xml:id="CV188_lb_029v_07_reg"/>tiatus</reg>
             </choice>
           </w>
           <w>fuerit</w><reg>,</reg>
@@ -7541,7 +7558,7 @@
           <w>
             <choice>
               <orig>occisissit</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">occidisset</reg>
+              <reg resp="leges azzara bluhme beyerle">occidisset</reg>
             </choice>
           </w>
           <lb n="8" xml:id="CV188_lb_029v_08"/><w>ei</w>
@@ -7561,7 +7578,7 @@
           <w>quartam</w>
           <lb n="10" xml:id="CV188_lb_029v_10"/><w>partem</w>
           <w>praetii</w>
-          <w><g>I</g>psius</w>
+          <w>ipsius</w>
           <w>ei</w>
           <w>
             <choice>
@@ -7587,12 +7604,12 @@
           <w>
             <choice>
               <orig>sextam</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">sexta</reg>
+              <reg resp="leges azzara bluhme beyerle">sexta</reg>
             </choice>
           </w>
           <w>partem</w>
           <w>pretii</w>
-          <w><g>I</g>p<lb n="14" xml:id="CV188_lb_029v_114"/>sius</w>
+          <w>ip<lb n="14" xml:id="CV188_lb_029v_114"/>sius</w>
           <w>quod</w>
           <w>homo</w>
           <w>ipse</w>
@@ -7603,7 +7620,7 @@
           <w>
             <choice>
               <orig>occisissit</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">occidissit</reg>
+              <reg resp="leges azzara bluhme beyerle">occidissit</reg>
             </choice>
           </w>
           <reg>,</reg>
@@ -7625,7 +7642,7 @@
           <w>
             <choice>
               <orig>secu<add place="above">n</add>do</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">secundum</reg>
+              <reg resp="leges azzara bluhme beyerle">secundum</reg>
             </choice>
           </w>
           <w>digito</w>
@@ -7633,8 +7650,8 @@
           <w>si</w>
           <w>
             <choice>
-              <abbr><am><g ref="#qtilde"/></am></abbr>
-              <expan>q<ex>uis</ex></expan>
+              <abbr><am><g ref="#qtilde"/></am>s</abbr>
+              <expan>q<ex>ui</ex>s</expan>
             </choice>
           </w>
           <lb n="18" xml:id="CV188_lb_029v_18"/><w>alii</w>
@@ -7649,7 +7666,7 @@
           <w>
             <choice>
               <orig>mano</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">manu</reg>
+              <reg resp="leges azzara bluhme beyerle">manu</reg>
             </choice>
           </w>
           <lb n="19" xml:id="CV188_lb_029v_19"/><w>excusserit</w><reg>,</reg>
@@ -7675,13 +7692,13 @@
           <w>
             <choice>
               <orig>tertio</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">tertium</reg>
+              <reg resp="leges azzara bluhme beyerle">tertium</reg>
             </choice>
           </w>
           <w>
             <choice>
               <orig>digito</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">digitum</reg>
+              <reg resp="leges azzara bluhme beyerle">digitum</reg>
             </choice>
           </w>
           <orig>.</orig>
@@ -7691,20 +7708,20 @@
           <w>
             <choice>
               <orig>t<space/>ertio</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">tertium</reg>
+              <reg resp="leges azzara bluhme beyerle">tertium</reg>
             </choice>
           </w>
           <w>
             <choice>
               <orig>digito</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">digitum</reg>
+              <reg resp="leges azzara bluhme beyerle">digitum</reg>
             </choice>
           </w>
           <w>de</w>
           <w>
             <choice>
               <orig>mano</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">manu</reg>
+              <reg resp="leges azzara bluhme beyerle">manu</reg>
             </choice>
           </w>
           <w>ex<lb n="22" xml:id="CV188_lb_029v_22"/>cusserit</w><reg>,</reg>
@@ -7815,13 +7832,13 @@
           <w>pedem</w>
           <w>excusserit</w>
           <lb n="9" xml:id="CV188_lb_030r_09"/><w>medietatem</w>
-          <w>
-            <choice>
+          <w>pretii
+            <!--<choice>
               <orig>pretii</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">praetii</reg>
-            </choice>
+              <reg resp="leges azzara bluhme beyerle">praetii</reg>
+            </choice>-->
           </w>
-          <w><g>I</g>psius</w>
+          <w>ipsius</w>
           <w>ei</w>
           <w>
             <choice>
@@ -7834,7 +7851,7 @@
           <w>si</w>
           <choice>
             <orig>sideratum</orig>
-            <reg resp="alim-pi azzara bluhme beyerle">sideratus</reg>
+            <reg resp="leges azzara bluhme beyerle">sideratus</reg>
           </choice>
           <w>fuerit</w><reg>,</reg>
           <w>et</w>
@@ -7848,23 +7865,23 @@
           <w>
             <choice>
               <orig>quartam</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">quarta</reg>
+              <reg resp="leges azzara bluhme beyerle">quarta</reg>
             </choice>
           </w>
           <w>
             <choice>
               <orig>partem</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">parte</reg>
+              <reg resp="leges azzara bluhme beyerle">parte</reg>
             </choice>
           </w>
           <lb n="12" xml:id="CV188_lb_030r_12"/>
-          <w>
-            <choice>
+          <w>pretii
+            <!--<choice>
               <orig>pretii</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">praetii</reg>
-            </choice>
+              <reg resp="leges azzara bluhme beyerle">praetii</reg>
+            </choice>-->
           </w>
-          <w><g>I</g>psius</w>
+          <w>ipsius</w>
           <w>ei</w>
           <w>conponat</w>
           <choice>
@@ -8019,13 +8036,13 @@
           <w>
             <choice>
               <orig><hi rend="cap red">D</hi>e</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">In</reg>
+              <reg resp="leges azzara bluhme beyerle">In</reg>
             </choice>
           </w>
           <w>
             <choice>
               <orig>omnes</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">omnis</reg>
+              <reg resp="leges azzara bluhme beyerle">omnis</reg>
             </choice>
           </w>
           <w>istas</w>
@@ -8037,14 +8054,14 @@
           <w>
             <choice>
               <orig>que</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">quae</reg>
+              <reg resp="leges azzara bluhme beyerle">quae</reg>
             </choice>
           </w>
-          <w><g>I</g>nter</w>
+          <w>inter</w>
           <w>
             <choice>
               <orig>homenis</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">hominis</reg>
+              <reg resp="leges azzara bluhme beyerle">hominis</reg>
             </choice>
           </w>
           <w>liberos</w>
@@ -8052,7 +8069,7 @@
           <w>
             <choice>
               <orig>e<c corresp="#v">u</c>enerit</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">e<c corresp="#v">u</c>enerint</reg>
+              <reg resp="leges azzara bluhme beyerle">e<c corresp="#v">u</c>enerint</reg>
             </choice>
           </w>
           <w>ideo</w>
@@ -8076,8 +8093,8 @@
             <w>est</w>
             <w>
               <choice>
-                <orig><g>I</g>nimisiti<add place="above">a</add></orig>
-                <reg resp="alim-pi azzara bluhme beyerle">inimicitia</reg>
+                <orig>inimisiti<add place="above">a</add></orig>
+                <reg resp="leges azzara bluhme beyerle">inimicitia</reg>
               </choice>
             </w>
           </gloss>
@@ -8087,7 +8104,7 @@
           <w>
             <choice>
               <orig>set</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">sed</reg>
+              <reg resp="leges azzara bluhme beyerle">sed</reg>
             </choice>
           </w>
           <w>sit</w>
@@ -8097,7 +8114,7 @@
           <w>
             <choice>
               <orig>manente</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">manentem</reg>
+              <reg resp="leges azzara bluhme beyerle">manentem</reg>
             </choice>
           </w>
           <w>amiciti<add place="above">a</add></w>
@@ -8106,7 +8123,7 @@
           <w>
             <choice>
               <orig>contegerit</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">contigerit</reg>
+              <reg resp="leges azzara bluhme beyerle">contigerit</reg>
             </choice>
           </w>
           <w>de</w>
@@ -8117,18 +8134,18 @@
           <w>
             <choice>
               <orig>spatio</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">spatium</reg>
+              <reg resp="leges azzara bluhme beyerle">spatium</reg>
             </choice>
           </w><reg>,</reg>
           <w>qui</w>
           <w>plagatu<add place="above">s</add></w>
-          <w>est</w>
+          <lb n="15" xml:id="CV188_lb_030v_15"/><w>est</w>
           <w>mori</w><reg>,</reg>
           <w>tunc</w>
           <w>ille</w>
           <w>qui</w>
           <w>eum </w>
-          <w>pla<lb n="15" xml:id="CV188_lb_030v_15"/>ga<c corresp="#v">u</c>it</w><reg>, </reg>
+          <w>pla<lb n="16" xml:id="CV188_lb_030v_16"/>ga<c corresp="#v">u</c>it</w><reg>, </reg>
           <w>
             <choice>
               <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
@@ -8136,49 +8153,49 @@
             </choice>
           </w>
           <w>qualiter</w><space extent="6" unit="chars"/>
-          <lb n="16" xml:id="CV188_lb_030v_16"/><space extent="3" unit="chars"/><w><g>I</g>n</w>
+          <lb n="17" xml:id="CV188_lb_030v_17"/><space extent="3" unit="chars"/><w>in</w>
           <term ref="#angargathungi" xml:id="CV188_term_angargathungi_74" xml:lang="lng">
             <w>angargathungi</w>
           </term>
           <gloss target="#CV188_term_angargathungi_74" xml:id="CV188_gloss_angargathungi_74">
             <w>id </w>
             <w>est</w>
-            <lb n="17" xml:id="CV188_lb_030v_17"/><w>secundum</w>
+            <lb n="18" xml:id="CV188_lb_030v_18"/><w>secundum</w>
             <w>qualitatem</w>
             <w>
               <choice>
                 <orig>perso<add place="above">ne</add></orig>
-                <reg resp="alim-pi azzara bluhme beyerle">personae</reg>
+                <reg resp="leges azzara bluhme beyerle">personae</reg>
               </choice>
             </w>
           </gloss>
         </p>
 
-        <p xml:id="CV188_p_030v_04"><lb n="18" type="rubric" xml:id="CV188_lb_030v_18"/><label n="75"
+        <p xml:id="CV188_p_030v_04"><lb n="19" type="rubric" xml:id="CV188_lb_030v_19"/><label n="75"
               ><num><w>LXXV</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>
             <choice>
               <orig>infantem</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">infante</reg>
+              <reg resp="leges azzara bluhme beyerle">infante</reg>
             </choice>
           </w>
           <w>in</w>
           <w>utero</w>
-          <lb n="19" xml:id="CV188_lb_030v_19"/><w>matri<space/>s</w>
+          <lb n="20" xml:id="CV188_lb_030v_20"/><w>matri<space/>s</w>
           <w>mortuo</w>
           <choice>
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice>
           <w>si</w>
-          <w><g>I</g>nfans</w>
+          <w>infans</w>
 
           <pb n="31r" xml:id="CV188_folio_031r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">031r</add></fw>
 
-          <lb n="1" xml:id="CV188_lb_031r_01"/><w><g>I</g>n</w>
+          <lb n="1" xml:id="CV188_lb_031r_01"/><w>in</w>
           <w>utero</w>
           <w>maTR<!-- nesso -->is</w>
           <w>mortuos</w>
@@ -8203,7 +8220,7 @@
           <w>quod</w>
           <w>ipsa</w>
           <lb n="6" xml:id="CV188_lb_031r_06"/><w><c corresp="#v">u</c>aluerit</w><reg>,</reg>
-          <w><g>I</g>nfans</w>
+          <w>infans</w>
           <w>ipse</w>
           <w>
             <choice>
@@ -8242,7 +8259,7 @@
           <w>
             <choice>
               <orig>mortu<lb n="10" xml:id="CV188_lb_031r_10_orig"/>us</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">mortu<lb n="10" xml:id="CV188_lb_031r_10_reg"/>um</reg>
+              <reg resp="leges azzara bluhme beyerle">mortu<lb n="10" xml:id="CV188_lb_031r_10_reg"/>um</reg>
             </choice>
           </w>
           <w/>
@@ -8269,7 +8286,7 @@
           <w>
             <choice>
               <orig>minis<lb n="13" xml:id="CV188_lb_031r_13_orig"/>tiria<space/>les</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">menis<lb n="13" xml:id="CV188_lb_031r_13_reg"
+              <reg resp="leges azzara bluhme beyerle">menis<lb n="13" xml:id="CV188_lb_031r_13_reg"
                 />teria<space/>les</reg>
             </choice>
           </w>
@@ -8279,7 +8296,7 @@
           <w>
             <choice>
               <orig>ministi<lb n="14" xml:id="CV188_lb_031r_14_orig"/>rialem</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">meniste<lb n="14" xml:id="CV188_lb_031r_14_reg"/>riales</reg>
+              <reg resp="leges azzara bluhme beyerle">meniste<lb n="14" xml:id="CV188_lb_031r_14_reg"/>riales</reg>
             </choice>
           </w>
           <w>dicimus</w><reg>,</reg>
@@ -8289,7 +8306,7 @@
           <w>
             <choice>
               <orig><lb n="15" xml:id="CV188_lb_031r_15"/><space extent="11" unit="chars"/>notriti</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">nutriti</reg>
+              <reg resp="leges azzara bluhme beyerle">nutriti</reg>
             </choice>
           </w>
           <w>sunt</w><space extent="5" unit="chars"/></p>
@@ -8310,7 +8327,7 @@
           <w>
             <choice>
               <orig>ministiria<lb n="18" xml:id="CV188_lb_031r_18_orig"/>lem</orig>
-              <reg resp="alim-pi azzara ">menesterialem<lb n="18" xml:id="CV188_lb_031r_18_reg"/>riales</reg>
+              <reg resp="leges azzara ">menesterialem<lb n="18" xml:id="CV188_lb_031r_18_reg"/>riales</reg>
             </choice>
           </w>
           <w>pe<space/>rcusserit</w><reg>,</reg>
@@ -8411,7 +8428,7 @@
           <w>minis<space extent="5"/>terial<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges"
               >e</supplied></w>
           <lb n="7" xml:id="CV188_lb_031v_07"/><w>plaga<c corresp="#v">u</c><space/>erit</w>
-          <w><g>I</g>n</w>
+          <w>in</w>
           <w>caput</w><reg>,</reg>
           <w>ut</w>
           <w>oss<unclear reason="faded">a</unclear></w>
@@ -8425,7 +8442,7 @@
           <w>
             <choice>
               <orig>unam</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">unam</reg>
+              <reg resp="leges azzara bluhme beyerle">unam</reg>
             </choice>
           </w>
           <w>plaga</w>
@@ -8457,7 +8474,7 @@
             <choice>
               <orig>me<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">r</supplied>
                 <lb n="11" xml:id="CV188_lb_031v_11_orig"/>cidis</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">mer<lb n="11" xml:id="CV188_lb_031v_11_reg"/>cedes</reg>
+              <reg resp="leges azzara bluhme beyerle">mer<lb n="11" xml:id="CV188_lb_031v_11_reg"/>cedes</reg>
             </choice>
           </w>
           <w>medici</w>
@@ -8472,20 +8489,20 @@
           <w>
             <choice>
               <orig>capetis</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">capitis</reg>
+              <reg resp="leges azzara bluhme beyerle">capitis</reg>
             </choice>
           </w>
           <w>
             <choice>
               <orig>fuerit</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">fecerit</reg>
+              <reg resp="leges azzara bluhme beyerle">fecerit</reg>
             </choice>
           </w>
           <w>non</w>
           <w>
             <choice>
               <orig>numiren<add place="below">tur</add></orig>
-              <reg resp="alim-pi azzara bluhme beyerle">nomirentur</reg>
+              <reg resp="leges azzara bluhme beyerle">nomirentur</reg>
             </choice>
           </w>
         </p>
@@ -8506,7 +8523,7 @@
           <w>se<space/>r<c corresp="#v">u</c>u<space extent="2"/>m</w>
           <w>ministerialem</w>
           <lb n="14" xml:id="CV188_lb_031v_14"/><w>plaga<c corresp="#v">u</c>erit</w>
-          <w><g>I</g>n</w>
+          <w>in</w>
           <w>caput</w><reg>,</reg>
           <w>ut</w>
           <w>ossa</w>
@@ -8550,7 +8567,7 @@
           <w>
             <choice>
               <orig>mercedis</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">mercedes</reg>
+              <reg resp="leges azzara bluhme beyerle">mercedes</reg>
             </choice>
           </w>
           <w>medici</w>
@@ -23210,7 +23227,7 @@
           <w>
             <choice>
               <orig>costodi<lb n="21" xml:id="CV188_lb_074v_21_orig"/>re</orig>
-              <reg resp="alim-pi azzara">custodi<lb n="21" xml:id="CV188_lb_074v_21_reg"/>re</reg>
+              <reg resp="leges azzara">custodi<lb n="21" xml:id="CV188_lb_074v_21_reg"/>re</reg>
             </choice>
           </w>
           <w><c corresp="#v">u</c>oluissit</w>
@@ -23237,7 +23254,7 @@
           <w>
             <choice>
               <orig>querat</orig>
-              <reg resp="alim-pi azzara">queratur</reg>
+              <reg resp="leges azzara">queratur</reg>
             </choice>
           </w>
           <w>et</w>
@@ -23538,7 +23555,7 @@
             <w>
               <choice>
                 <orig><c corresp="#v">u</c><c corresp="#v">u</c>irgild</orig>
-                <reg resp="alim-pi azzara">wergild</reg>
+                <reg resp="leges azzara">wergild</reg>
               </choice>
             </w>
           </term>
@@ -23664,7 +23681,7 @@
           <w>
             <choice>
               <orig>pr<g ref="#arbar"/><lb n="16" xml:id="CV188_lb_076r_16_orig"/><c corresp="#v">u</c>eat</orig>
-              <reg resp="alim-pi azzara">prae<lb n="16" xml:id="CV188_lb_076r_16_reg"/>beat</reg>
+              <reg resp="leges azzara">prae<lb n="16" xml:id="CV188_lb_076r_16_reg"/>beat</reg>
             </choice>
           </w>
           <w>singulum</w>
@@ -24566,7 +24583,7 @@
             <w>
               <choice>
                 <orig>aistant</orig>
-                <reg resp="alim-pi beyerle">haistan</reg>
+                <reg resp="leges beyerle">haistan</reg>
               </choice>
             </w>
           </term>
@@ -24581,7 +24598,7 @@
             <w>
               <choice>
                 <sic>furonem</sic>
-                <corr resp="alim-pi beyerle">furorem</corr>
+                <corr resp="leges beyerle">furorem</corr>
               </choice>
             </w>
           </gloss>
@@ -24635,7 +24652,7 @@
             <w>
               <choice>
                 <orig>oberus</orig>
-                <reg resp="alim-pi beyerle">hoberos</reg>
+                <reg resp="leges beyerle">hoberos</reg>
               </choice>
             </w>
           </term>
@@ -24672,7 +24689,7 @@
             <w>
               <choice>
                 <orig>ob<lb n="21" xml:id="CV188_lb_078r_21_orig"/>erus</orig>
-                <reg resp="alim-pi beyerle">hob<lb n="21" xml:id="CV188_lb_078r_21_reg"/>eros</reg>
+                <reg resp="leges beyerle">hob<lb n="21" xml:id="CV188_lb_078r_21_reg"/>eros</reg>
               </choice>
             </w>
           </term>
@@ -24770,7 +24787,7 @@
           <w>
             <choice>
               <orig><abbr>diccion<am><g ref="#emacr"/></am></abbr></orig>
-              <reg resp="alim-pi azzara beyerle"><expan>dicione<ex>m</ex></expan></reg>
+              <reg resp="leges azzara beyerle"><expan>dicione<ex>m</ex></expan></reg>
             </choice>
           </w>
           <w>positus</w>
@@ -24867,7 +24884,7 @@
           <w>
             <choice>
               <sic>sil</sic>
-              <corr resp="alim-pi azzara beyerle">sit</corr>
+              <corr resp="leges azzara beyerle">sit</corr>
             </choice>
           </w>
           <w>culpabilis</w>
@@ -24888,7 +24905,7 @@
           <w>
             <choice>
               <orig><abbr>sediccion<am><g ref="#emacr"/></am></abbr></orig>
-              <reg resp="alim-pi azzara beyerle"><expan>seditione<ex>m</ex></expan></reg>
+              <reg resp="leges azzara beyerle"><expan>seditione<ex>m</ex></expan></reg>
             </choice>
           </w>
           <w>Si</w>
@@ -24914,7 +24931,7 @@
           <w>
             <choice>
               <orig><abbr>csili<am><g ref="#umacr"/></am></abbr></orig>
-              <reg resp="alim-pi azzara beyerle"><expan>c<ex>on</ex>cilios</expan></reg>
+              <reg resp="leges azzara beyerle"><expan>c<ex>on</ex>cilios</expan></reg>
             </choice>
           </w>
           <lb n="28" xml:id="CV188_lb_078r_28"/>
@@ -24922,7 +24939,7 @@
           <w>
             <choice>
               <orig><abbr>sedacion<am><g ref="#emacr"/></am></abbr></orig>
-              <reg resp="alim-pi azzara beyerle"><expan>seditione<ex>m</ex></expan></reg>
+              <reg resp="leges azzara beyerle"><expan>seditione<ex>m</ex></expan></reg>
             </choice>
           </w>
           <w>facere</w>
@@ -24989,7 +25006,7 @@
           <w>
             <choice>
               <orig>capite</orig>
-              <reg resp="alim-pi azzara beyerle">caput</reg>
+              <reg resp="leges azzara beyerle">caput</reg>
             </choice>
           </w>
           <w>ex</w>
@@ -25050,7 +25067,7 @@
           <w>
             <choice>
               <orig><abbr>sediccion<am><g ref="#emacr"/></am></abbr></orig>
-              <reg resp="alim-pi azzara beyerle"><expan>seditione<ex>m</ex></expan></reg>
+              <reg resp="leges azzara beyerle"><expan>seditione<ex>m</ex></expan></reg>
             </choice>
           </w>
           <w>cucurrerit</w>
@@ -25121,7 +25138,7 @@
           <w>
             <choice>
               <sic>qirere</sic>
-              <corr resp="alim-pi azzara beyerle">quaerere</corr>
+              <corr resp="leges azzara beyerle">quaerere</corr>
             </choice>
           </w>
           <w><damage agent="rubbing">aut</damage></w>
@@ -25132,7 +25149,7 @@
           <w>
             <choice>
               <sic>sis</sic>
-              <corr resp="alim-pi azzara beyerle">ipsis</corr>
+              <corr resp="leges azzara beyerle">ipsis</corr>
             </choice>
           </w>
           <w>rusticis</w>
@@ -25142,7 +25159,7 @@
           <w>
             <choice>
               <orig>abuerint</orig>
-              <reg resp="alim-pi azzara beyerle">habuerint</reg>
+              <reg resp="leges azzara beyerle">habuerint</reg>
             </choice>
           </w>
           <w>facta</w>
@@ -25152,7 +25169,7 @@
           <w>
             <choice>
               <orig><abbr>stat<am><g ref="#umacr"/></am></abbr></orig>
-              <reg resp="alim-pi azzara beyerle"><expan>statu<ex>tum</ex></expan></reg>
+              <reg resp="leges azzara beyerle"><expan>statu<ex>tum</ex></expan></reg>
             </choice>
           </w>
           <w>
@@ -25183,7 +25200,7 @@
           <w>
             <choice>
               <orig><abbr><am><g ref="#pmacr"/></am>s<am><g ref="#umacr"/></am>pcione</abbr></orig>
-              <reg resp="alim-pi azzara beyerle"><expan>p<ex>re</ex>su<ex>m</ex>tione</expan></reg>
+              <reg resp="leges azzara beyerle"><expan>p<ex>re</ex>su<ex>m</ex>tione</expan></reg>
             </choice>
           </w>
           <w>
@@ -25246,7 +25263,7 @@
           <w>
             <choice>
               <sic>defendensanetur-us</sic>
-              <corr resp="alim-pi azzara beyerle">defendendum</corr>
+              <corr resp="leges azzara beyerle">defendendum</corr>
             </choice>
           </w>
           <w>et</w>
@@ -25318,20 +25335,20 @@
           <w>
             <choice>
               <orig>quodle<c corresp="#v">u</c>it</orig>
-              <reg resp="alim-pi azzara beyerle">quodlibet</reg>
+              <reg resp="leges azzara beyerle">quodlibet</reg>
             </choice>
           </w>
           <w>aut</w>
           <w>
             <choice>
               <orig>quodle<c corresp="#v">u</c>it</orig>
-              <reg resp="alim-pi azzara beyerle">quodlibet</reg>
+              <reg resp="leges azzara beyerle">quodlibet</reg>
             </choice>
           </w>
           <w>
             <choice>
               <orig>sca<am><g ref="#tildedot"/></am><lb n="7" xml:id="CV188_lb_079r_07_orig"/>dolam</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">scin<lb n="7" xml:id="CV188_lb_079r_07_reg"/>dolam</reg>
+              <reg resp="leges azzara bluhme beyerle">scin<lb n="7" xml:id="CV188_lb_079r_07_reg"/>dolam</reg>
             </choice>
           </w>
           <w>fura<c corresp="#v">u</c>erit</w>
@@ -25971,7 +25988,7 @@
           <w>
             <choice>
               <sic>eterans</sic>
-              <corr resp="alim-pi azzara beyerle">iterans</corr>
+              <corr resp="leges azzara beyerle">iterans</corr>
             </choice>
           </w>
           <w>homo</w>
@@ -25984,7 +26001,7 @@
           <w>
             <choice>
               <sic>capela<c corresp="#v">u</c>erit</sic>
-              <corr resp="alim-pi azzara beyerle">capellaverit</corr>
+              <corr resp="leges azzara beyerle">capellaverit</corr>
             </choice>
           </w>
           <w>non</w>
@@ -26092,7 +26109,7 @@
           <w>
             <choice>
               <orig>humicidii</orig>
-              <reg resp="alim-pi azzara beyerle">homicidii</reg>
+              <reg resp="leges azzara beyerle">homicidii</reg>
             </choice>
           </w>
           <w>aut</w>
@@ -26261,7 +26278,7 @@
           <w>
             <choice>
               <orig>poteo</orig>
-              <reg resp="alim-pi azzara beyerle">puteo</reg>
+              <reg resp="leges azzara beyerle">puteo</reg>
             </choice>
           </w>
           <w>alte<lb n="11" xml:id="CV188_lb_081v_11"/>rius</w>
@@ -26284,7 +26301,7 @@
           <w>
             <choice>
               <orig>po<lb n="14" xml:id="CV188_lb_081v_14_orig"/>teus</orig>
-              <reg resp="alim-pi azzara beyerle">pu<lb n="14" xml:id="CV188_lb_081v_14_reg"/>teus</reg>
+              <reg resp="leges azzara beyerle">pu<lb n="14" xml:id="CV188_lb_081v_14_reg"/>teus</reg>
             </choice>
           </w>
           <w>est</w>
@@ -26292,7 +26309,7 @@
           <w>
             <choice>
               <orig>poteus</orig>
-              <reg resp="alim-pi azzara beyerle">puteus</reg>
+              <reg resp="leges azzara beyerle">puteus</reg>
             </choice>
           </w>
           <w>aquae</w>
@@ -26424,7 +26441,7 @@
           <w>
             <choice>
               <orig>quodli<c corresp="#v">u</c>it</orig>
-              <reg resp="alim-pi azzara beyerle">quodlibet</reg>
+              <reg resp="leges azzara beyerle">quodlibet</reg>
             </choice>
           </w>
           <w>damnum</w>
@@ -26461,7 +26478,7 @@
           <w>
             <choice>
               <orig>quando</orig>
-              <reg resp="alim-pi azzara beyerle">quamdiu</reg>
+              <reg resp="leges azzara beyerle">quamdiu</reg>
             </choice>
           </w>
           <w>eam</w>
@@ -26501,7 +26518,7 @@
           <w>
             <choice>
               <orig>pediga</orig>
-              <reg resp="alim-pi azzara beyerle">pedica</reg>
+              <reg resp="leges azzara beyerle">pedica</reg>
             </choice>
           </w>
           <w>si</w>
@@ -26521,7 +26538,7 @@
           <w>
             <choice>
               <orig>piculium</orig>
-              <reg resp="alim-pi azzara beyerle">peculium</reg>
+              <reg resp="leges azzara beyerle">peculium</reg>
             </choice>
           </w>
           <w>damnum</w>
@@ -26562,7 +26579,7 @@
           <w>
             <choice>
               <sic>eter</sic>
-              <corr resp="alim-pi azzara beyerle">iter</corr>
+              <corr resp="leges azzara beyerle">iter</corr>
             </choice>
           </w>
           <w>suum</w>
@@ -26570,14 +26587,14 @@
           <w>
             <choice>
               <sic><c corresp="#v">u</c>oles</sic>
-              <corr resp="alim-pi azzara beyerle">volens</corr>
+              <corr resp="leges azzara beyerle">volens</corr>
             </choice>
           </w>
           <w>eam</w>
           <w>
             <choice>
               <sic>locari</sic>
-              <corr resp="alim-pi azzara beyerle">lucrari</corr>
+              <corr resp="leges azzara beyerle">lucrari</corr>
             </choice>
           </w>
           <w>super</w>
@@ -26611,7 +26628,7 @@
           <w>
             <choice>
               <sic>lo<lb n="14" xml:id="CV188_lb_082v_14_sic"/>grandi</sic>
-              <corr resp="alim-pi azzara beyerle">lu<lb n="14" xml:id="CV188_lb_082v_14_corr"/>crandi</corr>
+              <corr resp="leges azzara beyerle">lu<lb n="14" xml:id="CV188_lb_082v_14_corr"/>crandi</corr>
             </choice>
           </w>
           <w>animo</w>
@@ -26656,7 +26673,7 @@
           <w>
             <choice>
               <orig>lece<lb n="21" xml:id="CV188_lb_082v_21_orig"/>at</orig>
-              <reg resp="alim-pi azzara beyerle">lice<lb n="21" xml:id="CV188_lb_082v_21_reg"/>at</reg>
+              <reg resp="leges azzara beyerle">lice<lb n="21" xml:id="CV188_lb_082v_21_reg"/>at</reg>
             </choice>
           </w>
           <w>eum</w>
@@ -26736,7 +26753,7 @@
           <w>
             <choice>
               <orig>qualevit</orig>
-              <reg resp="alim-pi azzara beyerle">qualebit</reg>
+              <reg resp="leges azzara beyerle">qualebit</reg>
             </choice>
           </w>
           <space/>
@@ -26765,7 +26782,7 @@
           <w>
             <choice>
               <orig>oram</orig>
-              <reg resp="alim-pi azzara beyerle">horam</reg>
+              <reg resp="leges azzara beyerle">horam</reg>
             </choice>
           </w>
           <w>diei</w>
@@ -26776,7 +26793,7 @@
           <w>
             <choice>
               <orig>oras</orig>
-              <reg resp="alim-pi azzara beyerle">horas</reg>
+              <reg resp="leges azzara beyerle">horas</reg>
             </choice>
           </w>
           <num><w>XXIIII</w></num>
@@ -26795,7 +26812,7 @@
           <w>
             <choice>
               <orig>oras</orig>
-              <reg resp="alim-pi azzara beyerle">horas</reg>
+              <reg resp="leges azzara beyerle">horas</reg>
             </choice>
           </w>
           <lb n="14" xml:id="CV188_lb_083r_14"/><w>in<c corresp="#v">u</c>enerit</w>
@@ -26805,7 +26822,7 @@
           <w>
             <choice>
               <sic>set</sic>
-              <corr resp="alim-pi azzara beyerle">sed</corr>
+              <corr resp="leges azzara beyerle">sed</corr>
             </choice>
           </w>
           <w>ha<lb n="15" xml:id="CV188_lb_083r_15"/>beat</w>
@@ -26852,7 +26869,7 @@
             <w>
               <choice>
                 <orig>actocild</orig>
-                <reg resp="alim-pi azzara beyerle">actogild</reg>
+                <reg resp="leges azzara beyerle">actogild</reg>
               </choice>
             </w>
           </term>
@@ -26924,7 +26941,7 @@
           <w>
             <choice>
               <orig>domestigas</orig>
-              <reg resp="alim-pi azzara beyerle">domesticas</reg>
+              <reg resp="leges azzara beyerle">domesticas</reg>
             </choice>
           </w>
           <choice>
@@ -26937,7 +26954,7 @@
           <w>
             <choice>
               <orig>aceptorem</orig>
-              <reg resp="alim-pi azzara beyerle">acceptore</reg>
+              <reg resp="leges azzara beyerle">acceptore</reg>
             </choice>
           </w>
           <w>gro<c corresp="#v">u</c>a</w>
@@ -26946,7 +26963,7 @@
           <w>
             <choice>
               <orig>cecinum</orig>
-              <reg resp="alim-pi azzara beyerle">cicino</reg>
+              <reg resp="leges azzara beyerle">cicino</reg>
             </choice>
           </w>
           <w>domesticum</w>
@@ -26956,7 +26973,7 @@
           <w>
             <choice>
               <orig>culpa<c corresp="#v">u</c>elis</orig>
-              <reg resp="alim-pi azzara beyerle">culpabiles</reg>
+              <reg resp="leges azzara beyerle">culpabiles</reg>
             </choice>
           </w>
           <w>
@@ -27047,7 +27064,7 @@
             <w>
               <choice>
                 <orig>gagio</orig>
-                <reg resp="alim-pi azzara beyerle">gahagio</reg>
+                <reg resp="leges azzara beyerle">gahagio</reg>
               </choice>
             </w>
           </term>
@@ -27084,7 +27101,7 @@
           <w>
             <choice>
               <orig>aceptores</orig>
-              <reg resp="alim-pi azzara beyerle">acceptoris</reg>
+              <reg resp="leges azzara beyerle">acceptoris</reg>
             </choice>
           </w>
           <w>si</w>
@@ -27095,7 +27112,7 @@
           <w>
             <choice>
               <orig>aceptores</orig>
-              <reg resp="alim-pi azzara beyerle">accepturis</reg>
+              <reg resp="leges azzara beyerle">accepturis</reg>
             </choice>
           </w>
           <w>tole<lb n="22" rend="align_right" xml:id="CV188_lb_083v_22"/>rit</w>
@@ -27111,7 +27128,7 @@
             <w>
               <choice>
                 <orig>gagio</orig>
-                <reg resp="alim-pi azzara beyerle">gahagium</reg>
+                <reg resp="leges azzara beyerle">gahagium</reg>
               </choice>
             </w>
           </term>
@@ -27138,7 +27155,7 @@
           <w>
             <choice>
               <orig>aceptores</orig>
-              <reg resp="alim-pi azzara beyerle">acceptoris</reg>
+              <reg resp="leges azzara beyerle">acceptoris</reg>
             </choice>
           </w>
           <w>et</w>
@@ -27154,7 +27171,7 @@
             <w>
               <choice>
                 <orig>gagio</orig>
-                <reg resp="alim-pi azzara beyerle">gahagio</reg>
+                <reg resp="leges azzara beyerle">gahagio</reg>
               </choice>
             </w>
           </term>
@@ -27162,7 +27179,7 @@
           <w>
             <choice>
               <orig>iobemus</orig>
-              <reg resp="alim-pi azzara beyerle">iubemus</reg>
+              <reg resp="leges azzara beyerle">iubemus</reg>
             </choice>
           </w>
           <w>si</w>
@@ -27172,7 +27189,7 @@
             <w>
               <choice>
                 <orig>gagio</orig>
-                <reg resp="alim-pi azzara beyerle">gahagio</reg>
+                <reg resp="leges azzara beyerle">gahagio</reg>
               </choice>
             </w>
           </term>
@@ -27182,7 +27199,7 @@
           <w>
             <choice>
               <orig>culpa<c corresp="#v">u</c>elis</orig>
-              <reg resp="alim-pi azzara beyerle">culpabiles</reg>
+              <reg resp="leges azzara beyerle">culpabiles</reg>
             </choice>
           </w>
           <w>
@@ -27239,7 +27256,7 @@
           <w>
             <choice>
               <orig>incidatus</orig>
-              <reg resp="alim-pi azzara beyerle">incetatus</reg>
+              <reg resp="leges azzara beyerle">incetatus</reg>
             </choice>
           </w>
           <w>si</w>
@@ -27503,7 +27520,7 @@
           <w>
             <choice>
               <sic>set</sic>
-              <corr resp="alim-pi azzara beyerle">sed</corr>
+              <corr resp="leges azzara beyerle">sed</corr>
             </choice>
           </w>
           <w>ille</w>
@@ -27576,7 +27593,7 @@
           <w>
             <choice>
               <orig>iobemus</orig>
-              <reg resp="alim-pi azzara beyerle">iubemus</reg>
+              <reg resp="leges azzara beyerle">iubemus</reg>
             </choice>
           </w>
           <lb n="17" xml:id="CV188_lb_085r_17"/><w>eum</w>
@@ -27869,7 +27886,7 @@
           <w>
             <choice>
               <orig>mortuos</orig>
-              <reg resp="alim-pi azzar beyerle">mortuum</reg>
+              <reg resp="leges azzar beyerle">mortuum</reg>
             </choice>
           </w>
           <w>est</w>
@@ -27888,7 +27905,7 @@
           <w>
             <choice>
               <sic>lopus</sic>
-              <corr resp="alim-pi azzara beyerle">lupus</corr>
+              <corr resp="leges azzara beyerle">lupus</corr>
             </choice>
           </w>
           <w>animalem</w>
@@ -28096,7 +28113,7 @@
           <w>
             <choice>
               <sic>dit</sic>
-              <corr resp="alim-pi azzara beyerle">det</corr>
+              <corr resp="leges azzara beyerle">det</corr>
             </choice>
           </w>
           <w>illi</w>
@@ -28121,7 +28138,7 @@
           <w>
             <choice>
               <sic>fuet</sic>
-              <corr resp="alim-pi azzara beyerle">fuit</corr>
+              <corr resp="leges azzara beyerle">fuit</corr>
             </choice>
           </w>
           <w>ad</w>
@@ -28213,7 +28230,7 @@
           <w>
             <choice>
               <orig>ca<c corresp="#v">u</c>alega<c corresp="#v">u</c>erit</orig>
-              <reg resp="alim-pi azzara beyerle">cavallicaverit</reg>
+              <reg resp="leges azzara beyerle">cavallicaverit</reg>
             </choice>
           </w>
           <w>id</w>
@@ -28243,7 +28260,7 @@
             <choice>
               <orig>ca<c corresp="#v">u</c>a<lb n="18" xml:id="CV188_lb_087r_18_orig"/>lega<space quantity="1"
                   unit="chars"/>re</orig>
-              <reg resp="alim-pi azzara beyerle">caba<lb n="18" xml:id="CV188_lb_087r_18_reg"/>llicare</reg>
+              <reg resp="leges azzara beyerle">caba<lb n="18" xml:id="CV188_lb_087r_18_reg"/>llicare</reg>
             </choice>
           </w>
           <w>presumpserit</w>
@@ -28306,7 +28323,7 @@
           <w>
             <choice>
               <sic>alie<lb n="5" xml:id="CV188_lb_087v_05_sic"/>enum</sic>
-              <corr resp="alim-pi azzara beyerle">ali<lb n="5" xml:id="CV188_lb_087v_05_corr"/>enum</corr>
+              <corr resp="leges azzara beyerle">ali<lb n="5" xml:id="CV188_lb_087v_05_corr"/>enum</corr>
             </choice>
           </w>
           <space/>
@@ -28315,7 +28332,7 @@
           <w>
             <choice>
               <orig>pe<lb n="6" xml:id="CV188_lb_087v_06_orig"/>guliu<space/>s</orig>
-              <reg resp="alim-pi azzara beyerle">pe<lb n="6" xml:id="CV188_lb_087v_06_reg"/>culiu<space/>s</reg>
+              <reg resp="leges azzara beyerle">pe<lb n="6" xml:id="CV188_lb_087v_06_reg"/>culiu<space/>s</reg>
             </choice>
           </w>
           <w>credens</w>
@@ -28376,7 +28393,7 @@
           <w>
             <choice>
               <orig>exulutus</orig>
-              <reg resp="alim-pi azzara beyerle">absolutus</reg>
+              <reg resp="leges azzara beyerle">absolutus</reg>
             </choice>
           </w>
           <w>a</w>
@@ -28540,7 +28557,7 @@
           <w>
             <choice>
               <orig>io<c corresp="#v">u</c>emus</orig>
-              <reg resp="alim-pi azzara beyerle">iubemus</reg>
+              <reg resp="leges azzara beyerle">iubemus</reg>
             </choice>
           </w>
           <lb n="17" xml:id="CV188_lb_088r_17"/><w>ut</w>
@@ -28551,7 +28568,7 @@
           <w>
             <choice>
               <orig>ca<c corresp="#v">u</c>alecit</orig>
-              <reg resp="alim-pi azzara beyerle">caballicet</reg>
+              <reg resp="leges azzara beyerle">caballicet</reg>
             </choice>
           </w>
           <lb n="18" xml:id="CV188_lb_088r_18"/><w>et</w>
@@ -28607,13 +28624,13 @@
           <w>
             <choice>
               <sic>obser<c corresp="#v">u</c>a<c corresp="#v">u</c>eriterit</sic>
-              <corr resp="alim-pi azzara beyerle">observaverit</corr>
+              <corr resp="leges azzara beyerle">observaverit</corr>
             </choice>
           </w>
           <w>
             <choice>
               <orig>exo<lb n="6" xml:id="CV188_lb_088v_06_orig"/>lutus</orig>
-              <reg resp="alim-pi azzara beyerle">abso<lb n="6" xml:id="CV188_lb_088v_06_reg"/>lutus</reg>
+              <reg resp="leges azzara beyerle">abso<lb n="6" xml:id="CV188_lb_088v_06_reg"/>lutus</reg>
             </choice>
           </w>
           <w>a</w>
@@ -28945,7 +28962,7 @@
           <w>
             <choice>
               <orig>eteran<lb n="11" xml:id="CV188_lb_089v_11_orig"/>tem</orig>
-              <reg resp="alim-pi azzara beyerle">iteran<lb n="11" xml:id="CV188_lb_089v_11_reg"/>tem</reg>
+              <reg resp="leges azzara beyerle">iteran<lb n="11" xml:id="CV188_lb_089v_11_reg"/>tem</reg>
             </choice>
           </w>
           <w>ca<c corresp="#v">u</c>al<space/>lus</w>
@@ -29079,7 +29096,7 @@
           <w>
             <choice>
               <sic>roca<lb n="13" xml:id="CV188_lb_090r_13_sic"/>tus</sic>
-              <corr resp="alim-pi azzara beyerle">roga<lb n="13" xml:id="CV188_lb_090r_13_corr"/>tus</corr>
+              <corr resp="leges azzara beyerle">roga<lb n="13" xml:id="CV188_lb_090r_13_corr"/>tus</corr>
             </choice>
           </w>
           <w>fuerat</w>
@@ -29544,7 +29561,7 @@
           <w>
             <choice>
               <abbr>ta<am><g ref="#tildedot"/></am><lb n="18" xml:id="CV188_lb_091v_18_abbr"/>tum</abbr>
-              <expan resp="alim-pi azzara beyerle">ta<ex>n</ex><lb n="18" xml:id="CV188_lb_091v_18_expan"/>tum</expan>
+              <expan resp="leges azzara beyerle">ta<ex>n</ex><lb n="18" xml:id="CV188_lb_091v_18_expan"/>tum</expan>
             </choice>
           </w>
           <w>frugis</w>
@@ -29695,7 +29712,7 @@
           <w>
             <choice>
               <abbr>etera<am><g ref="#tildedot"/></am><lb n="11" xml:id="CV188_lb_092r_11_abbr"/>tibus</abbr>
-              <expan resp="alim-pi azzara beyerle">etera<ex>n</ex><lb n="11" xml:id="CV188_lb_092r_11_expan"
+              <expan resp="leges azzara beyerle">etera<ex>n</ex><lb n="11" xml:id="CV188_lb_092r_11_expan"
                 />tibus</expan>
             </choice>
           </w>
@@ -29727,7 +29744,7 @@
           <w>
             <choice>
               <abbr>defe<am><g ref="#tildedot"/></am><lb n="17" xml:id="CV188_lb_092r_17_abbr"/>dere</abbr>
-              <expan resp="alim-pi azzara beyerle">defe<ex>n</ex><lb n="17" xml:id="CV188_lb_092r_17_expan"
+              <expan resp="leges azzara beyerle">defe<ex>n</ex><lb n="17" xml:id="CV188_lb_092r_17_expan"
                 />dere</expan>
             </choice>
           </w>
@@ -29776,7 +29793,7 @@
             <w>
               <choice>
                 <orig>fonsacc</orig>
-                <reg resp="alim-pi azzara beyerle">fornaccar</reg>
+                <reg resp="leges azzara beyerle">fornaccar</reg>
               </choice>
             </w>
           </term>
@@ -29836,7 +29853,7 @@
           <w>
             <choice>
               <sic>adios</sic>
-              <corr resp="alim-pi azzara beyerle">aidos</corr>
+              <corr resp="leges azzara beyerle">aidos</corr>
             </choice>
           </w>
           <lb n="11" xml:id="CV188_lb_092v_11"/><w>suos</w>
@@ -29951,7 +29968,7 @@
             <w>
               <choice>
                 <orig><c corresp="#v">u</c><c corresp="#v">u</c>adia</orig>
-                <reg resp="alim-pi azzara beyerle">wadia</reg>
+                <reg resp="leges azzara beyerle">wadia</reg>
               </choice>
             </w>
           </term>
@@ -29970,7 +29987,7 @@
             <w>
               <choice>
                 <orig><c corresp="#v">u</c><c corresp="#v">u</c>adia</orig>
-                <reg resp="alim-pi azzara beyerle">wadia</reg>
+                <reg resp="leges azzara beyerle">wadia</reg>
               </choice>
             </w>
           </term>
@@ -29987,7 +30004,7 @@
             <w>
               <choice>
                 <orig><c corresp="#v">u</c><c corresp="#v">u</c>adia</orig>
-                <reg resp="alim-pi azzara beyerle">wadia</reg>
+                <reg resp="leges azzara beyerle">wadia</reg>
               </choice>
             </w>
           </term>
@@ -30001,7 +30018,7 @@
           <w>
             <choice>
               <orig><c corresp="#v">u</c><c corresp="#v">u</c>adia</orig>
-              <reg resp="alim-pi azzara beyerle">wadia</reg>
+              <reg resp="leges azzara beyerle">wadia</reg>
             </choice>
           </w>
           <w>suscepit</w>
@@ -30086,7 +30103,7 @@
             <w>
               <choice>
                 <orig><c corresp="#v">u</c><c corresp="#v">u</c>adia</orig>
-                <reg resp="alim-pi azzara beyerle">wadia</reg>
+                <reg resp="leges azzara beyerle">wadia</reg>
               </choice>
             </w>
           </term>
@@ -30094,7 +30111,7 @@
           <w>
             <choice>
               <orig>fidiius<lb n="3" xml:id="CV188_lb_093v_03_orig"/>sore</orig>
-              <reg resp="alim-pi azzara beyerle">fideius<lb n="3" xml:id="CV188_lb_093v_03_reg"/>sorem</reg>
+              <reg resp="leges azzara beyerle">fideius<lb n="3" xml:id="CV188_lb_093v_03_reg"/>sorem</reg>
             </choice>
           </w>
           <w>de</w>
@@ -30103,7 +30120,7 @@
           <w>
             <choice>
               <orig>de<lb n="4" xml:id="CV188_lb_093v_04_orig"/>terit</orig>
-              <reg resp="alim-pi azzara beyerle">de<lb n="4" xml:id="CV188_lb_093v_04_reg"/>derit</reg>
+              <reg resp="leges azzara beyerle">de<lb n="4" xml:id="CV188_lb_093v_04_reg"/>derit</reg>
             </choice>
           </w>
           <w>dit</w>
@@ -30168,7 +30185,7 @@
             <w>
               <choice>
                 <orig><c corresp="#v">u</c><c corresp="#v">u</c>adia</orig>
-                <reg resp="alim-pi azzara beyerle">wadia</reg>
+                <reg resp="leges azzara beyerle">wadia</reg>
               </choice>
             </w>
           </term>
@@ -30182,7 +30199,7 @@
             <w>
               <choice>
                 <orig><c corresp="#v">u</c><c corresp="#v">u</c>a<lb n="19" xml:id="CV188_lb_093v_19_orig"/>dia</orig>
-                <reg resp="alim-pi azzara beyerle">wa<lb n="19" xml:id="CV188_lb_093v_19_reg"/>dia</reg>
+                <reg resp="leges azzara beyerle">wa<lb n="19" xml:id="CV188_lb_093v_19_reg"/>dia</reg>
               </choice>
             </w>
           </term>
@@ -30276,7 +30293,7 @@
             <w>
               <choice>
                 <orig><c corresp="#v">u</c><c corresp="#v">u</c>adia</orig>
-                <reg resp="alim-pi azzara beyerle">wadia</reg>
+                <reg resp="leges azzara beyerle">wadia</reg>
               </choice>
             </w>
           </term>
@@ -30306,7 +30323,7 @@
           <w>
             <choice>
               <orig>spopondit</orig>
-              <reg resp="alim-pi azzara beyerle">spondedit</reg>
+              <reg resp="leges azzara beyerle">spondedit</reg>
             </choice>
           </w>
           <lb n="20" xml:id="CV188_lb_094r_20"/><w>adinpleat</w>
@@ -30340,7 +30357,7 @@
             <w>
               <choice>
                 <sic>confamola<lb n="5" xml:id="CV188_lb_094v_05_sic"/>tus</sic>
-                <corr resp="alim-pi azzara beyerle">confabula<lb n="5" xml:id="CV188_lb_094v_05_corr"/>tus</corr>
+                <corr resp="leges azzara beyerle">confabula<lb n="5" xml:id="CV188_lb_094v_05_corr"/>tus</corr>
               </choice>
             </w>
           </gloss>
@@ -30628,7 +30645,7 @@
           <w>
             <choice>
               <orig>fidiiussurem</orig>
-              <reg resp="alim-pi azzara beyerle">fideiussurem</reg>
+              <reg resp="leges azzara beyerle">fideiussurem</reg>
             </choice>
           </w>
           <w>surre<lb n="15" xml:id="CV188_lb_095v_15"/>xerit</w>
@@ -30649,7 +30666,7 @@
             <w>
               <choice>
                 <orig><c corresp="#v">u</c><c corresp="#v">u</c>adia</orig>
-                <reg resp="alim-pi azzara beyerle">wadia</reg>
+                <reg resp="leges azzara beyerle">wadia</reg>
               </choice>
             </w>
           </term>
@@ -30663,7 +30680,7 @@
           <w>
             <choice>
               <orig>fidi<lb n="19" xml:id="CV188_lb_095v_19_orig"/>iussoris</orig>
-              <reg resp="alim-pi azzara bluhme beyerle">fide<lb n="19" xml:id="CV188_lb_095v_19_reg"/>iussori</reg>
+              <reg resp="leges azzara bluhme beyerle">fide<lb n="19" xml:id="CV188_lb_095v_19_reg"/>iussori</reg>
             </choice>
           </w>
           <w>sagramentum</w>
@@ -30689,7 +30706,7 @@
             <w>
               <choice>
                 <orig><c corresp="#v">u</c><c corresp="#v">u</c>adia</orig>
-                <reg resp="alim-pi azzara beyerle">wadia</reg>
+                <reg resp="leges azzara beyerle">wadia</reg>
               </choice>
             </w>
           </term>
@@ -30717,7 +30734,7 @@
             <w>
               <choice>
                 <orig><c corresp="#v">u</c><c corresp="#v">u</c>aregang</orig>
-                <reg resp="alim-pi azzara beyerle">waregang</reg>
+                <reg resp="leges azzara beyerle">waregang</reg>
               </choice>
             </w>
           </term>
@@ -30778,7 +30795,7 @@
           <w>
             <choice>
               <abbr>thi<am><g ref="#tildedot"/></am><lb n="14" xml:id="CV188_lb_096r_14_abbr"/>gare</abbr>
-              <expan resp="alim-pi azzara beyerle">thi<ex>n</ex><lb n="14" xml:id="CV188_lb_096r_14_expan"/>gare</expan>
+              <expan resp="leges azzara beyerle">thi<ex>n</ex><lb n="14" xml:id="CV188_lb_096r_14_expan"/>gare</expan>
             </choice>
           </w>
           <w>aut</w>
@@ -30933,7 +30950,7 @@
             <w>
               <choice>
                 <orig>mor<add hand="scribe_1" place="above">h</add></orig>
-                <reg resp="alim-pi azzara beyerle">mordh</reg>
+                <reg resp="leges azzara beyerle">mordh</reg>
               </choice>
             </w>
           </term>
@@ -30974,7 +30991,7 @@
           <w>
             <choice>
               <sic>dubblum</sic>
-              <corr resp="alim-pi azzara beyerle">duplum</corr>
+              <corr resp="leges azzara beyerle">duplum</corr>
             </choice>
           </w>
           <lb rend="align_right" type="extra"/><w>exegantur</w>
@@ -30989,7 +31006,7 @@
             <w>
               <choice>
                 <orig>morh</orig>
-                <reg resp="alim-pi azzara beyerle">mordh</reg>
+                <reg resp="leges azzara beyerle">mordh</reg>
               </choice>
             </w>
           </term>
@@ -30999,7 +31016,7 @@
           <w>
             <choice>
               <sic>decre<c corresp="#v">u</c>imus</sic>
-              <corr resp="alim-pi azzara beyerle">decernimus</corr>
+              <corr resp="leges azzara beyerle">decernimus</corr>
             </choice>
           </w>
           <lb n="7" xml:id="CV188_lb_097r_07"/><w>ut</w>
@@ -31150,7 +31167,7 @@
             <w>
               <choice>
                 <orig>figang</orig>
-                <reg resp="alim-pi azzara beyerle">fegangi</reg>
+                <reg resp="leges azzara beyerle">fegangi</reg>
               </choice>
             </w>
           </term>
@@ -31173,7 +31190,7 @@
             <w>
               <choice>
                 <orig><c corresp="#v">u</c><c corresp="#v">u</c>acuor</orig>
-                <reg resp="alim-pi azzara beyerle">wecvorin</reg>
+                <reg resp="leges azzara beyerle">wecvorin</reg>
               </choice>
             </w>
           </term>
@@ -31182,7 +31199,7 @@
             <w>
               <choice>
                 <orig>marahu<lb n="10" xml:id="CV188_lb_097v_10_orig"/><c corresp="#v">u</c>orf</orig>
-                <reg resp="alim-pi azzara beyerle">marah<lb n="10" xml:id="CV188_lb_097v_10_reg"/>vorf</reg>
+                <reg resp="leges azzara beyerle">marah<lb n="10" xml:id="CV188_lb_097v_10_reg"/>vorf</reg>
               </choice>
             </w>
           </term>
@@ -31353,7 +31370,7 @@
           <w>
             <choice>
               <sic>aliquit</sic>
-              <corr resp="alim-pi azzara beyerle">aliquid</corr>
+              <corr resp="leges azzara beyerle">aliquid</corr>
             </choice>
           </w>
           <w>per</w>
@@ -31460,7 +31477,7 @@
           <w>
             <choice>
               <abbr>me<am><g ref="#tildedot"/></am><lb n="6" xml:id="CV188_lb_098v_06_abbr"/>tibus</abbr>
-              <expan resp="alim-pi azzara beyerle">me<ex>n</ex><lb n="6" xml:id="CV188_lb_098v_06_expan"/>tibus</expan>
+              <expan resp="leges azzara beyerle">me<ex>n</ex><lb n="6" xml:id="CV188_lb_098v_06_expan"/>tibus</expan>
             </choice>
           </w>
           <w>nullatinus</w>
@@ -31470,7 +31487,7 @@
           <w>
             <choice>
               <sic>posse<c corresp="#v">u</c>ilem</sic>
-              <corr resp="alim-pi azzara beyerle">possibilem</corr>
+              <corr resp="leges azzara beyerle">possibilem</corr>
             </choice>
           </w>
           <w>ut</w>
@@ -31550,7 +31567,7 @@
           <w>
             <choice>
               <sic>an</sic>
-              <corr resp="alim-pi azzara beyerle">aut</corr>
+              <corr resp="leges azzara beyerle">aut</corr>
             </choice>
           </w>
           <w>rustiga</w>
@@ -31839,7 +31856,7 @@
             <w>
               <choice>
                 <orig>aratraibus</orig>
-                <reg resp="alim-pi azzara beyerle">haritraib</reg>
+                <reg resp="leges azzara beyerle">haritraib</reg>
               </choice>
             </w>
           </term>
@@ -31875,7 +31892,7 @@
             <w>
               <choice>
                 <orig>o<c corresp="#v">u</c>eros</orig>
-                <reg resp="alim-pi azzara beyerle">hoberos</reg>
+                <reg resp="leges azzara beyerle">hoberos</reg>
               </choice>
             </w>
           </term>
@@ -31903,7 +31920,7 @@
             <w>
               <choice>
                 <orig>aga</orig>
-                <reg resp="alim-pi azzara beyerle">arga</reg>
+                <reg resp="leges azzara beyerle">arga</reg>
               </choice>
             </w>
           </term>
@@ -32535,7 +32552,7 @@
           <w>
             <choice>
               <orig>hac</orig>
-              <reg resp="alim-pi azzara beyerle">ac</reg>
+              <reg resp="leges azzara beyerle">ac</reg>
             </choice>
           </w>
           <lb n="7" xml:id="CV188_lb_102r_07"/><w>decernim<g ref="#uslig"/></w>

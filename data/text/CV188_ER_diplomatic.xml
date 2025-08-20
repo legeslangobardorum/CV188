@@ -3804,6 +3804,8 @@
 
       <div n="Capp. 1-13" subtype="reati_contro_autorità" type="capitula" xml:id="CV188_div_1-13">
 
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="18v" xml:id="CV188_folio_018v"/>
 
         <head>
@@ -3884,7 +3886,9 @@
           <w>ille</w>
           <w>nec</w>
 
-          <pb n="19r" xml:id="CV188_folio_019r"/>
+        <!-- #######################################  folio   ####################################### -->
+
+        <pb n="19r" xml:id="CV188_folio_019r"/>
 
           <lb n="01" xml:id="CV188_lb_019r_"/><w><choice><sic>heredis</sic><corr resp="RRDT">heredes</corr>
             </choice></w>
@@ -4046,7 +4050,9 @@
           <w>contra</w>
           <w>d<subst><del rend="overwrite">o</del><add>u</add></subst>cem</w>
 
-          <pb n="19v" xml:id="CV188_folio_019v"/>
+        <!-- #######################################  folio   ####################################### -->
+
+        <pb n="19v" xml:id="CV188_folio_019v"/>
 
           <lb n="01" xml:id="CV188_lb_019v_01"/><w>suum</w>
           <w>aut</w>
@@ -4202,7 +4208,9 @@
           </choice>
           <w><damage>eme</damage>rserit</w>
 
-          <pb n="20r" xml:id="CV188_folio_020r"/>
+        <!-- #######################################  folio   ####################################### -->
+
+        <pb n="20r" xml:id="CV188_folio_020r"/>
 
           <lb n="1" xml:id="CV188_lb_020r_01"/><w>ut</w>
           <w>adest</w>
@@ -4389,7 +4397,9 @@
             <corr>tractato</corr>
           </choice></w>
 
-          <pb n="20v" xml:id="CV188_folio_020v"/>
+        <!-- #######################################  folio   ####################################### -->
+
+        <pb n="20v" xml:id="CV188_folio_020v"/>
 
           <lb n="1"/><w><choice><orig>mortuos</orig><reg>mortuus</reg>
           </choice></w>
@@ -4558,7 +4568,9 @@
           <w>ut</w>
           <w>supra</w><reg>,</reg>
 
-          <pb n="21r" xml:id="CV188_folio_021r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="21r" xml:id="CV188_folio_021r"/>
 
           <lb n="1"/><w><choice><orig>soledos</orig><reg>solidos</reg>
           </choice></w>
@@ -4716,7 +4728,9 @@
             </choice></w>
           <w>conponat</w><reg>.</reg>
 
-          <pb n="21v" xml:id="CV188_folio_021v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="21v" xml:id="CV188_folio_021v"/>
 
           <lb n="1"/><w>Si</w>
           <w><c corresp="#v">u</c>ero</w>
@@ -4881,7 +4895,9 @@
           <w><c corresp="#v">u</c>icinibus</w>
           <w>patefece<lb rend="below"/><space extent="12"/>rit</w><reg>,</reg>
 
-          <pb n="22r" xml:id="CV188_folio_022r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="22r" xml:id="CV188_folio_022r"/>
 
           <lb n="1"/><w>et</w>
           <w>cognuscitur</w>
@@ -5050,7 +5066,9 @@
           <!-- parte con trascrizione da controllare -->
           <!-- ############################## -->
 
-          <pb n="22v" xml:id="CV188_folio_022v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="22v" xml:id="CV188_folio_022v"/>
 
           <lb n="1"/><w><choice><orig><num>dcccc</num></orig><reg>nonigentos</reg>
           </choice></w>
@@ -5203,7 +5221,9 @@
           <w>ita</w>
           <w>conponatur</w><reg>.</reg>
 
-          <pb n="23r" xml:id="CV188_folio_023r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="23r" xml:id="CV188_folio_023r"/>
 
           <lb n="1"/><w>illi</w><reg>,</reg>
           <w>cuius</w>
@@ -5382,7 +5402,9 @@
           <w>et</w>
           <w>nolu<lb rend="below align-right"/>erit</w>
 
-          <pb n="23v" xml:id="CV188_folio_023v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="23v" xml:id="CV188_folio_023v"/>
           
           <lb n="1"/><w><choice>
             <sic>ille</sic>
@@ -5556,7 +5578,9 @@
           
           <fw rend="align-center">d</fw>
 
-          <pb n="24r" xml:id="CV188_folio_024r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="24r" xml:id="CV188_folio_024r"/>
 
           <lb n="1"/><w><damage>le</damage>sionem</w>
           <w>in</w>
@@ -5715,7 +5739,9 @@
             <corr>quolibet</corr>
           </choice></w>
 
-          <pb n="24v" xml:id="CV188_folio_024v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="24v" xml:id="CV188_folio_024v"/>
 
           <lb n="1"/><w><choice><sic><damage>ing</damage>enium</sic><corr>ingenio</corr>
           </choice></w>
@@ -5848,7 +5874,9 @@
           <w>ut</w>
           <w>homo</w>
 
-          <pb n="25r" xml:id="CV188_folio_025r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="25r" xml:id="CV188_folio_025r"/>
 
           <lb n="1"/><w>noctis</w>
           <w>tempore</w>
@@ -5999,7 +6027,9 @@
               <orig>culpa<c corresp="#v">u</c>elis</orig>
               <reg>culpabilis</reg></choice></w><reg>,</reg>
 
-          <pb n="25v" xml:id="CV188_folio_025v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="25v" xml:id="CV188_folio_025v"/>
 
           <lb n="1"/><w>excepto</w>
           <w>plagas</w>
@@ -6162,7 +6192,9 @@
           <w>excepto</w>
           <w>plagas</w>
 
-          <pb n="26r" xml:id="CV188_folio_026r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="26r" xml:id="CV188_folio_026r"/>
 
           <lb n="1"/><w>aut</w>
           <w>feritas</w><reg>,</reg>
@@ -6326,7 +6358,9 @@
           <w>in</w>
           <w>ci<c corresp="#v">u</c>itatem</w>
 
-          <pb n="26v" xml:id="CV188_folio_026v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="26v" xml:id="CV188_folio_026v"/>
 
           <lb n="1"/><w>scandalum</w>
           <w><choice>
@@ -6471,7 +6505,9 @@
             <reg>legaverit</reg>
           </choice></w>
 
-          <pb n="27r" xml:id="CV188_folio_027r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="27r" xml:id="CV188_folio_027r"/>
 
           <lb n="1"/><w>absque</w>
           <w>iussionem</w>
@@ -6636,7 +6672,9 @@
           <w>adne<lb rend="align-right"/>xum</w>
           <w>est</w><reg>,</reg>
 
-          <pb n="27v" xml:id="CV188_folio_027v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="27v" xml:id="CV188_folio_027v"/>
 
           <lb n="1"/><w><choice><sic>conponatur</sic><corr>conponantur</corr>
           </choice></w><reg>,</reg>
@@ -6815,7 +6853,9 @@
             <corr>pedes</corr>
           </choice></w>
 
-          <pb n="28r" xml:id="CV188_folio_028r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="28r" xml:id="CV188_folio_028r"/>
 
           <lb n="1"/><num value="12"><w>duodicem</w></num>
           <w>super</w><!-- supra --><!-- CHECK -->
@@ -6985,7 +7025,9 @@
           <w>si</w>
           <w>quis</w>
 
-          <pb n="28v" xml:id="CV188_folio_028v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="28v" xml:id="CV188_folio_028v"/>
 
           <lb n="01" xml:id="CV188_lb_028v_01"/><w>alii</w>
           <w>dentem</w>
@@ -7225,6 +7267,8 @@
           </w>
           <reg>.</reg>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
 
         <pb n="29r" xml:id="CV188_folio_029r"/>
 
@@ -7512,7 +7556,9 @@
             <reg>,</reg>
           </choice>
 
-          <pb n="29v" xml:id="CV188_folio_029v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="29v" xml:id="CV188_folio_029v"/>
 
           <space/><damage/>
           <lb n="1" xml:id="CV188_lb_029v_01"/><w>et</w>
@@ -7768,6 +7814,8 @@
           </choice>
         </p>
 
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="30r" xml:id="CV188_folio_030r"/>
 
         <fw place="top-right" type="fol"><add hand="unknown">030r</add></fw>
@@ -7988,6 +8036,8 @@
             <reg>.</reg>
           </choice></p>
 
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="30v" xml:id="CV188_folio_030v"/>
 
         <p xml:id="CV188_p_030v_01"><lb n="1" type="rubric" xml:id="CV188_lb_030v_01"/><label n="72"
@@ -8199,7 +8249,9 @@
           <w>si</w>
           <w>infans</w>
 
-          <pb n="31r" xml:id="CV188_folio_031r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="31r" xml:id="CV188_folio_031r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">031r</add></fw>
 
@@ -8369,7 +8421,9 @@
           <w>si</w>
           <w>duas</w>
 
-          <pb n="31v" xml:id="CV188_folio_031v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="31v" xml:id="CV188_folio_031v"/>
 
           <lb n="1" xml:id="CV188_lb_031v_01"/>
           <w>feritas</w>
@@ -8597,7 +8651,9 @@
           <add place="bottom">e</add>
           <gb n="f" rend="end"/>
 
-          <pb n="32r" xml:id="CV188_folio_032r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="32r" xml:id="CV188_folio_032r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">32</add></fw>
 
@@ -8770,7 +8826,9 @@
           <w>dentis</w>
           <lb n="22" xml:id="CV188_lb_032r_22"/><space extent="17" unit="chars"/><w>appareant</w><reg>,</reg>
 
-          <pb n="32v" xml:id="CV188_folio_032v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="32v" xml:id="CV188_folio_032v"/>
 
           <lb n="1" xml:id="CV188_lb_032v_01"/>
           <w>
@@ -8948,7 +9006,9 @@
             </choice>
           </w>
 
-          <pb n="33r" xml:id="CV188_folio_033r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="33r" xml:id="CV188_folio_033r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">33</add></fw>
 
@@ -9159,6 +9219,8 @@
           <w>mer<lb n="21" xml:id="CV188_lb_033r_21"/><space extent="12" unit="chars"/>cedis</w><!-- CHECK mercedes -->
           <w>medici</w><space extent="8" unit="chars"/></p>
 
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="33v" xml:id="CV188_folio_033v"/>
 
         <p xml:id="CV188_p_033v_01"><lb n="1" type="rubric" xml:id="CV188_lb_033v_01"/><label n="95"
@@ -9342,7 +9404,9 @@
             <reg>.</reg>
           </choice>
 
-          <pb n="34r" xml:id="CV188_folio_034r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="34r" xml:id="CV188_folio_034r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">34</add></fw>
           <lb n="1" xml:id="CV188_lb_034r_01"/>
@@ -9461,7 +9525,7 @@
           </seg>
           <w>si</w>
           <w>quis</w>
-          <w>ser<c corresp="#v">u</c>m</w>
+          <w>ser<c corresp="#v">u</c>um</w>
           <w>alienum</w>
           <lb n="13" xml:id="CV188_lb_034r_13"/><w>plagam</w>
           <w>in</w>
@@ -9507,7 +9571,6 @@
           <lb n="17" xml:id="CV188_lb_034r_17"/><w>mercedis</w>
           <w>medici</w><reg>;</reg>
           <w>si</w>
-          <w>vero</w>
           <w>ampl<add place="above">i</add>us</w>
           <w>pla<lb n="18" xml:id="CV188_lb_034r_18"/>gas</w>
           <w>capetis</w>
@@ -9546,7 +9609,9 @@
             <reg>.</reg>
           </choice>
 
-          <pb n="34v" xml:id="CV188_folio_034v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="34v" xml:id="CV188_folio_034v"/>
 
           <lb n="1" xml:id="CV188_lb_034v_01"/>
           <w>amplius</w>
@@ -9648,7 +9713,10 @@
             </choice>
           </w>
           <lb n="13" xml:id="CV188_lb_034v_13"/><w>nasum</w>
-          <w>absciderit</w><reg>,</reg>
+          <w><choice>
+            <sic>absciserit</sic>
+            <corr>absciderit</corr>
+          </choice></w><reg>,</reg>
           <w>
             <choice>
               <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
@@ -9669,7 +9737,7 @@
           <lb n="14" xml:id="CV188_lb_034v_14"/><w>excepto</w>
           <w>operas</w>
           <w>et</w>
-          <w>mercedes</w>
+          <w>mercedis</w>
           <w>me<add place="below">dici</add></w>
           <choice>
             <orig><pc>:</pc></orig>
@@ -9744,6 +9812,8 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
+
+        <!-- #######################################  folio   ####################################### -->
 
         <pb n="35r" xml:id="CV188_folio_035r"/>
 
@@ -9910,7 +9980,7 @@
           <w>ser<c corresp="#v">u</c>um</w>
           <w>alienum</w>
           <w>rusti<lb n="16" xml:id="CV188_lb_035r_16"/>ganum</w>
-          <w>inta</w>
+          <w>intra</w>
           <w>capso</w>
           <w>plaga<c corresp="#v">u</c>erit</w>
           <w>
@@ -9958,7 +10028,9 @@
           <w>ti<lb n="21" xml:id="CV188_lb_035r_21"/><space extent="11" unit="chars"/>bia</w>
           <w>ruperit</w><space extent="5" unit="chars"/>
 
-          <pb n="35v" xml:id="CV188_folio_035v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="35v" xml:id="CV188_folio_035v"/>
 
           <lb n="1" xml:id="CV188_lb_035v_01"/>
           <w>
@@ -10000,7 +10072,10 @@
           <w>non</w>
           <w>fuerit</w>
           <w>et</w>
-          <w>adpristinam</w>
+          <w><choice>
+            <orig>adpristinam</orig>
+            <reg>ad pristinam</reg>
+          </choice></w>
           <lb n="5" xml:id="CV188_lb_035v_05"/><w>sanitatem</w>
           <w>non</w>
           <w>redierit</w>
@@ -10202,6 +10277,8 @@
             </choice>
           </w></p>
 
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="36r" xml:id="CV188_folio_036r"/>
 
         <fw place="top-right" type="fol"><add hand="unknown">36</add></fw>
@@ -10368,7 +10445,7 @@
           <w>bat<lb n="18" xml:id="CV188_lb_036r_18"/>tudo</w><reg>.</reg>
           <w>s<space/>i</w>
           <w>quis</w>
-          <w>ser<c corresp="#v">u</c>m</w>
+          <w>ser<c corresp="#v">u</c>um</w>
           <w>alienum</w>
           <lb n="19" xml:id="CV188_lb_036r_19"/><w>rustiganum</w>
           <w>percusserit</w><reg>,</reg>
@@ -10388,7 +10465,9 @@
           <w><c corresp="#v">u</c>ulnus</w>
           <w>aut</w>
 
-          <pb n="36v" xml:id="CV188_folio_036v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="36v" xml:id="CV188_folio_036v"/>
 
           <lb n="1" xml:id="CV188_lb_036v_01"/>
           <w>libor</w>
@@ -10537,7 +10616,9 @@
           <w>scrip<lb n="21" xml:id="CV188_lb_036v_21"/><space extent="14" unit="chars"/>tum</w>
           <w>est</w><space extent="7" unit="chars"/>
 
-          <pb n="37r" xml:id="CV188_folio_037r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="37r" xml:id="CV188_folio_037r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">37</add></fw>
 
@@ -10657,9 +10738,10 @@
           <w>qui</w>
           <w>plagas</w>
           <w>fecerit</w>
-          <lb n="17" xml:id="CV188_lb_037r_17"/><w>qui</w>
-          <w>pla<space/>gas</w>
-          <w>fecerit</w>
+          <lb n="17" xml:id="CV188_lb_037r_17"/><del rend="expunction above"><w>qui</w>
+            <w>pla<space/>gas</w>
+            <w>fecerit</w>
+          </del>
           <w>ipse</w>
           <w>querat</w>
           <lb n="18" xml:id="CV188_lb_037r_18"/><w>medicus</w>
@@ -10670,7 +10752,16 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice>
-          <w><add place="above">medicus</add></w>
+          <add place="above">
+            <w>medicus</w>
+            <unclear>
+              <w><choice><!-- CHECK -->
+                  <abbr>qs</abbr>
+                  <expan>q<ex>ui</ex>s</expan>
+                </choice></w>
+              <!--<w>rat</w> CHECK ??? -->
+            </unclear>
+          </add>
           <w>tunc</w>
           <w>ille</w><reg>,</reg>
           <lb n="19" xml:id="CV188_lb_037r_19"/><w>qui</w>
@@ -10691,7 +10782,9 @@
           <w>qui</w>
           <w>caput</w>
 
-          <pb n="37v" xml:id="CV188_folio_037v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="37v" xml:id="CV188_folio_037v"/>
 
           <lb n="1" xml:id="CV188_lb_037v_01"/>
           <w>rumpit</w>
@@ -10711,9 +10804,11 @@
             <reg>.</reg>
           </choice>
           <w>quantum</w>
-          <w>per</w>
-          <w>doctus</w>
-          <w>hominis</w>
+          <w>perdoctus</w><!-- CHECK -->
+          <w><choice>
+            <orig>homenis</orig>
+            <reg>hominis</reg>
+          </choice></w>
           <lb n="4" xml:id="CV188_lb_037v_04"/><space extent="9" unit="chars"/><w>arbitratum</w>
           <w>fuerit</w>
         </p>
@@ -10786,7 +10881,7 @@
           <w><hi>D</hi>e</w>
           <w>alio</w>
           <w><c corresp="#v">u</c>ero</w>
-          <w>minesteria<lb n="12" xml:id="CV188_lb_037v_12"/>le</w>
+          <w>ministeria<lb n="12" xml:id="CV188_lb_037v_12"/>le</w>
           <w>qui</w>
           <w>secundus</w>
           <w>ei</w>
@@ -10886,6 +10981,8 @@
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
 
         <pb n="38r" xml:id="CV188_folio_038r"/>
 
@@ -11094,7 +11191,9 @@
             <reg>.</reg>
           </choice>
 
-          <pb n="38v" xml:id="CV188_folio_038v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="38v" xml:id="CV188_folio_038v"/>
 
           <lb n="1" xml:id="CV188_lb_038v_01"/>
           <w>si</w>
@@ -11213,7 +11312,7 @@
           <w>fueren<add place="above">t</add></w>
           <lb n="19" xml:id="CV188_lb_038v_19"/><w>collegantes</w>
           <w>medietas</w>
-          <w>praetii</w>
+          <w>pretii</w>
           <lb n="20" xml:id="CV188_lb_038v_20"/><w>repotetur</w>
           <w>illi</w>
           <w>mortui</w>
@@ -11222,7 +11321,9 @@
             <reg>.</reg>
           </choice>
 
-          <pb n="39r" xml:id="CV188_folio_039r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="39r" xml:id="CV188_folio_039r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">39</add></fw>
 
@@ -11260,7 +11361,7 @@
               <expan>su<ex>m</ex>ma</expan>
             </choice>
           </w>
-          <w>praetii</w>
+          <w>pretii</w>
           <w>cessante</w>
           <lb n="07" xml:id="CV188_lb_039r_07"/>
           <term ref="#faida" xml:id="CV188_term_faida_138" xml:lang="lng">
@@ -11366,7 +11467,7 @@
           <w><c corresp="#v">u</c>eninum</w>
           <w>de<lb n="19" xml:id="CV188_lb_039r_19"/>dit</w>
           <w>medietatem</w>
-          <w>praetii</w>
+          <w>pretii</w>
           <w>ipsius</w>
           <lb n="20" xml:id="CV188_lb_039r_20"/><w>quod</w>
           <w>adpretiatum</w>
@@ -11378,9 +11479,11 @@
               <expan>eu<ex>m</ex></expan>
             </choice>
           </w>
-          <w>occidissit</w>
+          <lb n="21" xml:id="CV188_lb_039r_21"/><w>occidissit</w>
           <w>conponat</w><space extent="8" unit="chars"/>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
 
         <pb n="39v" xml:id="CV188_folio_039v"/>
 
@@ -11403,7 +11506,7 @@
           <w>acceperit</w><reg>,</reg>
           <lb n="3" xml:id="CV188_lb_039v_03"/><w>mortuos</w>
           <w>fuerit</w>
-          <w>praetii</w>
+          <w>pretii</w>
           <w>mortui</w>
           <w>se<lb n="4" xml:id="CV188_lb_039v_04"/>cundum</w>
           <w>qualitatem</w>
@@ -11434,7 +11537,7 @@
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
-          <w>ser<c corresp="#v">u</c>s</w>
+          <w>ser<c corresp="#v">u</c>us</w>
           <w>
             <choice>
               <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
@@ -11444,7 +11547,7 @@
           <w><c corresp="#v">u</c>el</w>
           <w>ancille</w>
           <lb n="10" xml:id="CV188_lb_039v_10"/><w>medietatem</w>
-          <w>praetii</w>
+          <w>pretii</w>
           <w>quod</w>
           <w>ipsa</w>
           <w><c corresp="#v">u</c><damage>a</damage><lb n="11" xml:id="CV188_lb_039v_11"/>luerit</w>
@@ -11521,7 +11624,9 @@
             </choice>
           </w>
 
-          <pb n="40r" xml:id="CV188_folio_040r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="40r" xml:id="CV188_folio_040r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">40</add></fw>
 
@@ -11584,24 +11689,26 @@
           <w>conpositionem</w>
           <w><gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">a</supplied>c<lb n="11"
               xml:id="CV188_lb_040r_11"/>cepit</w>
-          <w>re<c corresp="#v">u</c>indigand<add place="inline">um</add></w>
+          <w>re<c corresp="#v">u</c>indigand<subst><del rend="overwrite">i</del><add place="inline">um</add></subst></w>
           <w>causam</w>
           <w>oc<lb n="12" xml:id="CV188_lb_040r_12"/>ciderit</w>
           <w>hominem</w>
           <w>de</w>
           <w>partem</w>
-          <w>de</w>
           <w>que</w>
           <lb n="13" xml:id="CV188_lb_040r_13"/><w>conpositionem</w>
           <w>accepit</w>
-          <w>iubemu</w>
+          <w>iubem<g ref="#uslig"/></w>
           <lb n="14" xml:id="CV188_lb_040r_14"/><w>ut</w>
           <w>in</w>
           <w>dublum</w>
           <w>reddat</w>
           <w>ipsam</w>
           <w>con<lb n="15" xml:id="CV188_lb_040r_15"/>p<damage>o</damage>sitionem</w>
-          <w>ite-</w>
+          <w><choice>
+            <abbr>ite<am><g ref="#emacr"/></am></abbr><!-- CHECK tilde in different ink? -->
+            <expan>ite<ex>m</ex></expan>
+          </choice></w>
           <w>parentibus</w>
           <w>aut</w>
           <lb n="16" xml:id="CV188_lb_040r_16"/><w>dominis</w>
@@ -11643,6 +11750,8 @@
           <w>ut</w>
           <w>supra</w><reg>.</reg>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
 
         <pb n="40v" xml:id="CV188_folio_040v"/>
 
@@ -11789,7 +11898,9 @@
           <w>suos</w>
           <w>domum</w>
 
-          <pb n="41r" xml:id="CV188_folio_041r"/><!-- CHECK no fw? -->
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="41r" xml:id="CV188_folio_041r"/><!-- CHECK no fw? -->
 
           <lb n="1" xml:id="CV188_lb_041r_01"/><w>aut</w>
           <w>casam</w>
@@ -11912,7 +12023,9 @@
           <w>eadem</w>
           <w>ca<add place="below">sa</add></w>
 
-          <pb n="41v" xml:id="CV188_folio_041v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="41v" xml:id="CV188_folio_041v"/>
 
           <lb n="1" xml:id="CV188_lb_041v_01"/><w>perdedit</w>
           <w>omnia</w>
@@ -12071,7 +12184,9 @@
           </w>
           <w>fecit</w>
 
-          <pb n="42r" xml:id="CV188_folio_042r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="42r" xml:id="CV188_folio_042r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">42</add></fw>
 
@@ -12132,7 +12247,10 @@
           <w>ipse</w>
           <w>focu<g ref="#uslig"/></w>
           <lb n="9" xml:id="CV188_lb_042r_09"/><w>super</w>
-          <w>pupliga</w>
+          <w><choice>
+            <orig>pupliga</orig><!-- CHECK fenomeno interessante -->
+            <reg>publica</reg>
+          </choice></w>
           <w><c corresp="#v">u</c>ia</w>
           <w>aut</w>
           <w>ribo</w>
@@ -12216,7 +12334,9 @@
           <w>esse</w>
           <w>in<c corresp="#v">u</c>enitur</w>
 
-          <pb n="42v" xml:id="CV188_folio_042v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="42v" xml:id="CV188_folio_042v"/>
 
           <lb n="1" xml:id="CV188_lb_042v_01"/><w>et</w>
           <w>si</w>
@@ -12365,7 +12485,9 @@
           <w>aut</w>
           <w>con<lb n="22" rend="align_right" xml:id="CV188_lb_042v_22"/>duxerit</w>
 
-          <pb n="43r" xml:id="CV188_folio_043r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="43r" xml:id="CV188_folio_043r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">43</add></fw>
 
@@ -12516,7 +12638,9 @@
             <reg>.</reg>
           </choice>
 
-          <pb n="43v" xml:id="CV188_folio_043v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="43v" xml:id="CV188_folio_043v"/>
 
           <lb n="1" xml:id="CV188_lb_043v_01"/><w>nominati</w>
           <w>unicuique</w>
@@ -12545,7 +12669,8 @@
           <w>pre<c corresp="#v">u</c>eat</w>
           <w>sagramentum</w>
           <w>cum</w>
-          <lb n="6" xml:id="CV188_lb_043v_06"/><w>legetimus</w>
+          <lb n="6" xml:id="CV188_lb_043v_06"/><w><choice><orig>legetimus</orig><reg>legitimus</reg>
+          </choice></w>
           <w>sagramentalis</w>
           <w>suos</w>
           <lb n="7" xml:id="CV188_lb_043v_07"/><w>dicant</w>
@@ -12639,7 +12764,9 @@
             </choice>
           </w>
 
-          <pb n="44r" xml:id="CV188_folio_044r"/><!-- CHECK no fw? -->
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="44r" xml:id="CV188_folio_044r"/><!-- CHECK no fw? -->
 
           <lb n="1" xml:id="CV188_lb_044r_01"/><w>si</w>
           <w>quattuor</w>
@@ -12757,7 +12884,9 @@
           <w>conpara<c corresp="#v">u</c>erit</w>
           <w>eum</w>
 
-          <pb n="44v" xml:id="CV188_folio_044v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="44v" xml:id="CV188_folio_044v"/>
 
           <lb n="1" xml:id="CV188_lb_044v_01"/><w>et</w>
           <w>liberum</w>
@@ -12880,7 +13009,9 @@
           <w>tert<add hand="scribe_2" place="inline">i</add>a</w>
           <w>pars</w>
 
-          <pb n="45r" xml:id="CV188_folio_045r"/><!-- CHECK no fw? -->
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="45r" xml:id="CV188_folio_045r"/><!-- CHECK no fw? -->
 
           <lb n="1" xml:id="CV188_lb_045r_01"/><w>et</w>
           <w>parentis</w>
@@ -12997,11 +13128,16 @@
           <lb n="21" xml:id="CV188_lb_045r_21"/><w>aut</w>
           <w>plures</w>
           <w>tollant</w>
-          <w>filia<add hand="scribe_2" place="inline">e</add></w>
+          <w><choice>
+            <sic>fila<add hand="scribe_2" place="inline">e</add></sic>
+            <corr>filiae</corr>
+          </choice></w>
           <w>et</w>
           <w>sorores</w>
 
-          <pb n="45v" xml:id="CV188_folio_045v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="45v" xml:id="CV188_folio_045v"/>
 
           <lb n="1" xml:id="CV188_lb_045v_01"/><w>inter</w>
           <w>se</w>
@@ -13144,7 +13280,9 @@
           <w>qui</w>
           <w>remanse<lb n="21" rend="align_right" xml:id="CV188_lb_045v_21"/>rent</w>
 
-          <pb n="46r" xml:id="CV188_folio_046r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="46r" xml:id="CV188_folio_046r"/>
 
           <lb n="1" xml:id="CV188_lb_046r_01"/><w>partem</w>
           <w>tertiam</w>
@@ -13210,13 +13348,13 @@
           <gloss target="#CV188_term_barba_163" xml:id="CV188_gloss_barba_163">
             <w>quod</w>
             <w>est</w>
-            <w>patruu<add hand="scribe_1" place="above">s</add></w>
+            <w>pat<subst><del rend="expunction overwrite">p</del><add>r</add></subst>u<add hand="scribe_1" place="inline">u</add><add hand="scribe_1" place="above">s</add></w>
             <w>seu</w>
             <w>consu<lb n="10" xml:id="CV188_lb_046r_10"/>brini</w>
           </gloss>
           <w>insidiatus</w>
           <w>aut</w>
-          <w>consiliatur</w>
+          <w>consiliatus</w>
           <w>fu<lb n="11" xml:id="CV188_lb_046r_11"/>erit</w>
           <w>et</w>
           <w>ille</w>
@@ -13285,7 +13423,9 @@
           <w>non</w>
           <w>fuerent</w>
 
-          <pb n="46v" xml:id="CV188_folio_046v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="46v" xml:id="CV188_folio_046v"/>
 
           <lb n="1" xml:id="CV188_lb_046v_01"/><w>tunc</w>
           <w>res</w>
@@ -13338,7 +13478,7 @@
           <w>cui</w>
           <w>crimen</w>
           <w>mittitur</w>
-          <w>quaerat</w>
+          <w>querat</w>
           <w>si<lb n="9" xml:id="CV188_lb_046v_09"/>bi</w>
           <w>liberos</w>
           <w>homines</w>
@@ -13433,7 +13573,9 @@
               <reg>uxorem</reg>
             </choice></w>
 
-          <pb n="47r" xml:id="CV188_folio_047r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="47r" xml:id="CV188_folio_047r"/>
 
           <lb n="1" xml:id="CV188_lb_047r_01"/><w>preveat</w>
           <w>sagramentum</w>
@@ -13482,7 +13624,10 @@
               <expan>iniustu<ex>m</ex></expan>
             </choice>
           </w>
-          <lb n="7" xml:id="CV188_lb_047r_07"/><w><c corresp="#v">u</c>edetur</w>
+          <lb n="7" xml:id="CV188_lb_047r_07"/><w><choice>
+            <orig><c corresp="#v">u</c>edetur</orig>
+            <reg><c corresp="#v">u</c>idetur</reg>
+          </choice></w>
           <w>esse</w>
           <w>ut</w>
           <w>tam</w>
@@ -13581,7 +13726,9 @@
           <w>mortem</w>
           <w>patris</w>
 
-          <pb n="47v" xml:id="CV188_folio_047v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="47v" xml:id="CV188_folio_047v"/>
 
           <lb n="1" xml:id="CV188_lb_047v_01"/><w>in</w>
           <w>casa</w>
@@ -13723,6 +13870,8 @@
           <gb n="G" rend="end"/>
         </p>
 
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="48r" xml:id="CV188_folio_048r"/>
 
         <p n="168" xml:id="CV188_p_048r_168"><lb n="1" type="rubric" xml:id="CV188_lb_048r_01"/><label><num><w>CLX<g
@@ -13861,7 +14010,9 @@
           <lb n="22" rend="align_right" xml:id="CV188_lb_048r_22"/>
           <w>naturalis</w>
 
-          <pb n="48v" xml:id="CV188_folio_048v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="48v" xml:id="CV188_folio_048v"/>
 
           <lb n="1" xml:id="CV188_lb_048v_01"/><w>reliquerit</w>
           <w>et</w>
@@ -13973,7 +14124,9 @@
           <w>parentis</w>
           <w>proximi</w>
 
-          <pb n="49r" xml:id="CV188_folio_049r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="49r" xml:id="CV188_folio_049r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">49</add></fw>
 
@@ -14061,9 +14214,10 @@
             <w>thinx</w>
           </term>
           <term corresp="#CV188_gloss_lidinlaib_173" ref="#lidinlaib" xml:id="CV188_term_lidinlaib_173" xml:lang="lng">
-            <w>lid</w>
-            <w>in</w>
-            <w>laib</w>
+            <w><choice>
+              <orig>lidelaib</orig>
+              <reg>lidinlaib</reg>
+            </choice></w>
           </term>
           <gloss target="#CV188_term_lidinlaib_173" xml:id="CV188_gloss_lidinlaib_173">
             <w>id</w>
@@ -14128,7 +14282,9 @@
             </choice>
           </w>
 
-          <pb n="49v" xml:id="CV188_folio_049v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="49v" xml:id="CV188_folio_049v"/>
 
           <lb n="1" xml:id="CV188_lb_049v_01"/><w>res</w>
           <w>istas</w>
@@ -14196,7 +14352,10 @@
           <w>ille</w>
           <w>qui</w>
           <term ref="#gairethinx" xml:id="CV188_term_gairethinx_174" xml:lang="lng">
-            <w>gairethin<add hand="scribe_1" place="bottom">x</add></w>
+            <w><choice>
+              <orig>cairethin<add hand="scribe_1" place="bottom">x</add></orig>
+              <reg>gairethin<add hand="scribe_1" place="bottom">x</add></reg>
+            </choice></w>
           </term>
           <lb n="10" xml:id="CV188_lb_049v_10"/><w>susceperit</w>
           <w>tales</w>
@@ -14214,9 +14373,9 @@
           <w>face<lb n="13" xml:id="CV188_lb_049v_13"/>re</w>
           <w>per</w>
           <w>quas</w>
-          <w>exhe<add hand="scribe_2" place="above">re</add>ditantur</w>
+          <w>exhe<add hand="scribe_1" place="above">re</add>ditantur</w>
           <w>que</w>
-          <w>in</w>
+          <w><del rend="expunction">in</del></w><!-- CHECK dotted above and below, new 'both' value? -->
           <lb n="14" xml:id="CV188_lb_049v_14"/><w>in</w>
           <w>hoc</w>
           <w>edictum</w>
@@ -14256,7 +14415,9 @@
           <w>in</w>
           <w>fiduciae</w>
 
-          <pb n="50r" xml:id="CV188_folio_050r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="50r" xml:id="CV188_folio_050r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">50</add></fw>
 
@@ -14347,16 +14508,17 @@
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
-          <w>leprosus</w>
+          <w>lebrosus</w>
           <w>efec<lb n="13" xml:id="CV188_lb_050r_13"/>tus</w>
           <w>fuer<space/>it</w>
-          <w>vel</w>888 <w>cognitum</w>
+          <w><c corresp="#v">u</c>el</w>
+          <w>cognitum</w>
           <w>iudi<lb n="14" xml:id="CV188_lb_050r_14"/>ci</w>
-          <w>vel</w>
+          <w><c corresp="#v">u</c>el</w>
           <w>po<space/>pulo</w>
           <w>certa</w>
           <w>rei</w>
-          <w>ueri<lb n="15" xml:id="CV188_lb_050r_15"/>tas</w>88 <w>et</w>
+          <w>ueri<lb n="15" xml:id="CV188_lb_050r_15"/>tas</w> <w>et</w>
           <w>expulsus</w>
           <w>fuerit</w>
           <w>a</w>
@@ -14366,7 +14528,7 @@
               <expan>ci<c corresp="#v">u</c>itate<ex>m</ex></expan>
             </choice>
           </w>
-          <lb n="16" xml:id="CV188_lb_050r_16"/><w>vel</w>
+          <lb n="16" xml:id="CV188_lb_050r_16"/><w><c corresp="#v">u</c>el</w>
           <w>casam</w>
           <w>suam</w>
           <w>ita</w>
@@ -14383,7 +14545,7 @@
           <w>aut</w>
           <w>thingare</w>
           <w>cuile<c corresp="#v">u</c>i<add hand="scribe_1" place="above">t</add></w>
-          <lb n="19" xml:id="CV188_lb_050r_19"/><w>personae</w>
+          <lb n="19" xml:id="CV188_lb_050r_19"/><w>persone</w>
           <w>quia</w>
           <w>in</w>
           <w>eadem</w>
@@ -14403,7 +14565,11 @@
           <w>habetur</w>
           <w>tamen</w>
           <w>dum</w>
-          <pb n="50v" xml:id="CV188_folio_050v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="50v" xml:id="CV188_folio_050v"/>
+
           <lb n="1" xml:id="CV188_lb_050v_01"/><w>ad<c corresp="#v">u</c>ixerit</w>
           <w>pro</w>
           <w>mercedis</w>
@@ -14416,7 +14582,7 @@
           <lb n="2" xml:id="CV188_lb_050v_02"/><w>de</w>
           <w>rebus</w>
           <w>suis</w>
-          <w>nutriatur</w>
+          <w>nutriantur</w>
           <choice>
             <orig><pc>:</pc></orig>
             <reg>.</reg>
@@ -14524,7 +14690,7 @@
           <w>nup<lb n="14" xml:id="CV188_lb_050v_14"/>tiis</w>
           <w>si</w>
           <w>q<space/>uis</w>
-          <w>sponsa <c corresp="#v">u</c>erit</w>
+          <w>sponsa<c corresp="#v">u</c>erit</w>
           <w>puel<lb n="15" xml:id="CV188_lb_050v_15"/>lam</w>
           <w>liberam</w>
           <w>aut</w>
@@ -14543,9 +14709,9 @@
           <lb n="18" xml:id="CV188_lb_050v_18"/><w>eam</w>
           <w>tollere</w>
           <w>et</w>
-          <w>dilata <c corresp="#v">u</c>erit</w>
+          <w>dilata<c corresp="#v">u</c>erit</w>
           <w>nup<lb n="19" xml:id="CV188_lb_050v_19"/>tias</w>
-          <w>exequi</w>
+          <w>exsequi</w>
           <w>post</w>
           <w>transactum</w>
           <lb n="20" xml:id="CV188_lb_050v_20"/><w>biennium</w>
@@ -14565,7 +14731,9 @@
             </w>
           </term>
 
-          <pb n="51r" xml:id="CV188_folio_051r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="51r" xml:id="CV188_folio_051r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">51</add></fw>
           <lb n="1" xml:id="CV188_lb_051r_01"/>
@@ -14690,7 +14858,11 @@
           <w>neclexerit</w>
           <w>sit</w>
           <w>culpa<lb n="22" rend="align_center" xml:id="CV188_lb_051r_22"/><c corresp="#v">u</c>elis</w>
-          <pb n="51v" xml:id="CV188_folio_051v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="51v" xml:id="CV188_folio_051v"/>
+
           <lb n="1" xml:id="CV188_lb_051v_01"/>
           <w>spunsus</w>
           <w>dublam</w>
@@ -14829,7 +15001,9 @@
           <w>aut</w>
           <w>frater</w>
 
-          <pb n="52r" xml:id="CV188_folio_052r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="52r" xml:id="CV188_folio_052r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">52</add></fw>
 
@@ -14959,7 +15133,9 @@
           <w>ipsa</w>
           <w>mulier</w>
 
-          <pb n="52v" xml:id="CV188_folio_052v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="52v" xml:id="CV188_folio_052v"/>
 
           <lb n="1" xml:id="CV188_lb_052v_01"/><term ref="#morgingab" xml:id="CV188_term_morgingab_182" xml:lang="lng">
             <w>morgincap</w>
@@ -15100,7 +15276,9 @@
           <w>habuerit</w>
           <w>tunc</w>
 
-          <pb n="53r" xml:id="CV188_folio_053r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="53r" xml:id="CV188_folio_053r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">53</add></fw>
 
@@ -15253,7 +15431,9 @@
           <w>suam</w>
           <w>alii</w>
 
-          <pb n="53v" xml:id="CV188_folio_053v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="53v" xml:id="CV188_folio_053v"/>
 
           <lb n="1" xml:id="CV188_lb_053v_01"/><w>ad</w>
           <w><choice>
@@ -15404,6 +15584,8 @@
           <w>est</w>
           <w>separetur</w>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
 
         <pb n="54r" xml:id="CV188_folio_054r"/>
 
@@ -15580,7 +15762,9 @@
           <w>eius</w>
           <w>faciat</w>
 
-          <pb n="54v" xml:id="CV188_folio_054v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="54v" xml:id="CV188_folio_054v"/>
 
           <lb n="1" xml:id="CV188_lb_054v_01"/><w>et</w>
           <w>mortua</w>
@@ -15725,7 +15909,9 @@
           <w>perdat</w>
           <w>maritus</w>
 
-          <pb n="55r" xml:id="CV188_folio_055r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="55r" xml:id="CV188_folio_055r"/>
 
           <lb n="1" xml:id="CV188_lb_055r_01"/><w>res</w>
           <w>mulieris</w>
@@ -15904,7 +16090,11 @@
           <w>liberam</w>
           <w>aut</w>
           <w><c corresp="#v">u</c>edua</w>
-          <pb n="55v" xml:id="CV188_folio_055v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="55v" xml:id="CV188_folio_055v"/>
+
           <lb n="1" xml:id="CV188_lb_055v_01"/>
           <w>alterius</w>
           <w>spunsata</w>
@@ -16051,7 +16241,11 @@
           <!-- lettera h fine fascicolo -->
           <add place="bottom">h</add>
           <gb n="h" rend="end"/>
-          <pb n="56r" xml:id="CV188_folio_056r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="56r" xml:id="CV188_folio_056r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">56</add></fw>
           <lb n="1" xml:id="CV188_lb_056r_01"/>
           <w>
@@ -16193,7 +16387,11 @@
           <w>conludii</w>
           <w>fraudis</w>
           <w>con<lb n="22" rend="align_right" xml:id="CV188_lb_056r_22"/>senserent</w>
-          <pb n="56v" xml:id="CV188_folio_056v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="56v" xml:id="CV188_folio_056v"/>
+
           <lb n="1" xml:id="CV188_lb_056v_01"/>
           <w>
             <choice>
@@ -16386,7 +16584,9 @@
           <w>potes<lb n="22" xml:id="CV188_lb_056v_22"/>tatem</w>
           <w>habens</w>
 
-          <pb n="57r" xml:id="CV188_folio_057r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="57r" xml:id="CV188_folio_057r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">57</add></fw>
 
@@ -16517,7 +16717,11 @@
               </choice>
             </w>
           </add>
-          <pb n="57v" xml:id="CV188_folio_057v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="57v" xml:id="CV188_folio_057v"/>
+
           <lb n="1" xml:id="CV188_lb_057v_01"/>
           <w>pater</w>
           <w>aut</w>
@@ -16657,7 +16861,9 @@
           <w>se</w>
           <w>comendare</w>
 
-          <pb n="58r" xml:id="CV188_folio_058r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="58r" xml:id="CV188_folio_058r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">58</add></fw>
 
@@ -16806,7 +17012,11 @@
           <w>nam</w>
           <w>si</w>
           <w>perse<c corresp="#v">u</c>era<c corresp="#v">u</c>erit</w>
-          <pb n="58v" xml:id="CV188_folio_058v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="58v" xml:id="CV188_folio_058v"/>
+
           <lb n="1" xml:id="CV188_lb_058v_01"/>
           <w>et</w>
           <w>dixerit</w>
@@ -16988,7 +17198,9 @@
           <w>patris</w>
           <w>au<add hand="scribe_1" place="above">t</add></w>
 
-          <pb n="59r" xml:id="CV188_folio_059r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="59r" xml:id="CV188_folio_059r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">59</add></fw>
 
@@ -17138,7 +17350,9 @@
           <w>suam</w>
           <w>occiderit</w>
 
-          <pb n="59v" xml:id="CV188_folio_059v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="59v" xml:id="CV188_folio_059v"/>
 
           <lb n="1" xml:id="CV188_lb_059v_01"/><w>inmerentem</w>
           <w>quod</w>
@@ -17297,7 +17511,11 @@
             </choice>
           </w>
           <measure quantity="1200" type="currency" unit="soldi"><w>milleducentos</w></measure>
-          <pb n="60r" xml:id="CV188_folio_060r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="60r" xml:id="CV188_folio_060r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">60</add></fw>
           <lb n="1" xml:id="CV188_lb_060r_01"/>
           <w>medietatem</w>
@@ -17481,7 +17699,9 @@
               <expan>langobar<lb rend="below"/>doru<ex>m</ex></expan>
             </choice></w>
 
-          <pb n="60v" xml:id="CV188_folio_060v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="60v" xml:id="CV188_folio_060v"/>
 
           <lb n="1" xml:id="CV188_lb_060v_1"/><w><c corresp="#v">u</c>i<c corresp="#v">u</c>entem</w>
           <w><choice>
@@ -17712,7 +17932,9 @@
             </choice></w>
           <w>alterius</w>
 
-          <pb n="61r" xml:id="CV188_folio_061r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="61r" xml:id="CV188_folio_061r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">061r</add></fw>
 
@@ -17906,7 +18128,11 @@
           <w>aldia</w>
           <del rend="casing"><w>de</w><!-- CHECK new rend value needed -->
             <w>suis</w></del>
-          <pb n="61v" xml:id="CV188_folio_061v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="61v" xml:id="CV188_folio_061v"/>
+
           <lb n="1" xml:id="CV188_lb_061v_1"/>
           <w>de</w>
           <space extent="1" unit="chars"/>
@@ -18135,7 +18361,9 @@
               <expan>parentu<ex>m</ex></expan>
             </choice></w>
 
-          <pb n="62r" xml:id="CV188_folio_062r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="62r" xml:id="CV188_folio_062r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">062r</add></fw>
 
@@ -18383,7 +18611,9 @@
               <expan>posteaqua<ex>m</ex></expan>
             </choice></w>
 
-          <pb n="62v" xml:id="CV188_folio_062v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="62v" xml:id="CV188_folio_062v"/>
 
           <lb n="1" xml:id="CV188_lb_062v_1"/><w><choice><orig>filius</orig><reg>filios</reg>
             </choice></w>
@@ -18589,7 +18819,9 @@
               <reg>aliena</reg>
             </choice></w>
 
-          <pb n="63r" xml:id="CV188_folio_063r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="63r" xml:id="CV188_folio_063r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">063r</add></fw>
 
@@ -18798,6 +19030,8 @@
           </choice>
         </p>
 
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="63v" xml:id="CV188_folio_063v"/>
 
         <p xml:id="CV188_p_063v_220">
@@ -18970,7 +19204,9 @@
           <w>propriam</w>
           <w>matrimoniare</w>
 
-          <pb n="64r" xml:id="CV188_folio_064r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="64r" xml:id="CV188_folio_064r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">064r</add></fw>
 
@@ -19175,7 +19411,9 @@
           <w>voluerit</w>
           <orig>:</orig>
 
-          <pb n="64v" xml:id="CV188_folio_064v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="64v" xml:id="CV188_folio_064v"/>
 
           <lb n="1" xml:id="CV188_lb_064v_1"/><w>sit</w>
           <w>licentia</w>
@@ -19367,7 +19605,9 @@
             <reg>.</reg>
           </choice>
 
-          <pb n="65r" xml:id="CV188_folio_065r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="65r" xml:id="CV188_folio_065r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">065r</add></fw>
 
@@ -19561,6 +19801,8 @@
             <reg>.</reg>
           </choice>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
 
         <pb n="65v" xml:id="CV188_folio_065v"/>
 
@@ -19764,6 +20006,8 @@
           </choice>
         </p>
 
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="66r" xml:id="CV188_folio_066r"/>
 
         <fw place="top-right" type="fol"><add hand="unknown">066r</add></fw>
@@ -19924,7 +20168,11 @@
               <reg>ipsam</reg>
             </choice></w>
           <w>conpa<lb rend="below"/>rassit</w>
-          <pb n="66v" xml:id="CV188_folio_066v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="66v" xml:id="CV188_folio_066v"/>
+
           <lb n="1" xml:id="CV188_lb_066v_1"/><w>nec</w>
           <w>alteri</w>
           <w>debeat</w>
@@ -20092,7 +20340,11 @@
               <orig><abbr>sagramen<lb rend="below"/>t<am><g ref="#umacr"/></am></abbr></orig>
               <reg><expan>sacramen<lb rend="below"/>tu<ex>m</ex></expan></reg>
             </choice></w>
-          <pb n="67r" xml:id="CV188_folio_067r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="67r" xml:id="CV188_folio_067r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">067r</add></fw>
           <lb n="1" xml:id="CV188_lb_067r_1"/>
           <w>quod</w>
@@ -20267,7 +20519,11 @@
           <w>diae</w>
           <w>illa</w>
           <orig><pc>.</pc></orig>
-          <pb n="67v" xml:id="CV188_folio_067v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="67v" xml:id="CV188_folio_067v"/>
+
           <lb n="1" xml:id="CV188_lb_067v_1"/>
           <w>quando</w>
           <w>eam</w>
@@ -20477,7 +20733,9 @@
           <w>habuerit</w>
           <w>nec</w>
 
-          <pb n="68r" xml:id="CV188_folio_068r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="68r" xml:id="CV188_folio_068r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">068r</add></fw>
 
@@ -20662,7 +20920,11 @@
           <w>terram</w>
           <w>neque</w>
           <w>mancipia</w>
-          <pb n="68v" xml:id="CV188_folio_068v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="68v" xml:id="CV188_folio_068v"/>
+
           <lb n="1" xml:id="CV188_lb_068v_1"/>
           <w>neque</w>
           <w>qualemcumque</w>
@@ -20843,7 +21105,11 @@
           <lb n="21" xml:id="CV188_lb_068v_21"/>
           <w>anticum</w>
           <w>extermina<c corresp="#v">u</c>erit</w>
-          <pb n="69r" xml:id="CV188_folio_069r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="69r" xml:id="CV188_folio_069r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">069r</add></fw>
           <lb n="1" xml:id="CV188_lb_069r_1"/>
           <w>et</w>
@@ -21063,7 +21329,11 @@
               <abbr>decern<g ref="#emacr"/><lb rend="below"/>das</abbr>
               <expan>decerne<ex>n</ex><lb rend="below"/>das</expan>
             </choice></w>
-          <pb n="69v" xml:id="CV188_folio_069v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="69v" xml:id="CV188_folio_069v"/>
+
           <lb n="1" xml:id="CV188_lb_069v_1"/>
           <w>inciderit</w>
           <w>aut</w>
@@ -21310,7 +21580,10 @@
           </choice>
         </p>
 
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="70r" xml:id="CV188_folio_070r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">070r</add></fw>
         <p xml:id="CV188_p_070r_244">
           <lb n="1" type="rubric" xml:id="CV188_lb_070r_1"/>
@@ -21531,7 +21804,11 @@
               <orig>presump<lb rend="below"/>serit</orig>
               <reg>praesumpserit</reg>
             </choice></w>
-          <pb n="70v" xml:id="CV188_folio_070v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="70v" xml:id="CV188_folio_070v"/>
+
           <lb n="1" xml:id="CV188_lb_070v_1"/>
           <w>antequam</w>
           <w>tertium</w>
@@ -21724,7 +22001,9 @@
             <reg>.</reg>
           </choice>
 
-          <pb n="71r" xml:id="CV188_folio_071r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="71r" xml:id="CV188_folio_071r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">071r</add></fw>
 
@@ -21951,6 +22230,8 @@
           </choice>
         </p>
 
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="71v" xml:id="CV188_folio_071v"/>
 
         <p xml:id="CV188_p_071v_250">
@@ -22132,7 +22413,11 @@
           <w>casa</w>
           <w>ordinata</w>
           <w>tri<supplied reason="illegible" resp="leges">bu</supplied><lb rend="below"/>taria</w>
-          <pb n="72r" xml:id="CV188_folio_072r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="72r" xml:id="CV188_folio_072r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">072r</add></fw>
           <lb n="1" type="rubric" xml:id="CV188_lb_072r_1"/>
           <w><choice>
@@ -22333,7 +22618,11 @@
           <w>fecerit</w>
           <w>ipse</w>
           <w>qui</w>
-          <pb n="72v" xml:id="CV188_folio_072v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="72v" xml:id="CV188_folio_072v"/>
+
           <lb n="1" xml:id="CV188_lb_072v_1"/>
           <w>pignera<c corresp="#v">u</c>erit</w>
           <w>in</w>
@@ -22544,7 +22833,11 @@
           <w>certum</w>
           <w>indica<lb rend="below"/>torem</w>
           <orig><pc>:</pc></orig>
-          <pb n="73r" xml:id="CV188_folio_073r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="73r" xml:id="CV188_folio_073r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">073r</add></fw>
           <lb n="1" xml:id="CV188_lb_073r_1"/>
           <w>furtum</w>
@@ -22761,7 +23054,10 @@
           </choice>
         </p>
 
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="73v" xml:id="CV188_folio_073v"/>
+
         <p xml:id="CV188_p_073v_258">
           <lb n="1" type="rubric" xml:id="CV188_lb_073v_1"/>
           <label n="258"><num><w>CCL<am><g ref="#romnumsix"/></am>II</w></num></label>
@@ -22935,7 +23231,10 @@
           </choice>
         </p>
 
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="74r" xml:id="CV188_folio_074r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">074r</add></fw>
         <p xml:id="CV188_p_074r_261">
           <lb n="1" type="rubric" xml:id="CV188_lb_074r_1"/>
@@ -23118,7 +23417,11 @@
           <w>ser<c corresp="#v">u</c>i</w>
           <w>leceat</w>
           <w>eos</w>
-          <pb n="74v" xml:id="CV188_folio_074v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="74v" xml:id="CV188_folio_074v"/>
+
           <lb n="1" xml:id="CV188_lb_074v_01"/>
           <w>si</w>
           <w>volueren<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">t</supplied></w>
@@ -23258,7 +23561,11 @@
               <expan>sacrame<ex>n</ex><lb n="22" rend="align_right" xml:id="CV188_lb_074v_22_expan"/>tum</expan>
             </choice>
           </w>
-          <pb n="75r" xml:id="CV188_folio_075r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="75r" xml:id="CV188_folio_075r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">75</add></fw>
           <lb n="1" xml:id="CV188_lb_075r_01"/>
           <w>res</w>
@@ -23407,7 +23714,11 @@
           <w>cum</w>
           <w>aliquas</w>
           <lb n="22" rend="align_right" xml:id="CV188_lb_075r_22"/><w>res</w>
-          <pb n="75v" xml:id="CV188_folio_075v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="75v" xml:id="CV188_folio_075v"/>
+
           <lb n="1" xml:id="CV188_lb_075v_01"/>
           <w>forti<c corresp="#v">u</c>as</w>
           <w>collegas</w>
@@ -23551,7 +23862,11 @@
           <w>et</w>
           <w>cogno<c corresp="#v">u</c>erit</w>
           <w>quia</w>
-          <pb n="76r" xml:id="CV188_folio_076r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="76r" xml:id="CV188_folio_076r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">76</add></fw>
           <lb n="1" xml:id="CV188_lb_076r_01"/><w>fugax</w>
           <w>est</w>
@@ -23739,7 +24054,11 @@
             </choice>
           </w>
           <lb n="22" rend="align_right" xml:id="CV188_lb_076r_22"/><w><damage agent="rubbing">reddere</damage></w>
-          <pb n="76v" xml:id="CV188_folio_076v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="76v" xml:id="CV188_folio_076v"/>
+
           <lb n="1" xml:id="CV188_lb_076v_01"/>
           <w>reddere</w>
           <w>tunc</w>
@@ -23890,7 +24209,11 @@
           <w>secerdo<lb n="21" xml:id="CV188_lb_076v_21"/>tis</w>
           <w>mancipius</w>
           <w>cuiuscumque</w>
-          <pb n="77r" xml:id="CV188_folio_077r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="77r" xml:id="CV188_folio_077r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">77</add></fw>
           <lb n="1" xml:id="CV188_lb_077r_01"/>
           <w>confugium</w>
@@ -24067,7 +24390,11 @@
               <expan>curte<ex>m</ex></expan>
             </choice>
           </w>
-          <pb n="77v" xml:id="CV188_folio_077v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="77v" xml:id="CV188_folio_077v"/>
+
           <lb n="1" xml:id="CV188_lb_077v_01"/>
           <w>alterius</w>
           <w>fororem</w>
@@ -24208,6 +24535,8 @@
           <w>si</w>
           <w><c corresp="#v">u</c>oluerit</w>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
 
         <pb n="78r" xml:id="CV188_folio_078r"/><!-- CHECK quante righe ha questo foglio??? -->
 
@@ -25298,11 +25627,16 @@
         </p>
         <label><num><w>CC<lb n="37" xml:id="CV188_lb_078r_37"/>LXXVIIII</w></num></label><!-- CHECK manca nuovo p? -->
         <anchor xml:id="end_folio"/>
+
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="78v" xml:id="CV188_folio_078v"/>
         
         <lb/>
 
         <!-- 78v pagina bianca--><!-- CHECK gap? -->
+
+        <!-- #######################################  folio   ####################################### -->
 
         <pb n="79r" xml:id="CV188_folio_079r"/>
 
@@ -25517,7 +25851,11 @@
           <w>si</w>
           <w>quis</w>
           <w>axe<lb n="22" rend="align_right" xml:id="CV188_lb_079r_22"/>gias</w>
-          <pb n="79v" xml:id="CV188_folio_079v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="79v" xml:id="CV188_folio_079v"/>
+
           <lb n="1" xml:id="CV188_lb_079v_01"/>
           <w>de</w>
           <w>sepe</w>
@@ -25680,7 +26018,11 @@
           <w>mediogr<space quantity="1" unit="chars"/>em</w>
           <w>unde</w>
           <w>sex</w>
-          <pb n="80r" xml:id="CV188_folio_080r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="80r" xml:id="CV188_folio_080r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">80</add></fw>
           <lb n="1" xml:id="CV188_lb_080r_01"/>
           <w>
@@ -25865,7 +26207,11 @@
             <reg>.</reg>
           </choice>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="80v" xml:id="CV188_folio_080v"/>
+
         <p n="297" xml:id="CV188_p_080v_297"><lb n="1" type="rubric" xml:id="CV188_lb_080v_01"/><label><num><w>CCXC<g
                   ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
@@ -26051,7 +26397,11 @@
           </w>
           <gap extent="3" unit="chars"/><supplied resp="leges">uno</supplied>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="81r" xml:id="CV188_folio_081r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">81</add></fw>
         <p n="302" xml:id="CV188_p_081r_302"><lb n="1" type="rubric" xml:id="CV188_lb_081r_01"
               /><label><num><w>CCCII</w></num></label>
@@ -26227,7 +26577,11 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice>
-          <pb n="81v" xml:id="CV188_folio_081v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="81v" xml:id="CV188_folio_081v"/>
+
           <lb n="1" xml:id="CV188_lb_081v_01"/>
           <w>et</w>
           <w>ca<c corresp="#v">u</c>allus</w>
@@ -26379,7 +26733,11 @@
           </w>
           <w>ipsa</w>
           <w>penetra<c corresp="#v">u</c>it</w>
-          <pb n="82r" xml:id="CV188_folio_082r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="82r" xml:id="CV188_folio_082r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">82</add></fw>
           <lb n="1" xml:id="CV188_lb_082r_01"/><w>et</w>
           <w>contrario</w>
@@ -26529,7 +26887,11 @@
           <w>aut</w>
           <w>incita<c corresp="#v">u</c>it</w>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="82v" xml:id="CV188_folio_082v"/>
+
         <p n="310" xml:id="CV188_p_082v_310"><lb n="1" type="rubric" xml:id="CV188_lb_082v_01"
               /><label><num><w>CCCX</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
@@ -26714,7 +27076,11 @@
             <reg>.</reg>
           </choice>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="83r" xml:id="CV188_folio_083r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">83</add></fw>
         <p n="313" xml:id="CV188_p_083r_313"><lb n="1" type="rubric" xml:id="CV188_lb_083r_01"
                 /><label><num><w>CCCXIII</w></num></label>
@@ -26906,7 +27272,11 @@
               <expan>domesti<lb n="22" rend="align_right" xml:id="CV188_lb_083r_22_expan"/>cu<ex>m</ex></expan>
             </choice>
           </w>
-          <pb n="83v" xml:id="CV188_folio_083v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="83v" xml:id="CV188_folio_083v"/>
+
           <lb n="1" xml:id="CV188_lb_083v_01"/>
           <w>alienum</w>
           <w>qui</w>
@@ -27138,7 +27508,11 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice>
-          <pb n="84r" xml:id="CV188_folio_084r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="84r" xml:id="CV188_folio_084r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">84</add></fw>
           <lb n="1" xml:id="CV188_lb_084r_01"/>
           <w>excepto</w>
@@ -27351,7 +27725,11 @@
             <reg>.</reg>
           </choice>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="84v" xml:id="CV188_folio_084v"/>
+
         <p n="324" xml:id="CV188_p_084v_324"><lb n="1" type="rubric" xml:id="CV188_lb_084v_01"
                 /><label><num><w>CCCXXIIII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
@@ -27498,7 +27876,11 @@
             <reg>.</reg>
           </choice>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="85r" xml:id="CV188_folio_085r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">85</add></fw>
         <p n="327" xml:id="CV188_p_085r_327"><lb n="1" type="rubric" xml:id="CV188_lb_085r_01"/><label><num><w>CCCXX<g
                   ref="#romnumsix"/>I</w></num></label>
@@ -27641,7 +28023,11 @@
           <w>hoc</w>
           <w>fecit</w>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="85v" xml:id="CV188_folio_085v"/>
+
         <p n="329" xml:id="CV188_p_085v_329"><lb n="1" type="rubric" xml:id="CV188_lb_085v_01"/><label><num><w>CCCXX<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
@@ -27801,7 +28187,11 @@
           <w>si</w>
           <w>mortua</w>
           <w>fueri<add hand="scribe_1" place="above">t</add></w>
-          <pb n="86r" xml:id="CV188_folio_086r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="86r" xml:id="CV188_folio_086r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">86</add></fw>
           <lb n="1" xml:id="CV188_lb_086r_01"/>
           <w>reddat</w>
@@ -27980,7 +28370,11 @@
           <w>in</w>
           <w>flumen</w>
           <w>animal</w>
-          <pb n="86v" xml:id="CV188_folio_086v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="86v" xml:id="CV188_folio_086v"/>
+
           <lb n="1" xml:id="CV188_lb_086v_01"/>
           <w>mortuus</w>
           <w>fuerit</w>
@@ -28142,7 +28536,11 @@
           <w>usque</w>
           <add place="bottom">m</add>
           <gb n="M" rend="end"/>
-          <pb n="87r" xml:id="CV188_folio_087r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="87r" xml:id="CV188_folio_087r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">87</add></fw>
           <lb n="1" xml:id="CV188_lb_087r_01"/>
           <w>suam</w>
@@ -28308,7 +28706,11 @@
           <w>ca<c corresp="#v">u</c>allum</w>
           <w>alienum</w>
           <w>pre<lb n="22" rend="align_right" xml:id="CV188_lb_087r_22"/>serit</w>
-          <pb n="87v" xml:id="CV188_folio_087v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="87v" xml:id="CV188_folio_087v"/>
+
           <lb n="1" xml:id="CV188_lb_087v_01"/>
           <w>ipsumque</w>
           <w>disfigura<c corresp="#v">u</c>erit</w>
@@ -28468,7 +28870,11 @@
           <w>cogno<c corresp="#v">u</c>erit</w>
           <w>quod</w>
           <w>suo<add hand="scribe_1" place="above">s</add></w>
-          <pb n="88r" xml:id="CV188_folio_088r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="88r" xml:id="CV188_folio_088r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">88</add></fw>
           <lb n="1" xml:id="CV188_lb_088r_01"/>
           <w>non</w>
@@ -28608,7 +29014,11 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice>
-          <pb n="88v" xml:id="CV188_folio_088v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="88v" xml:id="CV188_folio_088v"/>
+
           <lb n="1" xml:id="CV188_lb_088v_01"/>
           <w>et</w>
           <w>cum</w>
@@ -28757,7 +29167,11 @@
           <w>in</w>
           <w>damnum</w>
           <w>alterius</w>
-          <pb n="89r" xml:id="CV188_folio_089r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="89r" xml:id="CV188_folio_089r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">89</add></fw>
           <lb n="1" xml:id="CV188_lb_089r_01"/>
           <w>miserit</w>
@@ -28911,7 +29325,9 @@
           <w>dispexerit</w>
           <choice><orig><pc>:</pc></orig><reg>.</reg></choice><del rend="erasure">p</del>
 
-          <pb n="89v" xml:id="CV188_folio_089v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="89v" xml:id="CV188_folio_089v"/>
 
           <lb n="1" xml:id="CV188_lb_089v_01"/>
           <w>tunc</w>
@@ -29044,7 +29460,11 @@
             <reg>.</reg>
           </choice>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="90r" xml:id="CV188_folio_090r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">90</add></fw>
         <p n="348" xml:id="CV188_p_090r_348"><lb n="1" type="rubric" xml:id="CV188_lb_090r_01"/><label><num><w>CCCXL<g
                   ref="#romnumsix"/>II</w></num></label>
@@ -29164,7 +29584,11 @@
             <reg>.</reg>
           </choice>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="90v" xml:id="CV188_folio_090v"/>
+
         <p n="349" xml:id="CV188_p_090v_349"><lb n="1" type="rubric" xml:id="CV188_lb_090v_01"/><label><num><w>CCCXL<g
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
@@ -29320,7 +29744,9 @@
             <w>alios</w>
             <w><c corresp="#v">u</c>erres</w>
 
-            <pb n="91r" xml:id="CV188_folio_091r"/>
+            <!-- #######################################  folio   ####################################### -->
+
+        <pb n="91r" xml:id="CV188_folio_091r"/>
 
             <fw place="top-right" type="fol"><add hand="unknown">91</add></fw>
             <lb n="1" xml:id="CV188_lb_091r_01"/>
@@ -29474,7 +29900,9 @@
             </choice>
           </w>
 
-          <pb n="91v" xml:id="CV188_folio_091v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="91v" xml:id="CV188_folio_091v"/>
 
           <lb n="1" xml:id="CV188_lb_091v_01"/><w>comittat</w>
           <w>nam</w>
@@ -29628,7 +30056,11 @@
             <reg>.</reg>
           </choice>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="92r" xml:id="CV188_folio_092r"/>
+
         <fw place="top-right" type="fol"><add hand="unknown">92</add></fw>
         <p n="356" xml:id="CV188_p_092r_356"><lb n="1" type="rubric" xml:id="CV188_lb_092r_01"/><label><num><w>CCCL<g
                   ref="#romnumsix"/></w></num></label>
@@ -29787,7 +30219,11 @@
           <term ref="#actogild" xml:id="CV188_term_actogild_358" xml:lang="lng">
             <w>actogild</w>
           </term>
-          <pb n="92v" xml:id="CV188_folio_092v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="92v" xml:id="CV188_folio_092v"/>
+
           <lb n="1" xml:id="CV188_lb_092v_01"/>
           <w>ipsus</w>
           <w>ca<c corresp="#v">u</c>allus</w>
@@ -29936,7 +30372,9 @@
           <w>sibi</w>
           <w>elegat</w>
 
-          <pb n="93r" xml:id="CV188_folio_093r"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="93r" xml:id="CV188_folio_093r"/>
 
           <fw place="top-right" type="fol"><add hand="unknown">93</add></fw>
 
@@ -30107,6 +30545,8 @@
           </choice>
         </p>
         
+        <!-- #######################################  folio   ####################################### -->
+
         <pb n="93v" xml:id="CV188_folio_093v"/><!-- CHECK aggiunto 20240811 -->
        
         <p n="361" xml:id="CV188_p_093v_361"><lb n="1" type="rubric" xml:id="CV188_lb_093v_01"
@@ -30227,7 +30667,11 @@
           <w>audire</w>
           <w>et</w>
           <w>anno</w>
-          <pb n="94r" xml:id="CV188_folio_094r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="94r" xml:id="CV188_folio_094r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">94</add></fw>
           <lb n="1" xml:id="CV188_lb_094r_01"/><w>toto</w>
           <w>protraxerit</w>
@@ -30350,7 +30794,11 @@
           <w>aliquis</w>
           <w>de</w>
           <w>ipsos</w>
-          <pb n="94v" xml:id="CV188_folio_094v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="94v" xml:id="CV188_folio_094v"/>
+
           <lb n="1" xml:id="CV188_lb_094v_01"/>
           <w>sacramentalis</w>
           <w>mortuos</w>
@@ -30461,7 +30909,11 @@
           <!-- lettera N fine fascicolo -->
           <add place="bottom">N</add>
           <gb n="N" rend="end"/>
-          <pb n="95r" xml:id="CV188_folio_095r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="95r" xml:id="CV188_folio_095r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">95</add></fw>
           <lb n="1" xml:id="CV188_lb_095r_01"/>
           <w>tunc</w>
@@ -30589,7 +31041,9 @@
 
         <p n="365" xml:id="CV188_p_095v_365">
           
-          <pb n="95v" xml:id="CV188_folio_095v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="95v" xml:id="CV188_folio_095v"/>
           
           <lb n="1" type="rubric" xml:id="CV188_lb_095v_01"/><label><num><w>CCCLXV</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
@@ -30712,7 +31166,11 @@
           <w>aut</w>
           <w>ad</w>
           <lb n="22" rend="align_right" xml:id="CV188_lb_095v_22"/><w>arma</w>
-          <pb n="96r" xml:id="CV188_folio_096r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="96r" xml:id="CV188_folio_096r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">96</add></fw>
           <lb n="1" xml:id="CV188_lb_096r_01"/>
           <w>quia</w>
@@ -30864,7 +31322,11 @@
           <w>sua</w>
           <w>que</w>
           <w>con<c corresp="#v">u</c>e<lb n="21" rend="align_right" xml:id="CV188_lb_096r_21"/>nit</w>
-          <pb n="96v" xml:id="CV188_folio_096v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="96v" xml:id="CV188_folio_096v"/>
+
           <lb n="1" xml:id="CV188_lb_096v_01"/><w>et</w>
           <w>si</w>
           <w>suspicio</w>
@@ -30977,7 +31439,11 @@
           <w>que</w>
           <w>semelis</w>
           <w>sunt</w>
-          <pb n="97r" xml:id="CV188_folio_097r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="97r" xml:id="CV188_folio_097r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">97</add></fw>
           <lb n="1" xml:id="CV188_lb_097r_01"/>
           <w>unde</w>
@@ -31122,7 +31588,11 @@
           <w>de</w>
           <w>quas</w>
           <w>supra</w>
-          <pb n="97v" xml:id="CV188_folio_097v"/>
+          
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="97v" xml:id="CV188_folio_097v"/>
+
           <lb n="1" xml:id="CV188_lb_097v_01"/>
           <w>in</w>
           <w>hoc</w>
@@ -31308,7 +31778,11 @@
           <measure quantity="80" type="currency" unit="soldi">
             <w>octugen<lb n="22" rend="align_right" xml:id="CV188_lb_097v_22"/>ta</w>
           </measure>
-          <pb n="98r" xml:id="CV188_folio_098r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="98r" xml:id="CV188_folio_098r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">98</add></fw>
           <lb n="1" xml:id="CV188_lb_098r_01"/>
           <w>et</w>
@@ -31454,7 +31928,11 @@
           <w>proprium</w>
           <w>nomine</w>
           <w><c corresp="#v">u</c>indicet</w>
-          <pb n="98v" xml:id="CV188_folio_098v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="98v" xml:id="CV188_folio_098v"/>
+
           <lb n="1" xml:id="CV188_lb_098v_01"/>
           <w>nec</w>
           <w>ipse</w>
@@ -31611,7 +32089,11 @@
               <expan>medieta<lb n="22" rend="align_right" xml:id="CV188_lb_098v_22_expan"/>te<ex>m</ex></expan>
             </choice>
           </w>
-          <pb n="99r" xml:id="CV188_folio_099r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="99r" xml:id="CV188_folio_099r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">99</add></fw>
           <lb n="1" xml:id="CV188_lb_099r_01"/>
           <w>cuius</w>
@@ -31752,7 +32234,11 @@
               <expan>fratre<ex>m</ex></expan>
             </choice>
           </w>
-          <pb n="99v" xml:id="CV188_folio_099v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="99v" xml:id="CV188_folio_099v"/>
+
           <lb n="01" xml:id="CV188_lb_099v_01"/>
           <w>ipsius</w>
           <w>mulieris</w>
@@ -31885,7 +32371,11 @@
           <w><hi rend="decorated">S</hi>i</w>
           <w>peculium</w>
           <w>suum</w>
-          <pb n="100r" xml:id="CV188_folio_100r"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="100r" xml:id="CV188_folio_100r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">100</add></fw>
           <lb n="1" xml:id="CV188_lb_100r_01"/>
           <w>de</w>
@@ -32079,7 +32569,11 @@
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>hominem</w>
-          <pb n="100v" xml:id="CV188_folio_100v"/>
+
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="100v" xml:id="CV188_folio_100v"/>
+
           <lb n="1" xml:id="CV188_lb_100v_01"/>
           <w>liberum</w>
           <w>surgentem</w>
@@ -32283,7 +32777,11 @@
           <w>de<c corresp="#v">u</c>itum</w>
           <w>si</w>
           <w>mundio</w>
-          <pb n="101r" xml:id="CV188_folio_101r"/>
+ 
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="101r" xml:id="CV188_folio_101r"/>
+
           <fw place="top-right" type="fol"><add hand="unknown">101</add></fw>
           <lb n="1" xml:id="CV188_lb_101r_01"/>
           <w>de</w>
@@ -32415,7 +32913,9 @@
           <lb n="21" xml:id="CV188_lb_101r_21"/><w>cunctosque</w>
           <w>felicissimum</w>
 
-          <pb n="101v" xml:id="CV188_folio_101v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="101v" xml:id="CV188_folio_101v"/>
 
           <lb n="1" xml:id="CV188_lb_101v_01"/><w>exercitum</w>
           <w>nostrum</w>
@@ -32517,6 +33017,8 @@
             <reg>.</reg>
           </choice>
         </p>
+
+        <!-- #######################################  folio   ####################################### -->
 
         <pb n="102r" xml:id="CV188_folio_102r"/>
 
@@ -32645,7 +33147,9 @@
           <w>notario</w>
           <w>nostro</w>
 
-          <pb n="102v" xml:id="CV188_folio_102v"/>
+          <!-- #######################################  folio   ####################################### -->
+
+        <pb n="102v" xml:id="CV188_folio_102v"/>
 
           <lb n="1" xml:id="CV188_lb_102v_01"/><w>scriptum</w>
           <w>aut</w>

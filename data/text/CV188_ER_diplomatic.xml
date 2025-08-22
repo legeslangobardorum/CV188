@@ -15185,7 +15185,7 @@
           <w>quod</w>
           <w>ei</w>
           <w>denega<c corresp="#v">u</c>erunt</w><!-- legatura NT -->
-          <lb n="8" xml:id="CV188_lb_052v_08"/><w>volontatem</w>
+          <lb n="8" xml:id="CV188_lb_052v_08"/><w><c corresp="#v">u</c>olontatem</w>
           <w>suam</w>
           <w>ideo</w>
           <w>redeat</w>
@@ -15307,7 +15307,7 @@
 
         <p n="183" xml:id="CV188_p_053r_183"><lb n="3" type="rubric" xml:id="CV188_lb_053r_03"
                 /><label><num><w>CLXXXIII</w></num></label>
-          <w><hi rend="decorated">D</hi>/>e</w>
+          <w><hi rend="decorated">D</hi>e</w>
           <w>traditionem</w>
           <w>puelle</w>
           <lb n="4" xml:id="CV188_lb_053r_04"/><w>aut</w>
@@ -16294,14 +16294,11 @@
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
-          <w>d<subst>
-              <del rend="overwrite">o</del>
-              <add hand="scribe_1" place="inline">u</add>
-            </subst>blam</w>
+          <w>d<subst><del rend="overwrite">o</del><add hand="scribe_1" place="inline">u</add></subst>bla</w>
           <term ref="#meta" xml:id="CV188_term_meta_191" xml:lang="lng">
             <w>meta</w>
           </term>
-          <w>qua<am><g ref="#ntilde"/></am><lb n="7" xml:id="CV188_lb_056r_07"/>tum</w><!-- CHECK miss abbr -->
+          <w>qua<am><g ref="#ntilde"/></am><lb n="7" xml:id="CV188_lb_056r_07"/>tum</w><!-- CHECK superscript S instead of macron??? -->
           <w>dictum</w>
           <w>est</w>
           <w>in</w>
@@ -16660,7 +16657,6 @@
             <w>mundium</w>
           </term>
           <lb n="14" xml:id="CV188_lb_057r_14"/><w>eius</w>
-          <w>in</w>
           <w>potestatem</w>
           <w>debeat</w>
           <w>habere</w>
@@ -16708,7 +16704,6 @@
           <w>habens</w>
           <w>in</w>
           <w>excepto</w>
-          <w>potestatem</w>
           <add hand="scribe_2" place="above">
             <w>
               <choice>
@@ -17481,15 +17476,15 @@
           <w>occisa</w>
           <lb n="19" xml:id="CV188_lb_059v_19"/><w>si</w>
           <w>qu<space extent="3" unit="chars"/>is</w>
-          <w>puellam</w>
+          <w>puella<space extent="1" unit="chars"/>m</w>
+          <w>liberam</w>
           <w>aut</w>
           <w>mu<lb n="20" xml:id="CV188_lb_059v_20"/>lierem</w>
-          <w>liberam</w>
           <w>per</w>
           <w>
             <choice>
               <orig>quale<c corresp="#v">u</c>it</orig>
-              <reg>qualibit</reg>
+              <reg>qualibet</reg>
             </choice></w>
           <w>
             <choice>
@@ -17695,8 +17690,8 @@
             </choice></w>
           <w>legis</w>
           <w><choice>
-              <abbr>langobar<lb rend="below"/>dor<am><g ref="#umacr"/></am></abbr>
-              <expan>langobar<lb rend="below"/>doru<ex>m</ex></expan>
+              <orig><abbr>langobar<lb rend="below"/>dor<am><g ref="#umacr"/></am></abbr></orig>
+              <reg><expan>Langobar<lb rend="below"/>doru<ex>m</ex></expan></reg>
             </choice></w>
 
           <!-- #######################################  folio   ####################################### -->
@@ -17704,12 +17699,15 @@
         <pb n="60v" xml:id="CV188_folio_060v"/>
 
           <lb n="1" xml:id="CV188_lb_060v_1"/><w><c corresp="#v">u</c>i<c corresp="#v">u</c>entem</w>
-          <w><choice>
+          <w><choice><!-- CHECK orig/reg? -->
               <sic>leceat</sic>
               <corr>liceat</corr>
             </choice></w>
           <w>in</w>
-          <w>sui</w>
+          <w><choice>
+            <sic>suis</sic>
+            <corr>sui</corr>
+          </choice></w>
           <w>potesta<lb n="2" xml:id="CV188_lb_060v_2"/>tem</w>
           <w>arbitrium</w>
           <term ref="#selpmundia" xml:id="CV188_term_selpmundia_204" xml:lang="lng">
@@ -18808,7 +18806,7 @@
           <w>aldia</w>
           <w>aut</w>
           <lb n="21" xml:id="CV188_lb_062v_21"/>
-          <w>liberta</w>
+          <w>libera</w>
           <w>in</w>
           <w><choice>
               <orig>casam</orig>
@@ -18918,7 +18916,7 @@
               <reg>quia</reg>
             </choice></w>
           <w>ser<c corresp="#v">u</c>um</w>
-          <add place="above"><w>volum<gap extent="5" reason="illegible" unit="chars"/></w></add><!-- CHECK hand -->
+          <add place="above"><w><c corresp="#v">u</c>olum<gap extent="5" reason="illegible" unit="chars"/></w></add><!-- CHECK hand -->
           <!-- CHECK supplied aris? -->
           <w>consensit</w>
           <choice>
@@ -19371,11 +19369,13 @@
             </choice></w>
           <add place="above">
             <w>aut</w>
-            <w><choice><!-- CHECK better sic/corr? -->
-                <orig><abbr>ali<g ref="#amacr"/></abbr></orig>
-                <!-- see diary -->
-                <reg>aliquam</reg>
-              </choice></w>
+            <w>
+              <choice>
+                <abbr>ali<am><g ref="#amacr"/></am></abbr>
+                <!-- CHECK see transcriber's diary, RRDT corrected removing orig/reg, transcriber considered sic/corr -->
+                <expan>alia<ex>m</ex></expan>
+              </choice>
+            </w>
           </add>
           <w>repetitionem</w>
           <w>ce<space extent="2" unit="chars"/>cidit</w>

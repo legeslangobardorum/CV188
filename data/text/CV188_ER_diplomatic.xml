@@ -594,7 +594,10 @@
     - mantenere solidos invece di regolarizzare in solidus (?)
     - visualizzare supplied solo nell'interpretativa
     - sostituire <charDecl> con quella esterna
-    - <lb rend="align_right" type="extra"/>: sistematizzare, controllare che sia la stessa forma su tutti i testimoni
+    - <lb rend="align_right" type="extra"/>: sistematizzare, controllare che sia la stessa forma su tutti i testimoni (anche con align_center etc.)
+         altre forme utilizzate: <lb rend="below"/>, <add place="below"/>
+         solo per la diplomatica?
+         CSS per gestire la posizione?
 
     + cambiare resp="leges" in resp="leges" (o altro) in tutti i testimoni
     + valutare se mantenere dittongo ae nelle forme regolarizzate (es. adpraetiatum ma forse più corretto adpretiatum) >>> mantenere registro linguistico uniforme
@@ -20032,7 +20035,7 @@
           <w>legibus</w>
           <w>domi<lb n="4" xml:id="CV188_lb_066r_4"/>norum</w>
           <w>et</w>
-          <w>benefacturibus</w>
+          <w>benefactoribus</w>
           <w><c corresp="#v">u</c>i<c corresp="#v">u</c>ere</w>
           <lb n="5" xml:id="CV188_lb_066r_5"/><w><choice>
               <sic>deueant</sic>
@@ -20404,7 +20407,10 @@
               <sic>sagramen<lb n="8" xml:id="CV188_lb_067r_8_sic"/>tum</sic>
               <corr>sacramen<lb n="8" xml:id="CV188_lb_067r_8_corr"/>tum</corr>
             </choice></w>
-          <w>singulus</w>
+          <w><choice>
+            <orig>singolus</orig>
+            <reg>singulus</reg>
+          </choice></w>
           <w>quod</w>
           <w>in</w>
           <w><choice>
@@ -21797,6 +21803,7 @@
               <orig><abbr>de<c corresp="#v">u</c>it<am><g ref="#umacr"/></am></abbr></orig>
               <reg><expan>debitu<ex>m</ex></expan></reg>
             </choice></w>
+          <lb n="21" xml:id="CV188_lb_070r_21"/>
           <w>aut</w>
           <w>causam</w>
           <w>pignerare</w>
@@ -22222,6 +22229,7 @@
               <expan>suu<ex>m</ex></expan>
             </choice></w>
           <lb rend="below"/>
+          <lb n="22" xml:id="CV188_lb_071r_22"/>
           <w>secutus</w>
           <w>est</w>
           <choice>
@@ -22262,7 +22270,7 @@
           <w>regis</w>
           <w>sibi</w>
           <w>nonum</w>
-          <w>red<supplied reason="illegible" resp="leges">dat</supplied></w>
+          <w>redd<supplied reason="illegible" resp="leges">at</supplied></w>
           <reg>.</reg>
         </p>
 
@@ -22292,7 +22300,10 @@
             </choice></w>
           <w>aut</w>
           <w>b<supplied reason="illegible" resp="leges">o</supplied><lb n="8" xml:id="CV188_lb_071v_8"/><c corresp="#v">u</c>es</w>
-          <w>iunctorios</w>
+          <w><choice>
+            <sic>iniuctorios</sic>
+            <corr>iunctorios</corr>
+          </choice></w>
           <w>seu</w>
           <w><c corresp="#v">u</c>accas</w>
           <orig><pc>.</pc></orig>
@@ -22523,9 +22534,9 @@
           <w>reddens</w>
           <w>non</w>
           <w>libe<lb n="11" xml:id="CV188_lb_072r_11"/>ra<c corresp="#v">u</c>erit</w>
-          <w>et</w>
+          <w>et</w><!-- CHECK missing added text -->
           <w>post</w>
-          <w>transactus</w>
+          <w>transactos</w>
           <w><choice>
               <orig><num value="20">XX</num></orig>
               <reg><num value="20">viginti</num></reg>
@@ -22561,11 +22572,13 @@
               <sic>aliui</sic>
               <corr>alibi</corr>
             </choice></w>
-          <w>transmegrare</w>
-          <orig><pc>.</pc></orig>
-          <lb n="16" xml:id="CV188_lb_072r_16"/>
+          <w>transmegrare</w><choice><orig><pc>.</pc></orig><reg>,</reg></choice>
           <w>tunc</w>
-          <w>debitor</w>
+          <lb n="16" xml:id="CV188_lb_072r_16"/>
+          <w><choice>
+            <orig>de<c corresp="#v">u</c>itor</orig>
+            <reg>debitor</reg>
+          </choice></w>
           <w>in</w>
           <w>suum</w>
           <w>damnum</w>
@@ -22609,8 +22622,8 @@
           <w>perierit</w>
           <w>aut</w>
           <w><choice>
-              <abbr>homicidi<am><g ref="#umacr"/></am></abbr>
-              <expan>homicidiu<ex>m</ex></expan>
+              <orig><abbr>humicidi<am><g ref="#umacr"/></am></abbr></orig>
+              <reg><expan>homicidiu<ex>m</ex></expan></reg>
             </choice></w>
           <lb n="21" xml:id="CV188_lb_072r_21"/>
           <w>aut</w>
@@ -22960,7 +22973,7 @@
               <reg>capitulo</reg>
             </choice></w>
           <w><choice>
-              <orig>pe<lb n="14" xml:id="CV188_lb_073r_14_orig"/></orig>
+              <orig>pe<lb n="14" xml:id="CV188_lb_073r_14_orig"/>na</orig>
               <reg>po<lb n="14" xml:id="CV188_lb_073r_14_reg"/>ena</reg>
             </choice></w>
           <w>furti</w>
@@ -23040,8 +23053,8 @@
               <reg>opera</reg>
             </choice></w>
           <w><choice>
-              <orig>indige<add place="above">n</add><lb rend="below"/>tem</orig>
-              <reg>indecentem</reg>
+              <orig><abbr>indig<am><g ref="#emacr"/></am><lb n="22" xml:id="CV188_lb_073r_22_orig"/>tem</abbr></orig><!-- CHECK macron with dot above? -->
+              <reg><expan>indece<ex>n</ex><lb n="22" xml:id="CV188_lb_073r_22_reg"/>tem</expan></reg>
             </choice></w>
           <w>facere</w>
           <w><choice>

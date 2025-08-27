@@ -131,6 +131,7 @@
     </fileDesc>
 
     <encodingDesc>
+
       <projectDesc>
         <p>Progetto PRIN 2022 PNRR - Missione 4 “Istruzione e Ricerca” del Piano Nazionale di Ripresa e Resilienza;
           componente C2 – investimento 1.1, Fondo per il Programma Nazionale di Ricerca e Progetti di Rilevante
@@ -449,8 +450,8 @@
         <!-- aggiunto 2018-12-12 -->
         <char xml:id="tridotleft">
           <unicodeProp name="Name" value="THREE DOT PUNCTUATION"/>
-          <mapping type="codepoint">2056</mapping>
-          <mapping type="diplomatic">:.</mapping>
+          <mapping type="codepoint">U+2056</mapping>
+          <mapping type="diplomatic">⁖</mapping>
           <mapping type="normalized">.</mapping>
         </char>
 
@@ -469,6 +470,14 @@
           <mapping type="normalized">o</mapping>
         </char>
 
+        <!-- aggiunto 2025-08-27 -->
+        <char xml:id="omacrdot">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH MACRON"/>
+          <mapping subtype="composed"  type="codepoint">U+006F + U+304 + U+0307</mapping>
+          <mapping type="diplomatic">ō̇</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        
         <!-- aggiunto 2019-01-21 -->
         <char xml:id="rum">
           <unicodeProp name="Name" value="LATIN SMALL LETTER RUM ROTUNDA"/>
@@ -581,6 +590,7 @@
     </profileDesc>
 
     <revisionDesc status="draft">
+      <change when="2025-08" who="RRDT">Correzione del testo codificato</change>
       <change from="2022" who="RRDT">Revisione e finalizzazione della codifica a cura di Roberto Rosselli Del
         Turco</change>
       <change when="2020-02" who="MG">Revision by Marianna Giardina [29-10-2018].</change>
@@ -27327,7 +27337,10 @@
                   ref="#romnumsix"/></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
-          <w>cer<c corresp="#v">u</c>um</w>
+          <w><choice>
+            <sic>cerum</sic>
+            <corr>cer<c corresp="#v">u</c>um</corr>
+          </choice></w>
           <w>
             <choice>
               <abbr>domesti<lb n="22" rend="align_right" xml:id="CV188_lb_083r_22_abbr"/>c<am><g ref="#umacr"
@@ -27723,7 +27736,7 @@
           <w>incita<c corresp="#v">u</c>erit</w>
           <w>et</w>
           <w>damnum</w>
-          <lb n="13" xml:id="CV188_lb_084r_13"/><w>fecirit</w>
+          <lb n="13" xml:id="CV188_lb_084r_13"/><w>fecerit</w>
           <w>in</w>
           <w>hominem</w>
           <w>aut</w>
@@ -27754,7 +27767,7 @@
           <w>
             <choice>
               <abbr>rabios<am><g ref="#umacr"/></am></abbr>
-              <expan>rabiosu<ex>s</ex></expan>
+              <expan>rabiosu<ex>m</ex></expan>
             </choice>
           </w>
           <lb n="17" xml:id="CV188_lb_084r_17"/><w>si</w>
@@ -27986,14 +27999,17 @@
               <corr resp="leges azzara beyerle">sed</corr>
             </choice>
           </w>
-          <w>ille</w>
+          <w><choice>
+            <sic>illi</sic>
+            <corr>ille</corr>
+          </choice></w>
           <w>qui</w>
           <w>post</w>
           <w>pres<lb n="8" xml:id="CV188_lb_085r_08"/>titum</w>
           <w>habu<add hand="scribe_1" place="above">i</add>t</w>
           <w>ipse</w>
           <w>humicidium</w>
-          <w>au<g ref="#utlig"/></w>
+          <w>a<g ref="#utlig"/></w><!-- CHECK ligature rendering -->
           <lb n="9" xml:id="CV188_lb_085r_09"/><w>damnum</w>
           <w>conponat</w>
           <choice>
@@ -28060,7 +28076,6 @@
             </choice>
           </w>
           <lb n="17" xml:id="CV188_lb_085r_17"/><w>eum</w>
-          <w>ut</w>
           <w>signis</w>
           <w>ipsum</w>
           <w>intrigatum</w>
@@ -28071,7 +28086,6 @@
           <lb n="19" xml:id="CV188_lb_085r_19"/><w>ut</w>
           <w>semiles</w>
           <w>qualis</w>
-          <w>in</w>
           <w>illa</w>
           <w>diae</w>
           <w>fuit</w>
@@ -28101,7 +28115,7 @@
           <lb n="2" xml:id="CV188_lb_085v_02"/><w>canem</w>
           <w>fura<c corresp="#v">u</c>erit</w>
           <w>sibi</w>
-          <w>nunum</w>
+          <w>nonum</w>
           <w>red<lb rend="align_right" type="extra"/>dat</w>
           <choice>
             <orig><pc>:</pc></orig>
@@ -28137,7 +28151,6 @@
           <w>tantum</w>
           <w>est</w>
           <lb n="8" xml:id="CV188_lb_085v_08"/><w>ut</w>
-          <w>ipsa</w>
           <w><c corresp="#v">u</c>irga</w>
           <w>talis</w>
           <w>in<c corresp="#v">u</c>eniatur</w>
@@ -28207,7 +28220,7 @@
             </choice>
           </w>
           <w>quod</w>
-          <w>fecirit</w>
+          <w>fecerit</w>
           <w>
             <choice>
               <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
@@ -28237,7 +28250,7 @@
           <w><c corresp="#v">u</c>acca</w>
           <lb n="20" xml:id="CV188_lb_085v_20"/><w>prignantem</w>
           <w>et</w>
-          <w>aburtaverit</w>
+          <w>aburta<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
               <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
@@ -28251,7 +28264,7 @@
           <w>mortua</w>
           <w>fueri<add hand="scribe_1" place="above">t</add></w>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 86r  ####################################### -->
 
         <pb n="86r" xml:id="CV188_folio_086r"/>
 
@@ -28283,7 +28296,7 @@
           <w>prig<lb n="5" xml:id="CV188_lb_086r_05"/>nante</w>
           <w>et</w>
           <w>abortum</w>
-          <w>fecirit</w>
+          <w>fecerit</w>
           <w>
             <choice>
               <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
@@ -28439,7 +28452,7 @@
         <pb n="86v" xml:id="CV188_folio_086v"/>
 
           <lb n="1" xml:id="CV188_lb_086v_01"/>
-          <w>mortuus</w>
+          <w>mortuum</w>
           <w>fuerit</w>
           <w>aut</w>
           <w>ubicumque</w>
@@ -29186,13 +29199,19 @@
           <w>fuerit</w>
           <w>et</w>
           <w>loci</w>
-          <w>co<am><g ref="#tildedot"/></am><lb n="14" xml:id="CV188_lb_088v_14"/>sueto</w>
+          <w><choice><!-- CHECK arbar didn't combine, using precombined character -->
+            <abbr>c<am><g ref="#omacrdot"/></am><lb n="14" xml:id="CV188_lb_088v_14_abbr"/>sueto</abbr>
+            <expan>co<ex>n</ex><lb n="14" xml:id="CV188_lb_088v_14_expan"/>sueto</expan>
+          </choice></w>
           <w>est</w>
           <w>sic</w>
           <w>tamen</w>
           <w>si</w>
           <w>pastor</w>
-          <w>no<am><g ref="#tildedot"/></am></w>
+          <w><choice>
+            <abbr>n<am><g ref="#omacrdot"/></am></abbr>
+            <expan>no<ex>n</ex></expan>
+          </choice></w>
           <lb n="15" xml:id="CV188_lb_088v_15"/><w>ausa<c corresp="#v">u</c>erit</w>
           <w>iurare</w>
           <w>quod</w>

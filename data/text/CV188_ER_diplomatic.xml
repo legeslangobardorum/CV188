@@ -281,6 +281,13 @@
           <mapping type="normalized">m</mapping>
         </glyph>
 
+        <char xml:id="cmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER C WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0063 + U+0304</mapping>
+          <mapping type="diplomatic">c̄</mapping>
+          <mapping type="normalized">c</mapping>
+        </char>
+
         <!-- ntilde -->
         <char xml:id="ntilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER N WITH TILDE"/>
@@ -289,6 +296,13 @@
           <mapping type="normalized">n</mapping>
         </char>
 
+        <char xml:id="nmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER N WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+006E + U+0304</mapping>
+          <mapping type="diplomatic">n̄</mapping>
+          <mapping type="normalized">n</mapping>
+        </char>
+        
         <glyph xml:id="slong">
           <localProp name="Name" value="LATIN SMALL LETTER LONG S"/>
           <mapping type="codepoint">U+017F</mapping>
@@ -4286,7 +4300,7 @@
           <w>regi</w>
           <w>placuerit</w>
           <w><choice>
-            <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+            <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
             <expan>conp<ex>onat</ex></expan>
           </choice></w><reg>.</reg>
           <w><choice>
@@ -4322,7 +4336,7 @@
             <w><c corresp="#v">u</c><c corresp="#v">u</c>irichild</w></term>
           <w>suo</w>
           <w><choice>
-            <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+            <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
             <expan>conp<ex>onat</ex></expan>
           </choice></w>
           <w>me<lb n="10" xml:id="CV188_lb_020r_10"/>dietatem</w>
@@ -4598,7 +4612,7 @@
           <w>quis</w>
           <w>
             <choice>
-              <abbr>d<g ref="#ntilde"/>m</abbr>
+              <abbr>d<g ref="#nmacr"/>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice></w>
           <w>suum</w>
@@ -4626,7 +4640,7 @@
           <w>qui</w>
           <w>
             <choice>
-              <abbr>d<g ref="#ntilde"/>m</abbr>
+              <abbr>d<g ref="#nmacr"/>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice></w>
           <w>suum</w>
@@ -5035,7 +5049,7 @@
           <w>edictum</w> -->
           <w>adnexum</w><!-- <w>constitutum</w> -->
           <w>est</w><reg>,</reg>
-          <lb rend="below align-right"/><w><choice><abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr><expan>conp<ex>onat</ex></expan>
+          <lb rend="below align-right"/><w><choice><abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr><expan>conp<ex>onat</ex></expan>
             </choice></w><reg>.</reg>
         </p>
 
@@ -5185,7 +5199,7 @@
           </choice></w>
           <w>solidus</w>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w><reg>,</reg>
           <lb n="15"/><w>medietatem</w>
@@ -5268,7 +5282,7 @@
           </choice></w>
           <w>suo</w>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr><expan>conp<ex>onat</ex></expan></choice></w><reg>.</reg>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr><expan>conp<ex>onat</ex></expan></choice></w><reg>.</reg>
         </p>
 
         <p><lb n="6"/><label n="21"><num><w>XXI</w></num></label>
@@ -5320,7 +5334,7 @@
           </choice></w><reg>,</reg>
           <w>unusquisque</w>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>po</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>po</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w>
           <lb n="13"/><w>regi</w>
@@ -5449,7 +5463,7 @@
           <w>non</w>
           <w>ser<c corresp="#v">u</c>a<c corresp="#v">u</c>e<lb n="5"/>rit</w><reg>,</reg>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w>
           <w>regi</w>
@@ -5536,7 +5550,7 @@
               <expan>sol<ex>idos</ex></expan>
             </choice></w>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w><reg>,</reg>
           <w>medietatem</w>
@@ -5608,7 +5622,7 @@
           <w><damage>q</damage>uod</w>
           <w>antestetit</w><reg>,</reg>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w><reg>,</reg>
           <w>et</w>
@@ -5626,7 +5640,7 @@
           <w><damage>ad</damage>nexum</w>
           <w>est</w><reg>,</reg>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan></choice></w><choice><orig><pc>:</pc></orig><reg>.</reg></choice><!-- CHECK punteggiatura originale: punto prima di :? -->
         </p>
 
@@ -5652,7 +5666,7 @@
               <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
               <expan>sol<ex>idos</ex></expan>
             </choice></w>
-          <lb n="9" rend="align-right"/><w><choice><sic><abbr>d<g ref="#ntilde"/>m</abbr></sic><corr><expan>d<ex>omi</ex>n<ex>o</ex></expan></corr>
+          <lb n="9" rend="align-right"/><w><choice><sic><abbr>d<g ref="#nmacr"/>m</abbr></sic><corr><expan>d<ex>omi</ex>n<ex>o</ex></expan></corr>
             </choice></w>
           <w>eius</w>
           <w>conponat</w><choice><orig><pc>:</pc></orig><reg>.</reg></choice>
@@ -5771,7 +5785,7 @@
           <w>est</w><reg>,</reg>
           <w>e<damage>i</damage></w>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan></choice></w><reg>.</reg>
         </p>
 
@@ -5929,7 +5943,7 @@
           <w>requiratur</w>
           <w>a</w>
           <w><choice>
-              <abbr>d<g ref="#ntilde"/>o</abbr>
+              <abbr>d<g ref="#nmacr"/>o</abbr>
               <expan>d<ex>omi</ex>no</expan></choice></w><reg>;</reg>
           <w>et</w>
           <lb n="9"/><w>si</w>
@@ -5976,7 +5990,7 @@
             <damage><w>plaga<c corresp="#v">u</c>erit</w></damage>
           </add><reg>,</reg>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w>
           <w><choice>
@@ -6210,7 +6224,7 @@
           <w>adnexum</w>
           <w>est</w><reg>,</reg>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan></choice></w><choice><orig><pc>:</pc></orig><reg>.</reg></choice><!-- CHECK punteggiatura originale: carattere migliore di ':''? -->
         </p>
 
@@ -6349,7 +6363,7 @@
           <w>legitur</w><choice><orig><pc>:</pc></orig><reg>,</reg></choice><!-- CHECK segno di punteggiatura nel ms -->
           <add place="inline"><!-- CHECK altra mano? -->
             <w><choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w><choice><orig><pc><!-- CHECK --></pc></orig><reg>.</reg></choice>
           </add>
@@ -6585,7 +6599,7 @@
             <expan>ferita<ex>m</ex></expan>
           </choice></w>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w>
           <lb n="9"/><w>ei</w>
@@ -6647,7 +6661,7 @@
             </choice></w>
           <num value="3"><w>tres</w></num>
           <w>ei</w>
-          <lb n="16"/><w><choice><abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr><expan>conp<ex>onat</ex></expan></choice></w><reg>,</reg>
+          <lb n="16"/><w><choice><abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr><expan>conp<ex>onat</ex></expan></choice></w><reg>,</reg>
           <w>si</w>
           <w>alapas</w>
           <num value="6"><w>sex</w></num><choice><orig><pc>;</pc></orig><reg>.</reg></choice><!-- CHECK punteggiatura originale: carattere migliore di ';''? -->
@@ -6718,7 +6732,7 @@
             <corr>cooperiunt</corr>
           </choice></w><reg>,</reg>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w>
           <w><choice>
@@ -6730,7 +6744,7 @@
           <w>duas</w>
           <w>plagas</w>
           <w>fecerit</w><choice><orig><pc><!-- CHECK mid comma? --></pc></orig><reg>,</reg></choice>
-          <lb n="8"/><w><choice><abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr><expan>conp<ex>onat</ex></expan>
+          <lb n="8"/><w><choice><abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr><expan>conp<ex>onat</ex></expan>
             </choice></w>
           <w><choice>
               <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -6742,7 +6756,7 @@
           <w>tres</w>
           <w>fe<lb n="9"/>cerit</w><choice><orig><pc><!-- CHECK mid comma? --></pc></orig><reg>,</reg></choice>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w>
           <w><choice>
@@ -6767,7 +6781,7 @@
           <w>istas</w>
           <w>tres</w>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onantur</ex></expan>
             </choice></w><reg>.</reg>
         </p>
@@ -6788,7 +6802,7 @@
             <corr><w>uno</w><lb n="15"/><w>osso</w></corr>
           </choice>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w>
           <w><choice>
@@ -6803,7 +6817,7 @@
             <reg>fue<lb n="16"/>rint</reg>
           </choice></w><reg>,</reg>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w>
           <w><choice>
@@ -6817,7 +6831,7 @@
           <lb n="17"/><w><choice><orig>fuerent</orig><reg>fuerint</reg>
            </choice></w><reg>,</reg>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w>
           <w><choice>
@@ -6934,7 +6948,7 @@
           <w>praetii</w>
           <w>ipsius</w>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onatur</ex></expan>
             </choice></w>
           <w>ab</w>
@@ -6968,7 +6982,7 @@
           <w>ipsius</w>
           <w>ei</w>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>ptur</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>ptur</abbr>
               <expan>conp<ex>ona</ex>tur</expan>
             </choice></w>
           <lb n="15" rend="align-right"/><w>ut</w>
@@ -6990,7 +7004,7 @@
           <w>labrum</w>
           <w>absciderit</w><reg>,</reg>
           <w><choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w>
           <lb n="18"/><w><choice><abbr>so<am><g ref="#ltailstrok"/></am></abbr><expan>sol<ex>idos</ex></expan>
@@ -7008,7 +7022,7 @@
           <w>aut</w>
           <w>tres</w><reg>,</reg>
           <w><choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice></w>
           <w><choice>
@@ -7182,7 +7196,7 @@
           <w>ei</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -7200,7 +7214,7 @@
           <w>fecerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -7232,7 +7246,7 @@
           <w>fece<lb n="19" xml:id="CV188_lb_028v_19"/>rit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -7363,7 +7377,7 @@
           <w>transfora<c corresp="#v">u</c>erit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -7398,7 +7412,7 @@
           <add place="below">
             <w>
               <choice>
-                <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+                <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
                 <expan>conp<ex>onat</ex></expan>
               </choice>
             </w>
@@ -7430,7 +7444,7 @@
           <reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -7473,7 +7487,7 @@
           <lb n="16" xml:id="CV188_lb_029r_16"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -7504,7 +7518,7 @@
           <w>fuerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -7621,7 +7635,7 @@
           <lb n="8" xml:id="CV188_lb_029v_08"/><w>ei</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -7639,7 +7653,7 @@
           <w>ei</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -7686,7 +7700,7 @@
           <add place="below">
             <w>
               <choice>
-                <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+                <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
                 <expan>conp<ex>onat</ex></expan>
               </choice>
             </w>
@@ -7729,7 +7743,7 @@
           <lb n="19" xml:id="CV188_lb_029v_19"/><w>excusserit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -7792,7 +7806,7 @@
           </w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -7901,7 +7915,7 @@
           <w>ei</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -8019,7 +8033,7 @@
           <w>excusserit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -8051,7 +8065,7 @@
           <w>ex<lb n="2" xml:id="CV188_lb_030v_02"/><space/>cu<space/>sserit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -8076,7 +8090,7 @@
           <w>e<space/>xcusserit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -8209,7 +8223,7 @@
           <w>pla<lb n="16" xml:id="CV188_lb_030v_16"/>ga<c corresp="#v">u</c>it</w><reg>, </reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -8290,7 +8304,7 @@
           <w>ipse</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -8305,7 +8319,7 @@
           <w>fuerit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -8410,7 +8424,7 @@
           <lb n="20" xml:id="CV188_lb_031r_20"/><w>ferita</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -8673,7 +8687,7 @@
           <w>fecerit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -8782,7 +8796,7 @@
           <w>absciderit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -8836,7 +8850,7 @@
           <lb n="1" xml:id="CV188_lb_032v_01"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -8892,7 +8906,7 @@
             <lb n="8" xml:id="CV188_lb_032v_08"/>tem</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -8929,7 +8943,7 @@
           <w>maxillar<del rend="erasure">is</del>e</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -8974,7 +8988,7 @@
           <w>ru<lb n="19" xml:id="CV188_lb_032v_19"/>perit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9027,7 +9041,7 @@
           <w>ei</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9061,7 +9075,7 @@
           <w>abscide <lb n="7" xml:id="CV188_lb_033r_07"/>rit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9095,7 +9109,7 @@
           <lb n="10" xml:id="CV188_lb_033r_10"/><space/><w>excusserit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9123,7 +9137,7 @@
           <space/><w>excusserit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9148,7 +9162,7 @@
           <w>excusserit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9171,7 +9185,7 @@
           <w>excusserit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9205,7 +9219,7 @@
           </choice>
           <lb n="20" xml:id="CV188_lb_033r_20"/><w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9246,7 +9260,7 @@
           <w>ei</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9272,7 +9286,7 @@
           <w>excus<lb n="8" xml:id="CV188_lb_033v_08"/>serit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9306,7 +9320,7 @@
           <w>ex<lb n="11" xml:id="CV188_lb_033v_11"/>cuss<space/>erit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9330,7 +9344,7 @@
           <space/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9427,7 +9441,7 @@
           <w>fecerit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9473,7 +9487,7 @@
           <w>transfora<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9499,7 +9513,7 @@
           <lb n="10" xml:id="CV188_lb_034r_10"/><w>transfora<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9594,7 +9608,7 @@
           <w>ruperit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9642,7 +9656,7 @@
           <w>fecerit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9695,7 +9709,7 @@
           <w>eius</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9722,7 +9736,7 @@
           </choice></w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9762,7 +9776,7 @@
           <w>ab <lb n="17" xml:id="CV188_lb_034v_17"/>s<space/>ciderit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9800,7 +9814,7 @@
           <w>ap<lb n="21" xml:id="CV188_lb_034v_21"/><space extent="12" unit="chars"/>pareat</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9853,7 +9867,7 @@
           <lb n="4" xml:id="CV188_lb_035r_04"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9896,7 +9910,7 @@
           <w>nomiro</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9922,7 +9936,7 @@
           <w>trans<lb n="10" xml:id="CV188_lb_035r_10"/>fora<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9950,7 +9964,7 @@
           <w>transfora<c corresp="#v">u</c>e<lb n="12" xml:id="CV188_lb_035r_12"/>rit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -9988,7 +10002,7 @@
           <w>plaga<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10038,7 +10052,7 @@
           <lb n="1" xml:id="CV188_lb_035v_01"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10094,7 +10108,7 @@
           <w><c corresp="#v">u</c>aluerit</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -10126,7 +10140,7 @@
           <w>eius</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10150,7 +10164,7 @@
           <w>excusserit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10177,7 +10191,7 @@
           <w>excusserit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10202,7 +10216,7 @@
           <w>ex<lb n="17" xml:id="CV188_lb_035v_17"/>cuss<space/>erit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10225,7 +10239,7 @@
           <w>ex<lb n="19" xml:id="CV188_lb_035v_19"/>cus<space/>serit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10254,7 +10268,7 @@
           <space/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10331,7 +10345,7 @@
           <w>excusserit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10356,7 +10370,7 @@
           <w>excusserit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10379,7 +10393,7 @@
           <w>ex<space/>cusserit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10400,7 +10414,7 @@
           <w>excus<lb n="14" xml:id="CV188_lb_036r_14"/>seri<space/>t</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10429,7 +10443,7 @@
           <w>excu<space/>sserit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10477,7 +10491,7 @@
           <w>apparuerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10502,7 +10516,7 @@
           <w>fuerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10658,7 +10672,7 @@
           <lb n="5" xml:id="CV188_lb_037r_05"/><w>fuerit</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -10712,7 +10726,7 @@
           <lb n="13" xml:id="CV188_lb_037r_13"/><w>ita</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
@@ -10773,7 +10787,7 @@
           <w>aut</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -10866,7 +10880,7 @@
           <w>oc<lb n="10" xml:id="CV188_lb_037v_10"/>ciserit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10902,7 +10916,7 @@
           <w>occiderit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10933,7 +10947,7 @@
           </w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -10972,7 +10986,7 @@
           <w>occiderit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -11021,7 +11035,7 @@
           <w>occiserit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -11067,7 +11081,7 @@
           <w>am<lb n="9" xml:id="CV188_lb_038r_09"/>plius</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -11089,7 +11103,7 @@
           <lb n="11" xml:id="CV188_lb_038r_11"/><w>occiderit</w><reg>,</reg>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -11123,7 +11137,7 @@
           <w>occiderit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -11149,7 +11163,7 @@
           <w>occiderit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -11237,7 +11251,7 @@
           <w>ita</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onatur</ex></expan>
             </choice>
           </w>
@@ -11292,7 +11306,7 @@
           <w>pariter</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onant</ex></expan>
             </choice>
           </w>
@@ -11408,7 +11422,7 @@
           <w><c corresp="#v">u</c>olu<lb n="12" xml:id="CV188_lb_039r_12"/>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -11462,7 +11476,7 @@
           <w>fuerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -11536,14 +11550,14 @@
           <w>fu<lb n="9" xml:id="CV188_lb_039v_09"/>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>i</abbr>
               <expan>d<ex>omi</ex>ni</expan>
             </choice>
           </w>
@@ -11589,7 +11603,7 @@
           <w>tunc</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -11602,7 +11616,7 @@
           <w>integrum</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -11821,7 +11835,7 @@
           <w>a</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
@@ -11846,7 +11860,7 @@
           <w>damnum</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -12100,7 +12114,7 @@
           <w>damnum</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -12209,7 +12223,7 @@
           </w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -12325,7 +12339,7 @@
           <w>iude<lb n="20" xml:id="CV188_lb_042r_20"/>cis</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -12362,7 +12376,7 @@
           <lb n="5" xml:id="CV188_lb_042v_05"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -12568,7 +12582,7 @@
           <w>ipse</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -13600,7 +13614,7 @@
           </term>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omin</ex>o</expan>
             </choice>
           </w>
@@ -15537,7 +15551,7 @@
           <w>du<lb n="14" xml:id="CV188_lb_053v_14"/>cit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -15625,7 +15639,7 @@
           <w>medietatem</w>
           <w>
             <choice>
-              <abbr>pare<am><g ref="#ntilde"/></am><lb n="5" xml:id="CV188_lb_054r_05_abbr"/>tibus</abbr>
+              <abbr>pare<am><g ref="#nmacr"/></am><lb n="5" xml:id="CV188_lb_054r_05_abbr"/>tibus</abbr>
               <expan>pare<ex>n</ex><lb n="5" xml:id="CV188_lb_054r_05_expan"/>tibus</expan>
             </choice>
           </w>
@@ -15730,7 +15744,7 @@
             </choice></w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -15856,7 +15870,7 @@
             </choice></w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -15979,7 +15993,7 @@
             </choice></w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -16021,7 +16035,7 @@
             </choice></w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -16111,7 +16125,7 @@
             </choice></w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -16293,7 +16307,7 @@
           <w>egit</w>
           <w>
             <choice>
-              <abbr>c<am><g ref="#omacr"/><g ref="#ntilde"/></am>p</abbr>
+              <abbr>c<am><g ref="#omacr"/><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -16301,7 +16315,7 @@
           <term ref="#meta" xml:id="CV188_term_meta_191" xml:lang="lng">
             <w>meta</w>
           </term>
-          <w>qua<am><g ref="#ntilde"/></am><lb n="7" xml:id="CV188_lb_056r_07"/>tum</w><!-- CHECK superscript S instead of macron??? -->
+          <w>qua<am><g ref="#nmacr"/></am><lb n="7" xml:id="CV188_lb_056r_07"/>tum</w><!-- CHECK superscript S instead of macron??? -->
           <w>dictum</w>
           <w>est</w>
           <w>in</w>
@@ -16395,7 +16409,7 @@
           <lb n="1" xml:id="CV188_lb_056v_01"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onant</ex></expan>
             </choice>
           </w>
@@ -16457,7 +16471,7 @@
           <lb n="10" xml:id="CV188_lb_056v_10"/><w>pariter</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -16486,7 +16500,7 @@
           <w>a</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
@@ -16518,14 +16532,14 @@
           <w>fue<lb n="17" xml:id="CV188_lb_056v_17"/>rit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
           <w>ad</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>m</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice>
           </w>
@@ -16549,7 +16563,7 @@
           <measure quantity="12" type="currency" unit="soldi"><w>XII</w></measure>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -16987,7 +17001,7 @@
           <lb n="20" xml:id="CV188_lb_058r_20"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -17362,7 +17376,7 @@
           <w>mo<space extent="2" unit="chars"/>ri</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -17498,7 +17512,7 @@
           <lb n="21" xml:id="CV188_lb_059v_21"/><w>occiserit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -17859,7 +17873,7 @@
           <w>fecerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -17944,7 +17958,7 @@
           <w>sequens</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -17973,7 +17987,7 @@
           <lb n="5" xml:id="CV188_lb_061r_5"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -18020,7 +18034,7 @@
           <w>se<lb n="10" xml:id="CV188_lb_061r_10"/>quens</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -18039,7 +18053,7 @@
           <w><c corresp="#v">u</c>indicare</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -18105,7 +18119,7 @@
           <lb n="19" xml:id="CV188_lb_061r_19"/>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -18142,7 +18156,7 @@
           <w>rebus</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -18380,7 +18394,7 @@
             </choice></w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -18844,7 +18858,7 @@
           <w>si</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -20547,7 +20561,7 @@
           <w>proprio</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
@@ -20599,7 +20613,7 @@
           <lb n="8" xml:id="CV188_lb_067v_8"/>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
@@ -20839,7 +20853,7 @@
           <w>proprius</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -20916,7 +20930,7 @@
           <w>per<space extent="6" unit="chars"/>missum</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>i</abbr>
               <expan>d<ex>omi</ex>ni</expan>
             </choice>
           </w>
@@ -20961,7 +20975,7 @@
           <w>pro<lb n="5" xml:id="CV188_lb_068v_5"/>prio</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
@@ -21268,7 +21282,7 @@
           <w>iussionem</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>i</abbr>
               <expan>d<ex>omi</ex>ni</expan>
             </choice>
           </w>
@@ -21276,13 +21290,13 @@
           <w>fe<lb n="18" xml:id="CV188_lb_069r_18"/>cerit</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -21417,7 +21431,7 @@
           </w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -21470,7 +21484,7 @@
           <lb n="12" xml:id="CV188_lb_069v_12"/>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>i</abbr>
               <expan>d<ex>omi</ex>ni</expan>
             </choice>
           </w>
@@ -21506,7 +21520,7 @@
           </w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>i</abbr>
               <expan>d<ex>omi</ex>ni</expan>
             </choice>
           </w>
@@ -21515,7 +21529,7 @@
           <w>fecerit</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>i</abbr>
               <expan>d<ex>omi</ex>ni</expan>
             </choice>
           </w>
@@ -21840,7 +21854,7 @@
           <w>potestatem</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>i</abbr>
               <expan>d<ex>omi</ex>ni</expan>
             </choice>
           </w>
@@ -21954,7 +21968,7 @@
           <w>fuerit</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -22020,7 +22034,7 @@
           <w>pignus</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -22107,7 +22121,7 @@
           <w>aut</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -22153,7 +22167,7 @@
           <w>unusquisque</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -22183,7 +22197,7 @@
           <w>si</w>
           <w>ser<c corresp="#v">u</c>is</w>
           <w><choice>
-              <abbr>d<am><g ref="#ntilde"/></am>m</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice></w>
           <w>suum</w>
@@ -22197,7 +22211,7 @@
           <lb n="20" xml:id="CV188_lb_071r_20"/>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>i</abbr>
               <expan>d<ex>omi</ex>ni</expan>
             </choice>
           </w>
@@ -22210,7 +22224,7 @@
           <w>enim</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -22221,7 +22235,7 @@
           <w>ser<c corresp="#v">u</c>us</w>
           <w>qui</w>
           <w><choice>
-              <abbr>d<am><g ref="#ntilde"/></am>m</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice></w>
           <w><choice>
@@ -22647,7 +22661,7 @@
           <w>proprio</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
@@ -22735,7 +22749,7 @@
           <w>et</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -22804,7 +22818,7 @@
           <w>excepto</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -22937,7 +22951,7 @@
           <w>potestatem</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>i</abbr>
               <expan>d<ex>omi</ex>ni</expan>
             </choice>
           </w>
@@ -22956,7 +22970,7 @@
           <w>tantum</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -23018,7 +23032,7 @@
           <w>nonum</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -23086,13 +23100,13 @@
           <lb n="3" xml:id="CV188_lb_073v_3"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -23293,7 +23307,7 @@
           <w>ser<c corresp="#v">u</c>us</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -23388,7 +23402,7 @@
           <w>proprius</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -23459,7 +23473,7 @@
           <w>legibus</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -23638,7 +23652,7 @@
           <w>ab</w>
           <w>ipso</w>
           <w>occisus</w>
-          <w>fue<lb n="8" xml:id="CV188_lb_075r_08"/>rit</w>
+          <w>fu<lb n="8" xml:id="CV188_lb_075r_08"/>erit</w>
           <w>nec</w>
           <w>ipse</w>
           <w>requiratur</w>
@@ -23742,7 +23756,7 @@
           <w>furtum</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -23779,10 +23793,10 @@
           <w>perquirat</w>
           <w>eas</w>
           <w>et</w>
-          <w><add hand="scribe_1" place="above">n</add>prium</w>
+          <w><add hand="scribe_1" place="above">pro</add>prium</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>m</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice>
           </w>
@@ -23830,7 +23844,7 @@
           <w>portitur</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -23842,7 +23856,7 @@
           <w>culpa</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -23893,7 +23907,7 @@
           <w>aut</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -23956,7 +23970,7 @@
           <!-- spazio per lettera decorata -->
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -23980,7 +23994,7 @@
           <w>culpa</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -23990,7 +24004,7 @@
           <w>dederit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -24088,7 +24102,7 @@
           <lb rend="align_right" type="extra"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -24150,7 +24164,7 @@
           <lb n="13" xml:id="CV188_lb_076v_13"/>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>m</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice>
           </w>
@@ -24185,7 +24199,7 @@
           <w>dederit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -24219,11 +24233,11 @@
           <w>aut</w>
           <w>i<space/>n</w>
           <w>domum</w>
-          <w>secerdo<lb n="21" xml:id="CV188_lb_076v_21"/>tis</w>
+          <w>sacerdo<lb n="21" xml:id="CV188_lb_076v_21"/>tis</w>
           <w>mancipius</w>
           <w>cuiuscumque</w>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 77r  ####################################### -->
 
         <pb n="77r" xml:id="CV188_folio_077r"/>
 
@@ -24282,7 +24296,10 @@
           <w>mancipi<lb n="6" xml:id="CV188_lb_077r_06"/>um</w>
           <w>et</w>
           <w>alium</w>
-          <w>simile<damage/><space quantity="1" unit="chars"/>m</w>
+          <w><choice>
+            <orig>semile<space quantity="1" unit="chars"/>m</orig>
+            <reg>similem</reg>
+          </choice></w>
           <w>de</w>
           <w>suis</w>
           <w>pro<lb n="7" xml:id="CV188_lb_077r_07"/>priis</w>
@@ -24338,7 +24355,7 @@
           <w>est</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -24358,7 +24375,7 @@
           <lb n="17" xml:id="CV188_lb_077r_17"/>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -24375,7 +24392,7 @@
           <lb n="19" xml:id="CV188_lb_077r_19"/>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -24389,7 +24406,7 @@
           <lb n="21" xml:id="CV188_lb_077r_21"/><w>culpam</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>i</abbr>
               <expan>d<ex>omi</ex>ni</expan>
             </choice>
           </w>
@@ -24482,7 +24499,7 @@
           <lb n="10" xml:id="CV188_lb_077v_10"/><w>legitur</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -24516,7 +24533,7 @@
           <lb n="16" xml:id="CV188_lb_077v_16"/><w>manu</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>i</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>i</abbr>
               <expan>d<ex>omi</ex>ni</expan>
             </choice>
           </w>
@@ -24533,7 +24550,7 @@
           <w>cogator</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -24549,12 +24566,19 @@
           <w><c corresp="#v">u</c>oluerit</w>
         </p>
 
-        <!-- #######################################  folio   ####################################### -->
+        <!-- #######################################  folio 78r  ####################################### -->
 
-        <pb n="78r" xml:id="CV188_folio_078r"/><!-- CHECK quante righe ha questo foglio??? -->
+        <pb n="78r" xml:id="CV188_folio_078r"/>
+        
+        <!-- CHECK problema dell'elemento vuoto tra paragrafi simile ai <gap/> nel CS 730 -->
 
-        <addSpan hand="scribe_2" place="added_folio" spanTo="#end_folio"/><!-- CHECK mancano lb -->
-        <p n="274" xml:id="CV188_p_078r_274"><lb n="1" type="rubric" xml:id="CV188_lb_078r_01"/>
+        <!--<addSpan hand="scribe_2" place="added_folio" spanTo="#end_folio"/>-->
+        <!--<div hand="scribe_2" place="added_folio">-->
+        
+        <!-- CHECK changing original <p> into <ab> elements, add CSS rule to have line breaks in the interpretative level -->
+
+        <ab n="274" xml:id="CV188_p_078r_274"><handShift medium="black" scribe="scribe2"/><!-- CHECK not an alternative to <addSpan> -->
+          <lb n="1" type="rubric" xml:id="CV188_lb_078r_01"/><supplied><label><num><w>CCLXXIIII</w></num></label></supplied>
           <w>Si</w>
           <w>
             <choice>
@@ -24580,7 +24604,7 @@
           <lb n="2" xml:id="CV188_lb_078r_02"/>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>n<ex>o</ex></expan>
             </choice>
           </w>
@@ -24676,9 +24700,10 @@
           <w>se</w>
           <w>abet</w>
           <pc><g ref="#colmidcomposit"/></pc>
-        </p>
+        </ab>
 
-        <p n="275" xml:id="CV188_p_078r_275"><lb n="8" type="rubric" xml:id="CV188_lb_078r_08"/>
+        <ab n="275" xml:id="CV188_p_078r_275">
+          <lb n="8" type="rubric" xml:id="CV188_lb_078r_08"/><supplied><label><num><w>CCLXXV</w></num></label></supplied>
           <w>Si</w>
           <w>mancipium</w>
           <w>
@@ -24700,13 +24725,13 @@
           </w>
           <w>est</w>
           <w>in</w>
-          <term ref="#fraida" xml:id="CV188_term_fraida_275" xml:lang="lng">
+          <term ref="#fraida" xml:id="CV188_term_fraida_275" xml:lang="lng"><!-- CHECK term -->
             <w>fraida</w></term>
           <w>mox</w>
           <w>mandet</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>n<ex>o</ex></expan>
             </choice>
           </w>
@@ -24749,7 +24774,10 @@
           </w>
           <w>eum</w>
           <w>in</w>
-          <w>gr<gap extent="3" unit="chars"/><supplied reason="illegible">ati</supplied><g ref="#amacr"/></w>
+          <w><choice>
+            <abbr>gr<am><g ref="#amacr"/></am></abbr>
+            <expan>gra<ex>tia</ex></expan>
+          </choice></w>
           <lb n="11" xml:id="CV188_lb_078r_11"/>
           <w>
             <choice>
@@ -24830,7 +24858,7 @@
           <w>damnum</w>
           <w>cui</w>
           <w>fecerit</w>
-          <w>simul</w>
+          <lb n="14" type="rubric" xml:id="CV188_lb_078r_14"/><w>simul</w>
           <w>et</w>
           <w>
             <choice>
@@ -24839,10 +24867,12 @@
             </choice>
           </w>
           <pc><g ref="#colmidcomposit"/></pc>
-        </p>
+        </ab>
 
-        <p n="276" xml:id="CV188_p_078r_276"><lb n="14" type="rubric" xml:id="CV188_lb_078r_14"
-                /><label><num><w>CCLXXIIII</w></num></label>
+        <ab n="276" xml:id="CV188_p_078r_276"><label><num><w><choice>
+          <sic>CCLXXIIII</sic>
+          <corr>CCLXXVI</corr>
+        </choice></w></num></label>
           <w>Si</w>
           <w>
             <choice>
@@ -24901,7 +24931,7 @@
             </choice>
           </w>
           <w>non</w>
-          <w>in<c corresp="#v">u</c>ene<lb n="7" xml:id="CV188_lb_078r_17"/>rit</w>
+          <w>in<c corresp="#v">u</c>ene<lb n="17" xml:id="CV188_lb_078r_17"/>rit</w>
           <w>
             <choice>
               <sic>retdat</sic>
@@ -24935,9 +24965,12 @@
           <w>ipsum</w>
           <w>et</w>
           <w>operas</w>
-        </p>
+        </ab>
 
-        <p n="277" xml:id="CV188_p_078r_277"><lb type="rubric"/><label><num><w>CCLX<damage/>XII</w></num></label><!-- CHECK manca lb -->
+        <ab n="277" xml:id="CV188_p_078r_277"><!--<lb type="rubric"/>--><label><num><w><choice>
+          <sic>CCLX<space extent="2" unit="char"/>XII</sic>
+          <corr>CCLXXVII</corr>
+        </choice></w></num></label>
           <w>De</w>
           <term corresp="#CV188_gloss_haistan_277" ref="#haistan" xml:id="CV188_term_haistan_277" xml:lang="lng">
             <w>
@@ -25004,9 +25037,10 @@
           </w>
           <w>fue<damage agent="rubbing"/>
             <gap extent="3" unit="chars"/><supplied reason="illegible">rit</supplied></w>
-        </p>
+        </ab>
 
-        <p n="278" xml:id="CV188_p_078r_278"><lb n="20" type="rubric" xml:id="CV188_lb_078r_20"/>
+        <ab n="278" xml:id="CV188_p_078r_278">
+          <lb n="20" type="rubric" xml:id="CV188_lb_078r_20"/><supplied><label><num><w>CCLXXVIII</w></num></label></supplied>
           <w>De</w>
           <term corresp="#CV188_gloss_hoberos_278" ref="#hoberos" xml:id="CV188_term_hoberos_278" xml:lang="lng">
             <w>
@@ -25028,7 +25062,7 @@
           <w>facere</w>
           <w>
             <choice>
-              <abbr><am><g ref="#ntilde"/></am></abbr>
+              <abbr><am><g ref="#nmacr"/></am></abbr>
               <expan>n<ex>on</ex></expan>
             </choice>
           </w>
@@ -25092,20 +25126,27 @@
           </w>
           <w>facere</w>
           <w>possit</w>
-        </p>
+        </ab>
 
-        <p n="279" xml:id="CV188_p_078r_279"><lb n="22" type="rubric" xml:id="CV188_lb_078r_22"/>
+        <ab n="279" xml:id="CV188_p_078r_279">
+          <lb n="22" type="rubric" xml:id="CV188_lb_078r_22"/><supplied><label><num><w>CCLXXVIIII</w></num></label></supplied>
           <w>De</w>
-          <w>csilio</w>
-          <w>rusticano<g ref="#rum"/></w>
+          <w><choice>
+            <abbr><am><g ref="#cmacr"/></am>silio</abbr>
+            <expan>c<ex>on</ex>silio</expan>
+          </choice></w>
+          <w><choice>
+            <abbr>rusticano<am><g ref="#rum"/></am></abbr>
+            <expan>rusticano<ex>rum</ex></expan>
+          </choice></w>
           <w>si</w>
           <w>ser<c corresp="#v">u</c>i</w>
           <w>id</w>
           <w>est</w>
           <w>
             <choice>
-              <abbr>csili<am><g ref="#umacr"/></am></abbr>
-              <expan>csiliu<ex>s</ex></expan>
+              <abbr><g ref="#cmacr"/>sili<am><g ref="#umacr"/></am></abbr>
+              <expan>c<ex>on</ex>siliu<ex>s</ex></expan>
             </choice>
           </w>
           <w>manu</w>
@@ -25258,10 +25299,15 @@
           <w>et</w>
           <w>medietate</w>
           <w>ut</w>
-          <w>sup<add hand="scribe_2" place="above">r</add><add hand="scribe_2" place="below">a</add></w></p>
-        <p n="280" xml:id="CV188_p_078r_280"><lb n="27" type="rubric" xml:id="CV188_lb_078r_27"/>
+          <w>sup<add hand="scribe_2" place="above">r</add><add hand="scribe_2" place="below">a</add></w></ab>
+
+        <ab n="280" xml:id="CV188_p_078r_280">
+          <lb n="27" type="rubric" xml:id="CV188_lb_078r_27"/><supplied><label><num><w>CCLXXX</w></num></label></supplied>
           <w>De</w>
-          <w>rusticano<g ref="#rum"/></w>
+          <w><choice>
+            <abbr>rusticano<am><g ref="#rum"/></am></abbr>
+            <expan>rusticano<ex>rum</ex></expan>
+          </choice></w>
           <w>
             <choice>
               <orig><abbr>sediccion<am><g ref="#emacr"/></am></abbr></orig>
@@ -25269,7 +25315,12 @@
             </choice>
           </w>
           <w>Si</w>
-          <w>p</w>
+          <w>
+            <choice>
+              <abbr><am><g ref="#pbardes"/></am></abbr>
+              <expan>p<ex>er</ex></expan>
+            </choice>
+          </w>
           <w>
             <choice>
               <abbr>quac<am><g ref="#umacr"/></am><am><g ref="#qbardes"/></am></abbr>
@@ -25348,7 +25399,7 @@
           <w>sui</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -25570,12 +25621,7 @@
             </choice>
           </w>
           <w>pena</w>
-          <w>
-            <choice>
-              <abbr>ssta</abbr>
-              <expan>s<ex>upra</ex>s<ex>crip</ex>ta</expan>
-            </choice>
-          </w>
+          <w>ista</w>
           <w>paciantur</w>
           <w>et</w>
           <w>si</w>
@@ -25593,7 +25639,7 @@
           <w>fuerit</w>
           <w>
             <choice>
-              <abbr><am><g ref="#ntilde"/></am></abbr>
+              <abbr><am><g ref="#nmacr"/></am></abbr>
               <expan>n<ex>on</ex></expan>
             </choice>
           </w>
@@ -25636,10 +25682,12 @@
             </choice>
           </w>
           <w>hoc</w>
-          <w>egit</w>
-        </p>
-        <label><num><w>CC<lb n="37" xml:id="CV188_lb_078r_37"/>LXXVIIII</w></num></label><!-- CHECK manca nuovo p? -->
-        <anchor xml:id="end_folio"/>
+          <w>egit</w><choice><orig><pc>;</pc></orig><reg>.</reg>
+          </choice>
+        </ab>
+        <ab><surplus><label><num><w>CC<lb n="37" rend="align_right" xml:id="CV188_lb_078r_37"/>LXXVIIII</w></num></label></surplus></ab>
+        <!--<anchor xml:id="end_folio"/>-->
+        <!--</div>-->
 
         <!-- #######################################  folio   ####################################### -->
 
@@ -25647,7 +25695,9 @@
         
         <lb/>
 
-        <!-- 78v pagina bianca--><!-- CHECK gap? -->
+        <!-- 78v pagina bianca-->
+          
+        <!-- CHECK gap? -->
 
         <!-- #######################################  folio   ####################################### -->
 
@@ -25671,7 +25721,7 @@
           <w>fura<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -25719,7 +25769,7 @@
           <w>fura<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -25751,7 +25801,7 @@
           <w>fura<c corresp="#v">u</c>e<lb n="11" xml:id="CV188_lb_079r_11"/>rit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -25772,7 +25822,7 @@
           <w>fura<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -25799,7 +25849,7 @@
           <w>faciendum</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -25844,7 +25894,7 @@
           </term>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -25900,7 +25950,7 @@
           <lb n="5" xml:id="CV188_lb_079v_05"/><w>tolerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -25937,10 +25987,13 @@
           <w>alieno</w>
           <w>ini<lb n="10" xml:id="CV188_lb_079v_10"/>quo</w>
           <w>animo</w>
-          <w>capella<c corresp="#v">u</c>erit</w>
+          <w><choice>
+            <orig>cappella<c corresp="#v">u</c>erit</orig>
+            <reg>capella<c corresp="#v">u</c>erit</reg>
+          </choice></w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -25974,7 +26027,7 @@
           <lb n="14" xml:id="CV188_lb_079v_14"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -25991,7 +26044,7 @@
           <lb n="16" xml:id="CV188_lb_079v_16"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -26013,7 +26066,7 @@
           <lb n="19" xml:id="CV188_lb_079v_19"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -26064,7 +26117,7 @@
           <w>tantum</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -26167,7 +26220,7 @@
           <w>incide<lb n="17" xml:id="CV188_lb_080r_17"/>rit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -26194,7 +26247,7 @@
           <w>tolerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -26303,10 +26356,9 @@
               <expan>sol<ex>idos</ex></expan>
             </choice>
           </w>
-          <del rend="strikethrough"/>
+          <del rend="strikethrough"/><!-- CHECK 1. erased as well? 2. what has been deleted? -->
           <add hand="scribe_2" place="inline"><measure quantity="3" type="currency" unit="soldi"
-            ><w>tres</w></measure></add>
-          <pc><g ref="#colmidcomposit"/></pc>
+            ><w>tres</w></measure></add><pc><g ref="#colmidcomposit"/></pc>
         </p>
 
         <p n="300" xml:id="CV188_p_080v_300"><lb n="11" type="rubric" xml:id="CV188_lb_080v_11"
@@ -26349,7 +26401,7 @@
           <lb n="16" xml:id="CV188_lb_080v_16"/><w>inciderit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -26369,7 +26421,6 @@
             </choice>
           </w>
           <w>homo</w>
-          <w>si</w>
           <lb n="18" xml:id="CV188_lb_080v_18"/><w>propter</w>
           <w>utilitatem</w>
           <w>suam</w>
@@ -26398,7 +26449,7 @@
           <w>inciderit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -26426,7 +26477,7 @@
           <w>socciserit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -26507,11 +26558,11 @@
           <w>in</w>
           <w>clausura</w>
           <w>alterius</w>
-          <w>intus</w>
+          <lb n="13" xml:id="CV188_lb_081r_13"/><w>intus</w>
           <w>saliendum</w>
           <w>se</w>
           <w>inpala<c corresp="#v">u</c>erit</w>
-          <lb n="13" xml:id="CV188_lb_081r_13"/><w>non</w>
+          <lb n="14" xml:id="CV188_lb_081r_14"/><w>non</w>
           <w>reddatur</w>
           <w>ab</w>
           <w>ipso</w>
@@ -26522,7 +26573,7 @@
               <expan>sepe<ex>m</ex></expan>
             </choice>
           </w>
-          <lb n="14" xml:id="CV188_lb_081r_14"/><w>est</w>
+          <lb n="15" xml:id="CV188_lb_081r_15"/><w>est</w>
           <w>et</w>
           <w>si</w>
           <w>ab</w>
@@ -26530,24 +26581,24 @@
           <w>in</w>
           <w>foris</w>
           <w>salierit</w>
-          <lb n="15" xml:id="CV188_lb_081r_15"/><w>et</w>
+          <lb n="16" xml:id="CV188_lb_081r_16"/><w>et</w>
           <w>se</w>
           <w>inpala<c corresp="#v">u</c>erit</w>
           <w>tunc</w>
           <w>ille</w>
           <w>cuius</w>
-          <lb n="16" xml:id="CV188_lb_081r_16"/><w>sepe</w>
+          <lb n="17" xml:id="CV188_lb_081r_17"/><w>sepe</w>
           <w>esse</w>
           <w>in<c corresp="#v">u</c>enitur</w>
           <w>eum</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
           <w>et</w>
-          <lb n="17" xml:id="CV188_lb_081r_17"/><w>si</w>
+          <lb n="18" xml:id="CV188_lb_081r_18"/><w>si</w>
           <w>intra</w>
           <w>ipsam</w>
           <w>clausura</w>
@@ -26557,10 +26608,10 @@
               <expan>damnu<ex>m</ex></expan>
             </choice>
           </w>
-          <lb n="18" xml:id="CV188_lb_081r_18"/><w>fecerit</w>
+          <lb n="19" xml:id="CV188_lb_081r_19"/><w>fecerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -26570,13 +26621,13 @@
           <w>est</w>
         </p>
 
-        <p n="305" xml:id="CV188_p_081r_305"><lb n="19" type="rubric" xml:id="CV188_lb_081r_19"
+        <p n="305" xml:id="CV188_p_081r_305"><lb n="20" type="rubric" xml:id="CV188_lb_081r_20"
               /><label><num><w>CCCV</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
           <w>fossatum</w>
           <w>circa</w>
-          <lb n="20" xml:id="CV188_lb_081r_20"/>
+          <lb n="21" xml:id="CV188_lb_081r_21"/>
           <w>
             <choice>
               <abbr>camp<am><g ref="#umacr"/></am></abbr>
@@ -26640,7 +26691,7 @@
           <w>fuerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -26850,7 +26901,7 @@
           <w>damnum</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -26922,7 +26973,6 @@
           <w>tali<space/>ola</w>
           <w>fera</w>
           <w>tenta</w>
-          <w>fuerit</w>
           <w>et</w>
           <w>in</w>
           <w>homi<lb n="3" xml:id="CV188_lb_082v_03"/>nem</w>
@@ -26939,7 +26989,7 @@
           <w>ipse</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -27114,7 +27164,7 @@
           <w>cela<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -27250,7 +27300,7 @@
           <lb n="19" xml:id="CV188_lb_083r_19"/><w>conponat</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>m</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice>
           </w>
@@ -27298,13 +27348,13 @@
           <w>intriga<c corresp="#v">u</c><lb n="2" xml:id="CV188_lb_083v_02"/>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>m</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice>
           </w>
@@ -27321,7 +27371,7 @@
           <lb n="3" xml:id="CV188_lb_083v_03"/><w>fura<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -27410,7 +27460,7 @@
           <w>plures</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -27437,7 +27487,7 @@
           <lb n="13" xml:id="CV188_lb_083v_13"/><w>tolerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -27479,7 +27529,7 @@
           <w>contegerit</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>m</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice>
           </w>
@@ -27549,7 +27599,7 @@
           <lb n="2" xml:id="CV188_lb_084r_02"/><w>si</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -27636,7 +27686,7 @@
           <w>tolerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -27768,7 +27818,7 @@
           <w>a</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
@@ -27784,7 +27834,7 @@
           <w>a</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>m</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice>
           </w>
@@ -27811,7 +27861,7 @@
           <w>ipse</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -27854,7 +27904,7 @@
           <lb n="17" xml:id="CV188_lb_084v_17"/><w>ipse</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -27926,7 +27976,7 @@
           <lb n="7" xml:id="CV188_lb_085r_07"/><w>proprio</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>n<ex>o</ex></expan>
             </choice>
           </w>
@@ -27983,7 +28033,7 @@
           <w>tunc</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -28160,7 +28210,7 @@
           <w>fecirit</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -28190,7 +28240,7 @@
           <w>aburtaverit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -28236,7 +28286,7 @@
           <w>fecirit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -28278,7 +28328,7 @@
           <w>fece<lb n="11" xml:id="CV188_lb_086r_11"/>rit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -28338,7 +28388,7 @@
           <w>nes<lb n="18" xml:id="CV188_lb_086r_18"/>ciente</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>m</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice>
           </w>
@@ -28364,7 +28414,7 @@
           <lb n="20" xml:id="CV188_lb_086r_20"/><w>fuerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -28403,7 +28453,7 @@
           <w>excoria<c corresp="#v">u</c>it</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -28506,7 +28556,7 @@
           <w>tunc</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -28584,7 +28634,7 @@
           <lb n="4" xml:id="CV188_lb_087r_04"/><w>proprio</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
@@ -28669,7 +28719,7 @@
           <w><c corresp="#v">u</c>icum</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -28696,7 +28746,7 @@
           <w>et</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>m</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice>
           </w>
@@ -28774,7 +28824,7 @@
           <w>et</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>m</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>m</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
             </choice>
           </w>
@@ -28838,7 +28888,7 @@
           <w>proprio</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
@@ -28866,7 +28916,7 @@
           <w>pro<lb n="20" xml:id="CV188_lb_087v_20"/>prio</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
@@ -28938,7 +28988,7 @@
           <w>certus</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -29039,7 +29089,7 @@
           <w>certus</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -29110,7 +29160,7 @@
           <w>miserit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -29229,7 +29279,7 @@
           <w>antesteterit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -29287,7 +29337,7 @@
           <w>fuerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onatur</ex></expan>
             </choice>
           </w>
@@ -29313,7 +29363,7 @@
           <lb n="18" xml:id="CV188_lb_089r_18"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -29447,7 +29497,7 @@
           <w>proprio</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
@@ -29520,7 +29570,7 @@
           <lb n="8" xml:id="CV188_lb_090r_08"/><w>proprius</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -29571,7 +29621,7 @@
           <w>propri<lb n="17" xml:id="CV188_lb_090r_17"/>us</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>s</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>s</abbr>
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
@@ -29645,7 +29695,7 @@
           <lb n="7" xml:id="CV188_lb_090v_07"/><w>et</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -29713,7 +29763,7 @@
           <w>tantum</w>
           <w>
             <choice>
-              <abbr><am><g ref="#ntilde"/></am></abbr>
+              <abbr><am><g ref="#nmacr"/></am></abbr>
               <expan>n<ex>on</ex></expan>
             </choice>
           </w>
@@ -29735,7 +29785,7 @@
           <w>fura<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -29826,7 +29876,7 @@
           <lb n="12" xml:id="CV188_lb_091r_12"/><w>ei</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onatur</ex></expan>
             </choice>
           </w>
@@ -29880,7 +29930,7 @@
           <w>massarii</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -29928,7 +29978,7 @@
           <w>et</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onantur</ex></expan>
             </choice>
           </w>
@@ -30030,7 +30080,7 @@
           <w>proprio</w>
           <w>
             <choice>
-              <abbr>d<am><g ref="#ntilde"/></am>o</abbr>
+              <abbr>d<am><g ref="#nmacr"/></am>o</abbr>
               <expan>d<ex>omi</ex>no</expan>
             </choice>
           </w>
@@ -30052,7 +30102,7 @@
           </w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -30109,7 +30159,7 @@
           </w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -30155,7 +30205,7 @@
           <lb n="9" xml:id="CV188_lb_092r_09"/><w>e<c corresp="#v">u</c>ellerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -30242,7 +30292,7 @@
           <w>ca<c corresp="#v">u</c>allus</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -30992,7 +31042,7 @@
           <w>fecissit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -31430,7 +31480,7 @@
           <w>consuitutinem</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -31713,7 +31763,7 @@
           <w>ita</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -31726,7 +31776,7 @@
           <w>sunt</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onuntur</ex></expan>
             </choice>
           </w>
@@ -31765,7 +31815,7 @@
           <w>legitimos</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onatur</ex></expan>
             </choice>
           </w>
@@ -31775,7 +31825,7 @@
           <w>regis</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -31807,7 +31857,7 @@
           <lb n="2" xml:id="CV188_lb_098r_02"/><w>similiter</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onatur</ex></expan>
             </choice>
           </w>
@@ -32021,7 +32071,7 @@
           <w>occiserit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32060,7 +32110,7 @@
           <lb n="17" xml:id="CV188_lb_098v_17"/><w>fuerit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32128,7 +32178,7 @@
           <w>suprascripta</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32167,7 +32217,7 @@
           <w>ei</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32234,7 +32284,7 @@
           <lb n="21" xml:id="CV188_lb_099r_21"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onatur</ex></expan>
             </choice>
           </w>
@@ -32338,7 +32388,7 @@
           <lb n="16" xml:id="CV188_lb_099v_16"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32360,7 +32410,7 @@
           <lb n="19" xml:id="CV188_lb_099v_19"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32401,7 +32451,7 @@
           <w>roga<c corresp="#v">u</c>erit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32474,7 +32524,7 @@
           <lb n="10" xml:id="CV188_lb_100r_10"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32505,7 +32555,7 @@
           <w>certe</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32524,7 +32574,7 @@
           <w>ca <lb n="16" xml:id="CV188_lb_100r_16"/>dat</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32599,7 +32649,7 @@
           <lb n="3" xml:id="CV188_lb_100v_03"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32624,7 +32674,7 @@
           <w>traxe<lb n="6" xml:id="CV188_lb_100v_06"/>rit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32662,7 +32712,7 @@
           <lb n="11" xml:id="CV188_lb_100v_11"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32688,7 +32738,7 @@
           </term>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32716,7 +32766,7 @@
           </term>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32740,7 +32790,7 @@
           <w>tibia</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -32764,7 +32814,7 @@
           <lb n="18" xml:id="CV188_lb_100v_18"/>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
@@ -33031,7 +33081,7 @@
           </choice>
         </p>
 
-        <!-- #######################################  folio   ####################################### -->
+        <!-- #######################################  folio 102r  ####################################### -->
 
         <pb n="102r" xml:id="CV188_folio_102r"/>
 
@@ -33055,7 +33105,7 @@
           <w>occiderit</w>
           <w>
             <choice>
-              <abbr>co<am><g ref="#ntilde"/></am>p</abbr>
+              <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>

@@ -470,9 +470,25 @@
           <mapping type="normalized">o</mapping>
         </char>
 
+        <!-- aggiunto 2025-08-28 -->
+        <char xml:id="amacrdot">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER A WITH MACRON AND DOT ABOVE"/>
+          <mapping subtype="composed"  type="codepoint">U+0061 + U+304 + U+0307</mapping>
+          <mapping type="diplomatic">ā̇</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        
+        <!-- aggiunto 2025-08-28 -->
+        <char xml:id="emacrdot">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER E WITH MACRON AND DOT ABOVE"/>
+          <mapping subtype="composed"  type="codepoint">U+0065 + U+304 + U+0307</mapping>
+          <mapping type="diplomatic">ē̇</mapping>
+          <mapping type="normalized">o</mapping>
+        </char>
+        
         <!-- aggiunto 2025-08-27 -->
         <char xml:id="omacrdot">
-          <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH MACRON"/>
+          <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH MACRON AND DOT ABOVE"/>
           <mapping subtype="composed"  type="codepoint">U+006F + U+304 + U+0307</mapping>
           <mapping type="diplomatic">ō̇</mapping>
           <mapping type="normalized">o</mapping>
@@ -2887,7 +2903,7 @@
         <ab corresp="#CV188_p_094v_286">
           <lb n="14" xml:id="CV188_lb_003r_14"/><label n="286"><num><w>CCLXXX<g ref="#romnumsix"/></w></num></label>
           <w><hi rend="cap">D</hi>e</w>
-          <w>axeg<space extent="1" unit="char"/>ias</w>
+          <w>axeg<space quantity="1" unit="char"/>ias</w>
         </ab>
         
         <ab corresp="#CV188_p_094v_287">
@@ -3290,7 +3306,7 @@
           <lb n="9" xml:id="CV188_lb_004v_09"/><label n="337"><num><w>CCCXXX<g ref="#romnumsix"/>I</w></num></label>
           <w><hi rend="cap">D</hi>e</w>
           <w>ca<c corresp="#v">u</c>allo</w>
-          <w>pla<space extent="1" unit="char"/>gato</w>
+          <w>pla<space quantity="1" unit="char"/>gato</w>
         </ab>
 
         <ab corresp="#CV188_p_098r_33">
@@ -3308,7 +3324,7 @@
             <abbr>alien<am><g ref="#umacr"/></am></abbr>
             <expan>alienu<ex>m</ex></expan>
           </choice></w>
-          <w>pla<lb rend="below align-right"/>ga<c corresp="#v">u</c><space extent="1" unit="char"/>erit</w>
+          <w>pla<lb rend="below align-right"/>ga<c corresp="#v">u</c><space quantity="1" unit="char"/>erit</w>
         </ab>
 
         <ab corresp="#CV188_p_098r_340">
@@ -3831,7 +3847,7 @@
 
       <div n="Capp. 1-13" subtype="reati_contro_autorità" type="capitula" xml:id="CV188_div_1-13">
 
-        <!-- #######################################  folio   ####################################### -->
+        <!-- #######################################  folio 18v  ####################################### -->
 
         <pb n="18v" xml:id="CV188_folio_018v"/>
 
@@ -3875,7 +3891,7 @@
               <abbr>pericul<am><g ref="#umacr"/></am></abbr>
               <expan>periculu<ex>m</ex></expan>
             </choice></w>
-          <lb n="09" xml:id="CV188_lb_018v_09"/><space extent="7"/><w>et</w>
+          <lb n="09" xml:id="CV188_lb_018v_09"/><space quantity="7" unit="char"/><w>et</w>
           <w>res</w>
           <w>eius</w>
           <w>infiscentur</w><reg>.</reg><!-- segno di punteggiatura finale? NO -->
@@ -3913,7 +3929,7 @@
           <w>ille</w>
           <w>nec</w>
 
-        <!-- #######################################  folio   ####################################### -->
+        <!-- #######################################  folio 19r  ####################################### -->
 
         <pb n="19r" xml:id="CV188_folio_019r"/>
 
@@ -3966,7 +3982,7 @@
             </choice></w><reg>,</reg>
           <w>quem</w>
           <w>rex</w>
-          <lb n="07" xml:id="CV188_lb_019r_07"/><space extent="7"/><!-- CHECK --><w>occidere</w>
+          <lb n="07" xml:id="CV188_lb_019r_07"/><space quantity="7" unit="char"/><!-- CHECK --><w>occidere</w>
           <w>iusserit</w><reg>.</reg>
         </p>
 
@@ -4018,7 +4034,7 @@
             </choice></w>
           <w>et</w>
           <w>res</w>
-          <lb n="14" xml:id="CV188_lb_019r_14"/><space extent="12"/><w>eius</w>
+          <lb n="14" xml:id="CV188_lb_019r_14"/><space quantity="12" unit="char"/><w>eius</w>
           <w>infiscentur</w><reg>.</reg>
         </p>
 
@@ -4077,7 +4093,7 @@
           <w>contra</w>
           <w>d<subst><del rend="overwrite">o</del><add>u</add></subst>cem</w>
 
-        <!-- #######################################  folio   ####################################### -->
+        <!-- #######################################  folio 19v  ####################################### -->
 
         <pb n="19v" xml:id="CV188_folio_019v"/>
 
@@ -4114,8 +4130,8 @@
           <w>contra</w>
           <w>inimicus</w>
           <choice>
-            <orig><w>pug<lb n="06" xml:id="CV188_lb_019v_06_orig"/><space extent="5"/>nandum</w></orig>
-            <reg><w>pug<lb n="06" xml:id="CV188_lb_019v_06_reg"/><space extent="5"/>nando</w></reg>
+            <orig><w>pug<lb n="06" xml:id="CV188_lb_019v_06_orig"/><space quantity="5" unit="char"/>nandum</w></orig>
+            <reg><w>pug<lb n="06" xml:id="CV188_lb_019v_06_reg"/><space quantity="5" unit="char"/>nando</w></reg>
           </choice>
           <choice>
             <orig><w>colegam</w></orig>
@@ -4173,7 +4189,7 @@
               <corr resp="RRDT">quoli<lb n="11" xml:id="CV188_lb_019v_11_corr"/>bet</corr>
             </choice></w>
           <w><choice>
-            <sic>c<space extent="1"/>on<c corresp="#v">u</c>entum</sic>
+            <sic>c<space quantity="1" unit="char"/>on<c corresp="#v">u</c>entum</sic>
             <corr>conventu</corr>
           </choice></w><!-- dovrebbe essere conventu ok -->
           <w>scandalum</w>
@@ -4189,8 +4205,8 @@
           <w>sit</w>
           <w><!-- CHECK aggiungere rend e mettere <space> dopo? -->
             <choice>
-              <orig>culpa<lb n="13" xml:id="CV188_lb_019v_13_sic"/><space extent="14"/><c corresp="#v">u</c>elis</orig>
-              <reg>culpa<lb n="13" xml:id="CV188_lb_019v_13_corr"/><space extent="14"/>bilis</reg>
+              <orig>culpa<lb n="13" xml:id="CV188_lb_019v_13_sic"/><space quantity="14"/><c corresp="#v">u</c>elis</orig>
+              <reg>culpa<lb n="13" xml:id="CV188_lb_019v_13_corr"/><space quantity="14"/>bilis</reg>
             </choice></w>
           <w>regi</w><choice><orig><pc>:</pc></orig><reg>.</reg>
           </choice>
@@ -4235,7 +4251,7 @@
           </choice>
           <w><damage>eme</damage>rserit</w>
 
-        <!-- #######################################  folio   ####################################### -->
+        <!-- #######################################  folio 20r  ####################################### -->
 
         <pb n="20r" xml:id="CV188_folio_020r"/>
 
@@ -4369,7 +4385,7 @@
           <w rend="red">liber</w>
           <w rend="red">in</w>
           <w rend="red"><add place="above" rend="black">al</add>terius</w>
-          <w><hi rend="red">mo</hi><add place="above">r</add><lb n="13" xml:id="CV188_lb_020r_13"/><space extent="4"/>te</w>
+          <w><hi rend="red">mo</hi><add place="above">r</add><lb n="13" xml:id="CV188_lb_020r_13"/><space quantity="4" unit="char"/>te</w>
           <w>consilia<c corresp="#v">u</c>erit</w><reg>,</reg>
           <w>et</w>
           <w>ex</w>
@@ -4382,7 +4398,7 @@
           <w>ipse</w>
           <w>consiliator</w>
           <w>conponat</w>
-          <lb n="16" xml:id="CV188_lb_020r_16"/><space extent="12"/><!-- CHECK ok --><w><choice>
+          <lb n="16" xml:id="CV188_lb_020r_16"/><space quantity="12" unit="char"/><!-- CHECK ok --><w><choice>
             <orig>soledus</orig>
             <reg>solidos</reg>
           </choice></w>
@@ -4402,7 +4418,7 @@
             <orig>home<lb n="18" xml:id="CV188_lb_020r_18_orig"/>nis</orig>
             <reg>homi<lb n="18" xml:id="CV188_lb_020r_18_reg"/>nes</reg>
           </choice></w>
-          <space extent="3"/><w>liberi</w>
+          <space quantity="3" unit="char"/><w>liberi</w>
           <w>inter</w>
           <w>se</w>
           <w>in</w>
@@ -4424,7 +4440,7 @@
             <corr>tractato</corr>
           </choice></w>
 
-        <!-- #######################################  folio   ####################################### -->
+        <!-- #######################################  folio 20v  ####################################### -->
 
         <pb n="20v" xml:id="CV188_folio_020v"/>
 
@@ -4482,7 +4498,7 @@
               <reg>hominis</reg>
             </choice></w>
           <w>si<c corresp="#v">u</c>e</w>
-          <lb n="7"/><w>am<space extent="2"/>plius</w>
+          <lb n="7"/><w>am<space quantity="2" unit="char"/>plius</w>
           <w>liberi</w>
           <w><choice><!-- CHECK ok -->
             <orig>humicidium</orig>
@@ -4595,7 +4611,7 @@
           <w>ut</w>
           <w>supra</w><reg>,</reg>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 21r  ####################################### -->
 
         <pb n="21r" xml:id="CV188_folio_021r"/>
 
@@ -4608,7 +4624,7 @@
             <sic><w>ipsum</w> <w>consilium</w></sic>
             <corr><w>ipso</w> <w>consilio</w></corr>
           </choice>
-          <lb n="2"/><space extent="4"/><w>se</w>
+          <lb n="2"/><space quantity="4" unit="char"/><w>se</w>
           <w><choice><!-- CHECK ok -->
             <orig>purifecit</orig>
             <reg>purificit</reg>
@@ -4755,7 +4771,7 @@
             </choice></w>
           <w>conponat</w><reg>.</reg>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 21v  ####################################### -->
 
         <pb n="21v" xml:id="CV188_folio_021v"/>
 
@@ -4877,7 +4893,7 @@
           <w>et</w>
           <w>a</w>
           <w>curte</w>
-          <lb rend="below"/><space extent="12"/><w>regis</w><!-- CHECK <space> o align-right? -->
+          <lb rend="below"/><space quantity="12" unit="char"/><w>regis</w><!-- CHECK <space> o align-right? -->
           <w>exegat</w><reg>.</reg>
         </p>
 
@@ -4920,9 +4936,9 @@
           <w>et</w>
           <w>mox</w>
           <w><c corresp="#v">u</c>icinibus</w>
-          <w>patefece<lb rend="below"/><space extent="12"/>rit</w><reg>,</reg>
+          <w>patefece<lb rend="below"/><space quantity="12" unit="char"/>rit</w><reg>,</reg>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 22r  ####################################### -->
 
         <pb n="22r" xml:id="CV188_folio_022r"/>
 
@@ -4969,7 +4985,7 @@
           <w>baronibus</w>
           <w>nostris</w>
           <lb n="6"/><w>ad</w>
-          <space extent="4"/><w>nos</w>
+          <space quantity="4" unit="char"/><w>nos</w>
           <w><c corresp="#v">u</c>oluerit</w>
           <w>venire</w><reg>,</reg>
           <w>secu<lb n="7"/>rus</w>
@@ -5045,7 +5061,7 @@
             <sic><abbr>rediend<am><g ref="#umacr"/></am></abbr></sic>
             <corr><expan>redeundu<ex>m</ex></expan></corr>
           </choice></w>
-          <w>f<space extent="2"/>aciat</w><reg>;</reg>
+          <w>f<space quantity="2" unit="char"/>aciat</w><reg>;</reg>
           <w>nam</w>
           <w>si</w>
           <w><retrace hand="#hand2">f</retrace>e<lb n="16"/>cerit</w><reg>,</reg><!-- CHECK hand -->
@@ -5067,7 +5083,7 @@
           <w><hi rend="decorated2.5">S<!-- ??? forma s alternativa --></hi>i</w>
           <w>quis</w>
           <w>ex</w>
-          <w>ad<space extent="2"/><c corresp="#v">u</c>ersariis</w>
+          <w>ad<space quantity="2" unit="char"/><c corresp="#v">u</c>ersariis</w>
           <lb n="18"/><w>manum</w>
           <w><choice>
             <sic>armata</sic>
@@ -5093,7 +5109,7 @@
           <!-- parte con trascrizione da controllare -->
           <!-- ############################## -->
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 22v  ####################################### -->
 
         <pb n="22v" xml:id="CV188_folio_022v"/>
 
@@ -5144,7 +5160,7 @@
             <abbr>exercit<am><g ref="#umacr"/></am></abbr>
             <expan>exercitu<ex>m</ex></expan>
           </choice></w>
-          <lb n="6"/><w>us<space extent="1"/>qu<space extent="2"/>e</w>
+          <lb n="6"/><w>us<space quantity="1" unit="char"/>qu<space quantity="2" unit="char"/>e</w>
           <w>ad</w>
           <w>quattuor</w>
           <w><choice>
@@ -5158,7 +5174,7 @@
             <corr>intraverit</corr>
           </choice></w><reg>,</reg>
           <w>ille</w>
-          <w>pr<space extent="3"/>i<lb n="8"/>or</w>
+          <w>pr<space quantity="3" unit="char"/>i<lb n="8"/>or</w>
           <w>pro</w>
           <w>inlecita</w>
           <w><choice>
@@ -5248,7 +5264,7 @@
           <w>ita</w>
           <w>conponatur</w><reg>.</reg>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 23r  ####################################### -->
 
         <pb n="23r" xml:id="CV188_folio_023r"/>
 
@@ -5429,7 +5445,7 @@
           <w>et</w>
           <w>nolu<lb rend="below align-right"/>erit</w>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 23v  ####################################### -->
 
         <pb n="23v" xml:id="CV188_folio_023v"/>
           
@@ -5597,7 +5613,7 @@
               <expan>sol<ex>idos</ex></expan>
             </choice></w>
           <lb n="20"/><damage><w>ei</w>
-          <w>co<space extent="1"/>nponat</w><reg>,</reg>
+            <w>co<space quantity="1" unit="char"/>nponat</w><reg>,</reg>
           <w>sic</w>
           <w>tamen</w><reg>,</reg>
           <w>ut</w></damage>
@@ -5605,7 +5621,7 @@
           
           <fw rend="align-center">d</fw>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 24r  ####################################### -->
 
         <pb n="24r" xml:id="CV188_folio_024r"/>
 
@@ -5766,7 +5782,7 @@
             <corr>quolibet</corr>
           </choice></w>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 24v  ####################################### -->
 
         <pb n="24v" xml:id="CV188_folio_024v"/>
 
@@ -5901,7 +5917,7 @@
           <w>ut</w>
           <w>homo</w>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 25r  ####################################### -->
 
         <pb n="25r" xml:id="CV188_folio_025r"/>
 
@@ -6054,7 +6070,7 @@
               <orig>culpa<c corresp="#v">u</c>elis</orig>
               <reg>culpabilis</reg></choice></w><reg>,</reg>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 25v  ####################################### -->
 
         <pb n="25v" xml:id="CV188_folio_025v"/>
 
@@ -6197,7 +6213,7 @@
           <w>si</w>
           <w>perf<subst><del rend="overwrite">i</del><add place="inline">e</add></subst>cerit</w>
           <lb n="18" rend="align-right"/><w>et</w>
-          <space extent="6"/><w>percusserit</w><reg>,</reg>
+          <space quantity="6" unit="char"/><w>percusserit</w><reg>,</reg>
           <w>sit</w>
           <w><choice>
             <orig>culpa<lb n="19"/><c corresp="#v">u</c>elis</orig>
@@ -6219,7 +6235,7 @@
           <w>excepto</w>
           <w>plagas</w>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 26r  ####################################### -->
 
         <pb n="26r" xml:id="CV188_folio_026r"/>
 
@@ -6385,7 +6401,7 @@
           <w>in</w>
           <w>ci<c corresp="#v">u</c>itatem</w>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 26v  ####################################### -->
 
         <pb n="26v" xml:id="CV188_folio_026v"/>
 
@@ -6532,7 +6548,7 @@
             <reg>legaverit</reg>
           </choice></w>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 27r  ####################################### -->
 
         <pb n="27r" xml:id="CV188_folio_027r"/>
 
@@ -6683,7 +6699,7 @@
           <w>et</w>
           <w>c<damage>o<unclear>np</unclear>o</damage>s<damage>iti</damage><lb n="18"/>onis</w>
           <w>plagarum</w>
-          <w>qu<space extent="1"/>ae</w>
+          <w>qu<space quantity="1" unit="char"/>ae</w>
           <w>inter</w>
           <w><choice><!-- CHECK -->
             <orig>ho<lb n="19"/>menis</orig>
@@ -6699,7 +6715,7 @@
           <w>adne<lb rend="align-right"/>xum</w>
           <w>est</w><reg>,</reg>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 27v  ####################################### -->
 
         <pb n="27v" xml:id="CV188_folio_027v"/>
 
@@ -6880,7 +6896,7 @@
             <corr>pedes</corr>
           </choice></w>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 28r  ####################################### -->
 
         <pb n="28r" xml:id="CV188_folio_028r"/>
 
@@ -7052,7 +7068,7 @@
           <w>si</w>
           <w>quis</w>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 28v  ####################################### -->
 
         <pb n="28v" xml:id="CV188_folio_028v"/>
 
@@ -7189,12 +7205,12 @@
             </choice>
           </w>
           <w>si</w>
-          <w>qu<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">i</supplied><add place="above">s</add></w>
-          <lb n="12" xml:id="CV188_lb_028v_12"/><w>ali<space extent="2"/>i</w>
+          <w>qu<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">i</supplied><add place="above">s</add></w>
+          <lb n="12" xml:id="CV188_lb_028v_12"/><w>ali<space quantity="2" unit="char"/>i</w>
           <w>aurem</w>
           <w>
             <choice>
-              <orig>abs<space extent="1"/>ceder<add place="inline">i</add>t</orig>
+              <orig>abs<space quantity="1" unit="char"/>ceder<add place="inline">i</add>t</orig>
               <reg resp="leges azzara bluhme beyerle">absciderit</reg>
             </choice>
           </w>
@@ -7228,7 +7244,7 @@
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
-          <space extent="7" unit="chars"/><lb n="16" xml:id="CV188_lb_028v_16"/><w>ei</w>
+          <space quantity="7" unit="char"/><lb n="16" xml:id="CV188_lb_028v_16"/><w>ei</w>
           <w>
             <choice>
               <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -7237,7 +7253,7 @@
           </w>
           <measure quantity="16" type="currency" unit="soldi"><w>sedicem</w></measure>
           <reg>.</reg>
-          <space extent="3"/>
+          <space quantity="3" unit="char"/>
         </p>
 
         <p xml:id="CV188_p_028v_04"><lb n="17" type="rubric" xml:id="CV188_lb_028v_17"/><label n="55"
@@ -7281,9 +7297,9 @@
           <w>tantum </w>
           <w>
             <choice>
-              <orig>cecha<lb n="21" xml:id="CV188_lb_028v_21_orig"/><space extent="11" unit="chars"/>trices</orig>
+              <orig>cecha<lb n="21" xml:id="CV188_lb_028v_21_orig"/><space quantity="11" unit="char"/>trices</orig>
               <reg resp="leges azzara bluhme beyerle">cecha<lb n="21" xml:id="CV188_lb_028v_21_reg"/><space
-                  extent="11" unit="chars"/>trix</reg>
+                  quantity="11" unit="char"/>trix</reg>
             </choice>
           </w>
           <w>
@@ -7295,7 +7311,7 @@
           <reg>.</reg>
         </p>
 
-        <!-- #######################################  folio   ####################################### -->
+        <!-- #######################################  folio 29r  ####################################### -->
 
         <pb n="29r" xml:id="CV188_folio_029r"/>
 
@@ -7391,11 +7407,11 @@
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
-          <space extent="11" unit="chars"/><lb n="07" xml:id="CV188_lb_029r_07"/><w><choice><abbr>so<am><g ref="#ltailstrok"/></am></abbr><expan>sol<ex>idos</ex></expan>
+          <space quantity="11" unit="char"/><lb n="07" xml:id="CV188_lb_029r_07"/><w><choice><abbr>so<am><g ref="#ltailstrok"/></am></abbr><expan>sol<ex>idos</ex></expan>
             </choice>
           </w>
           <measure quantity="8" type="currency" unit="soldi"><w>octo</w></measure>
-          <space extent="7" unit="chars"/>
+          <space quantity="7" unit="char"/>
         </p>
 
         <p xml:id="CV188_p_029r_03"><lb n="08" type="rubric" xml:id="CV188_lb_029r_08"/>
@@ -7574,16 +7590,16 @@
           <w>tres</w>
           <w>tantumodo</w>
           <choice>
-            <orig>nomiren<lb n="21" xml:id="CV188_lb_029r_21_orig"/><space extent="19" unit="chars"/>tur</orig>
+            <orig>nomiren<lb n="21" xml:id="CV188_lb_029r_21_orig"/><space quantity="19" unit="char"/>tur</orig>
             <reg resp="leges azzara bluhme beyerle">numeren<lb n="21" xml:id="CV188_lb_029r_21_reg"/><space
-                extent="19" unit="chars"/>tur</reg>
+                quantity="19" unit="char"/>tur</reg>
           </choice>
           <choice>
             <orig><pc>:</pc></orig>
             <reg>,</reg>
           </choice>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 29v  ####################################### -->
 
         <pb n="29v" xml:id="CV188_folio_029v"/>
 
@@ -7628,7 +7644,7 @@
           <w>sicut</w>
           <w>
             <choice>
-              <orig>adpr<gap extent="1" unit="chars"/><supplied reason="invisible" resp="leges">e</supplied><lb n="7"
+              <orig>adpr<gap quantity="1" unit="char"/><supplied reason="invisible" resp="leges">e</supplied><lb n="7"
                   xml:id="CV188_lb_029v_07_orig"/>tiatus</orig>
               <reg resp="leges azzara bluhme beyerle">adpre<lb n="7" xml:id="CV188_lb_029v_07_reg"/>tiatus</reg>
             </choice>
@@ -7826,7 +7842,7 @@
               <expan>sol<ex>idos</ex></expan>
             </choice>
           </w>
-          <lb n="23" xml:id="CV188_lb_029v_23"/><space extent="21" unit="chars"/>
+          <lb n="23" xml:id="CV188_lb_029v_23"/><space quantity="21" unit="char"/>
           <measure quantity="5" type="currency" unit="soldi">
             <w>
               <choice>
@@ -7841,7 +7857,7 @@
           </choice>
         </p>
 
-        <!-- #######################################  folio   ####################################### -->
+        <!-- #######################################  folio 30r  ####################################### -->
 
         <pb n="30r" xml:id="CV188_folio_030r"/>
 
@@ -7883,7 +7899,7 @@
           <w>digitum</w>
           <w>excusserit</w>
           <reg>,</reg>
-          <lb n="6" xml:id="CV188_lb_030r_06"/><space extent="6" unit="chars"/><w>conponat</w>
+          <lb n="6" xml:id="CV188_lb_030r_06"/><space quantity="6" unit="char"/><w>conponat</w>
           <w>
             <choice>
               <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -7984,7 +8000,7 @@
           <w>po<space/>licem</w>
           <w>de</w>
           <w>pede</w>
-          <w>excusse<lb n="15" xml:id="CV188_lb_030r_15"/><space extent="12" unit="chars"/>rit</w>
+          <w>excusse<lb n="15" xml:id="CV188_lb_030r_15"/><space quantity="12" unit="char"/>rit</w>
           <w>conponat</w>
           <w>
             <choice>
@@ -8054,16 +8070,16 @@
             </choice>
           </w>
           <lb n="21" xml:id="CV188_lb_030r_21"/>
-          <space extent="15" unit="chars"/>
+          <space quantity="15" unit="char"/>
           <measure quantity="3" type="currency" unit="count">
-            <w>tr<space extent="3" unit="chars"/>es</w>
+            <w>tr<space quantity="3" unit="char"/>es</w>
           </measure>
           <choice>
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice></p>
 
-        <!-- #######################################  folio   ####################################### -->
+        <!-- #######################################  folio 30v  ####################################### -->
 
         <pb n="30v" xml:id="CV188_folio_030v"/>
 
@@ -8095,7 +8111,7 @@
           <w><hi rend="decorated">S</hi>i</w>
           <w>quintum</w>
           <w>digitum</w>
-          <w>p<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">e</supplied>
+          <w>p<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">e</supplied>
             <lb n="4" xml:id="CV188_lb_030v_04"/>dis</w>
           <w>e<space/>xcusserit</w><reg>,</reg>
           <w>
@@ -8133,7 +8149,7 @@
           <w>istas</w>
           <w>plagas</w>
           <lb n="6" xml:id="CV188_lb_030v_06"/><w>aut</w>
-          <w>f<space extent="3" unit="chars"/>eritas</w>
+          <w>f<space quantity="3" unit="char"/>eritas</w>
           <w>superius</w>
           <w>scrip<lb n="7" xml:id="CV188_lb_030v_07"/>tas</w>
           <w>
@@ -8237,8 +8253,8 @@
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
-          <w>qualiter</w><space extent="6" unit="chars"/>
-          <lb n="17" xml:id="CV188_lb_030v_17"/><space extent="3" unit="chars"/><w>in</w>
+          <w>qualiter</w><space quantity="6" unit="char"/>
+          <lb n="17" xml:id="CV188_lb_030v_17"/><space quantity="3" unit="char"/><w>in</w>
           <term ref="#angargathungi" xml:id="CV188_term_angargathungi_74" xml:lang="lng">
             <w>angargathungi</w>
           </term>
@@ -8398,11 +8414,11 @@
           <w>domui</w>
           <w>
             <choice>
-              <orig><lb n="15" xml:id="CV188_lb_031r_15"/><space extent="11" unit="chars"/>notriti</orig>
+              <orig><lb n="15" xml:id="CV188_lb_031r_15"/><space quantity="11" unit="char"/>notriti</orig>
               <reg resp="leges azzara bluhme beyerle">nutriti</reg>
             </choice>
           </w>
-          <w>sunt</w><space extent="5" unit="chars"/></p>
+          <w>sunt</w><space quantity="5" unit="char"/></p>
 
         <p xml:id="CV188_p_031r_02"><lb n="16" type="rubric" xml:id="CV188_lb_031r_16"/><label n="77"><num><w>LXX<g
                   ref="#romnumsix"/>I</w></num></label>
@@ -8464,7 +8480,7 @@
           <w>si</w>
           <w>tres</w>
           <orig>.</orig>
-          <w>fece<gap extent="3" unit="chars"/><supplied reason="illegible" resp="leges">rit</supplied></w>
+          <w>fece<gap quantity="3" unit="char"/><supplied reason="illegible" resp="leges">rit</supplied></w>
           <lb n="2" xml:id="CV188_lb_031v_02"/>
           <w>
             <choice>
@@ -8496,8 +8512,8 @@
           <w>amplius</w>
           <w>dura<c corresp="#v">u</c>erit</w><reg>,</reg>
           <w>non</w>
-          <w>n<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">o</supplied>
-            <lb n="4" xml:id="CV188_lb_031v_04"/><space extent="15" unit="chars"/>mirentur</w></p>
+          <w>n<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">o</supplied>
+            <lb n="4" xml:id="CV188_lb_031v_04"/><space quantity="15" unit="char"/>mirentur</w></p>
 
         <p xml:id="CV188_p_031v_01"><lb n="5" type="rubric" xml:id="CV188_lb_031v_05"/><label n="78">
             <num>
@@ -8517,10 +8533,10 @@
               <reg resp="bluhme">haldium</reg><!-- CHECK add term, glossary ref -->
             </choice>
           </w>
-          <w>alien<gap extent="2" unit="chars"/><supplied reason="illegible" resp="leges">um</supplied></w>
+          <w>alien<gap quantity="2" unit="char"/><supplied reason="illegible" resp="leges">um</supplied></w>
           <lb n="6" xml:id="CV188_lb_031v_06"/><w>a<add place="above">u</add>t</w>
           <w>ser<c corresp="#v">u</c>um</w>
-          <w>minis<space extent="5"/>terial<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges"
+          <w>minis<space quantity="5" unit="char"/>terial<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges"
               >e</supplied></w>
           <lb n="7" xml:id="CV188_lb_031v_07"/><w>plaga<c corresp="#v">u</c><space/>erit</w>
           <w>in</w>
@@ -8567,7 +8583,7 @@
           <w>et</w>
           <w>
             <choice>
-              <orig>me<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">r</supplied>
+              <orig>me<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">r</supplied>
                 <lb n="11" xml:id="CV188_lb_031v_11_orig"/>cidis</orig>
               <reg resp="leges azzara bluhme beyerle">mer<lb n="11" xml:id="CV188_lb_031v_11_reg"/>cedes</reg>
             </choice>
@@ -8598,7 +8614,7 @@
         </p>
 
         <p xml:id="CV188_p_031v_02"><lb n="13" type="rubric" xml:id="CV188_lb_031v_13"/><label n="79"
-                  ><num><w><damage/><gap extent="7" unit="chars"/><supplied reason="illegible"
+                  ><num><w><damage/><gap quantity="7" unit="char"/><supplied reason="illegible"
               >LXXGIII</supplied></w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
           <w>quis</w>
@@ -8610,7 +8626,7 @@
             </choice>
           </w>
           <lb n="14" type="rubric" xml:id="CV188_lb_031v_14"/><w>aut</w>
-          <w>se<space/>r<c corresp="#v">u</c>u<space extent="2"/>m</w>
+          <w>se<space/>r<c corresp="#v">u</c>u<space quantity="2" unit="char"/>m</w>
           <w>ministerialem</w>
           <lb n="15" xml:id="CV188_lb_031v_15"/><w>plaga<c corresp="#v">u</c>erit</w>
           <w>in</w>
@@ -8653,7 +8669,7 @@
           <w>excepto</w>
           <w>operas</w>
           <w>et</w>
-          <lb n="19" xml:id="CV188_lb_031v_19"/><space extent="8" unit="chars"/>
+          <lb n="19" xml:id="CV188_lb_031v_19"/><space quantity="8" unit="char"/>
           <w>
             <choice>
               <orig>mercedis</orig>
@@ -8670,7 +8686,7 @@
           <w>in</w>
           <w>facia<unclear reason="faded">s</unclear></w>
           <lb n="21" xml:id="CV188_lb_031v_21"/><w>si</w>
-          <space extent="3"/>
+          <space quantity="3" unit="char"/>
           <w>quis</w>
           <w>aldium</w>
           <w>alienum</w>
@@ -8742,13 +8758,13 @@
           <w>fuerit</w>
           <w>si</w>
           <w>eum</w>
-          <w>occidis<lb n="8" xml:id="CV188_lb_032r_08"/><space extent="10" unit="chars"/>sit</w>
+          <w>occidis<lb n="8" xml:id="CV188_lb_032r_08"/><space quantity="10" unit="char"/>sit</w>
           <w>ei</w>
           <w>conponat</w>
           <choice>
             <orig><pc>:</pc></orig>
             <reg>.</reg>
-          </choice><space extent="2"/></p>
+          </choice><space quantity="2" unit="char"/></p>
 
         <p xml:id="CV188_p_032r_02"><lb n="9" type="rubric" xml:id="CV188_lb_032r_09"/><label n="82"
               ><num><w>LXXXII</w></num></label>
@@ -8757,7 +8773,7 @@
           <w>abscisum</w>
           <lb n="10" xml:id="CV188_lb_032r_10"/><w><unclear>s</unclear>i</w>
           <w>quis</w>
-          <w>ald<space extent="1"/>ium</w>
+          <w>ald<space quantity="1" unit="char"/>ium</w>
           <w>alienum</w>
           <w>aut</w>
           <w>ser <lb n="11" xml:id="CV188_lb_032r_11"/><c corresp="#v">u</c>um</w>
@@ -8797,10 +8813,10 @@
           </w>
           <lb n="15" xml:id="CV188_lb_032r_15"/><w>aut</w>
           <choice>
-            <sic><w>se<space extent="4"/>r<c corresp="#v">u</c>o</w>
-              <w>ministeri<space extent="2"/>ale</w></sic>
-            <corr><w>se<space extent="4"/>r<c corresp="#v">u</c>um</w>
-              <w>ministeri<space extent="2"/>alem</w></corr>
+            <sic><w>se<space quantity="4" unit="char"/>r<c corresp="#v">u</c>o</w>
+              <w>ministeri<space quantity="2" unit="char"/>ale</w></sic>
+            <corr><w>se<space quantity="4" unit="char"/>r<c corresp="#v">u</c>um</w>
+              <w>ministeri<space quantity="2" unit="char"/>alem</w></corr>
           </choice>
           <lb n="16" xml:id="CV188_lb_032r_16"/><w><damage>a</damage>urem</w>
           <w>absciderit</w><reg>,</reg>
@@ -8851,7 +8867,7 @@
           <w>a<space/>bsciderit</w><reg>,</reg>
           <w>ut</w>
           <w>dentis</w>
-          <lb n="22" xml:id="CV188_lb_032r_22"/><space extent="17" unit="chars"/><w>appareant</w><reg>,</reg>
+          <lb n="22" xml:id="CV188_lb_032r_22"/><space quantity="17" unit="char"/><w>appareant</w><reg>,</reg>
 
           <!-- #######################################  folio   ####################################### -->
 
@@ -8874,7 +8890,7 @@
           <w>excepto</w>
           <w>operas</w>
           <w>et</w>
-          <lb n="2" xml:id="CV188_lb_032v_02"/><space extent="6"/><w>mercedis</w>
+          <lb n="2" xml:id="CV188_lb_032v_02"/><space quantity="6" unit="char"/><w>mercedis</w>
           <w>medici</w>
           <choice>
             <orig><pc>:</pc></orig>
@@ -8912,7 +8928,7 @@
           </choice>
           <w>pro</w>
           <w>unum</w>
-          <w>de<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">n</supplied>
+          <w>de<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">n</supplied>
             <lb n="8" xml:id="CV188_lb_032v_08"/>tem</w>
           <w>
             <choice>
@@ -8948,7 +8964,7 @@
           <w>ma<lb n="12" xml:id="CV188_lb_032v_12"/>xillaris</w><space/>
           <w>dentis</w>
           <w>excusserit</w>
-          <w>p<gap extent="2" unit="chars"/><supplied reason="illegible" resp="leges">ro</supplied></w>
+          <w>p<gap quantity="2" unit="char"/><supplied reason="illegible" resp="leges">ro</supplied></w>
           <lb n="13" xml:id="CV188_lb_032v_13"/><w>unum</w>
           <w>maxillar<del rend="erasure">is</del>e</w>
           <w>
@@ -9023,7 +9039,7 @@
         <p xml:id="CV188_p_032v_04"><lb n="21" type="rubric" xml:id="CV188_lb_032v_21"/><label n="88"><num><w>LXXX<g
                   ref="#romnumsix"/>II</w></num></label>
           <w><hi>D</hi>e</w>
-          <w>mano</w><space extent="2" unit="chars"/>
+          <w>mano</w><space quantity="2" unit="char"/>
           <w>abscisa</w><reg>.</reg>
           <w>Si</w>
           <w>
@@ -9046,7 +9062,7 @@
           <lb n="2" xml:id="CV188_lb_033r_02"/><w>manum</w>
           <w>absciderit</w><reg>,</reg>
           <w>medietatem</w>
-          <lb n="3" xml:id="CV188_lb_033r_03"/><space extent="6"/><w>pretii</w>
+          <lb n="3" xml:id="CV188_lb_033r_03"/><space quantity="6" unit="char"/><w>pretii</w>
           <w>ipsius</w>
           <w>ei</w>
           <w>
@@ -9243,8 +9259,8 @@
           <w>excepto</w>
           <w>operas</w>
           <w>et</w>
-          <w>mer<lb n="21" xml:id="CV188_lb_033r_21"/><space extent="12" unit="chars"/>cedis</w><!-- CHECK mercedes -->
-          <w>medici</w><space extent="8" unit="chars"/></p>
+          <w>mer<lb n="21" xml:id="CV188_lb_033r_21"/><space quantity="12" unit="char"/>cedis</w><!-- CHECK mercedes -->
+          <w>medici</w><space quantity="8" unit="char"/></p>
 
         <!-- #######################################  folio   ####################################### -->
 
@@ -9313,7 +9329,7 @@
           </choice>
           <w>excepto</w>
           <w>operas</w>
-          <lb n="9" xml:id="CV188_lb_033v_09"/><space extent="11" unit="chars"/><w>et</w>
+          <lb n="9" xml:id="CV188_lb_033v_09"/><space quantity="11" unit="char"/><w>et</w>
           <w>mercedis</w>
           <w>medici</w>
           <choice>
@@ -9622,7 +9638,7 @@
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
-          <lb n="20" xml:id="CV188_lb_034r_20"/><space extent="14" unit="chars"/>
+          <lb n="20" xml:id="CV188_lb_034r_20"/><space quantity="14" unit="char"/>
           <w>
             <choice>
               <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -9630,7 +9646,7 @@
             </choice>
           </w>
           <measure quantity="3" type="currency" unit="soldi"><w>III</w></measure>
-          <space extent="6" unit="chars"/>
+          <space quantity="6" unit="char"/>
           <choice>
             <orig><pc>:</pc></orig>
             <reg>.</reg>
@@ -9709,7 +9725,7 @@
           <w>si</w>
           <w>eum</w>
           <w>occidiss<add place="inline">i</add>t</w><reg>,</reg>
-          <lb n="10" xml:id="CV188_lb_034v_10"/><space extent="5" unit="chars"/>
+          <lb n="10" xml:id="CV188_lb_034v_10"/><space quantity="5" unit="char"/>
           <w>
             <choice>
               <abbr>dnm</abbr>
@@ -9723,7 +9739,7 @@
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
-          <space extent="7" unit="chars"/></p>
+          <space quantity="7" unit="char"/></p>
         <p xml:id="CV188_p_034v_03"><lb n="11" type="rubric" xml:id="CV188_lb_034v_11"/><label n="106"
               ><num><w>CG</w></num></label>
           <w><hi>D</hi>e</w>
@@ -9821,7 +9837,7 @@
           <w>absciderit</w><reg>,</reg>
           <w>ut</w>
           <w>dentis</w>
-          <w>ap<lb n="21" xml:id="CV188_lb_034v_21"/><space extent="12" unit="chars"/>pareat</w>
+          <w>ap<lb n="21" xml:id="CV188_lb_034v_21"/><space quantity="12" unit="char"/>pareat</w>
           <w>
             <choice>
               <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
@@ -9987,7 +10003,7 @@
           <measure quantity="1" type="currency" unit="soldi"><w>uno</w></measure>
           <w>excepto</w>
           <w>operas</w>
-          <lb n="13" xml:id="CV188_lb_035r_13"/><space extent="10" unit="chars"/><w>et</w>
+          <lb n="13" xml:id="CV188_lb_035r_13"/><space quantity="10" unit="char"/><w>et</w>
           <w>mercedis</w>
           <w>medici</w>
           <choice>
@@ -10052,8 +10068,8 @@
               <corr>aut</corr>
             </choice>
           </w>
-          <w>ti<lb n="21" xml:id="CV188_lb_035r_21"/><space extent="11" unit="chars"/>bia</w>
-          <w>ruperit</w><space extent="5" unit="chars"/>
+          <w>ti<lb n="21" xml:id="CV188_lb_035r_21"/><space quantity="11" unit="char"/>bia</w>
+          <w>ruperit</w><space quantity="5" unit="char"/>
 
           <!-- #######################################  folio   ####################################### -->
 
@@ -10295,7 +10311,7 @@
           </choice>
           <w>excepto</w>
           <w>opera<add place="above">s</add></w>
-          <lb n="22" xml:id="CV188_lb_035v_22"/><space extent="13" unit="chars"/><w>et</w>
+          <lb n="22" xml:id="CV188_lb_035v_22"/><space quantity="13" unit="char"/><w>et</w>
           <w>mercidis</w>
           <w>
             <choice>
@@ -10332,13 +10348,13 @@
           <w>pretii</w>
           <w>ipsius</w>
           <w>ei</w>
-          <w>con<lb n="5" xml:id="CV188_lb_036r_05"/><space extent="11" unit="chars"/>ponat</w>
+          <w>con<lb n="5" xml:id="CV188_lb_036r_05"/><space quantity="11" unit="char"/>ponat</w>
           <w>ut</w>
           <w>supra</w>
           <choice>
             <orig><pc>:</pc></orig>
             <reg>.</reg>
-          </choice><space extent="5" unit="chars"/></p>
+          </choice><space quantity="5" unit="char"/></p>
         <p xml:id="CV188_p_036r_02"><lb n="6" type="rubric" xml:id="CV188_lb_036r_06"/><label n="120"
               ><num><w>CXX</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
@@ -10540,7 +10556,7 @@
           <reg>,</reg>
           <w>amplius</w>
           <w>si</w>
-          <w>fue<lb n="4" xml:id="CV188_lb_036v_04"/><space extent="10" unit="chars"/>rit</w>
+          <w>fue<lb n="4" xml:id="CV188_lb_036v_04"/><space quantity="10" unit="char"/>rit</w>
           <w>non</w>
           <w>nomiretur</w></p>
         <p xml:id="CV188_p_036v_01"><lb n="5" type="rubric" xml:id="CV188_lb_036v_05"/><label n="126"><num><w>C<add
@@ -10601,7 +10617,7 @@
           <w>simi<lb n="13" xml:id="CV188_lb_036v_13"/>li</w>
           <w>modo</w>
           <w>conponatur</w>
-          <w>tamqu<space extent="1" unit="chars"/>am</w>
+          <w>tamqu<space quantity="1" unit="char"/>am</w>
           <lb n="14" xml:id="CV188_lb_036v_14"/><w>si</w>
           <w>eum</w>
           <w>perexcussissit</w>
@@ -10640,8 +10656,8 @@
           <w>tinore</w><reg>,</reg>
           <w>sicut</w>
           <w>superius</w>
-          <w>scrip<lb n="21" xml:id="CV188_lb_036v_21"/><space extent="14" unit="chars"/>tum</w>
-          <w>est</w><space extent="7" unit="chars"/>
+          <w>scrip<lb n="21" xml:id="CV188_lb_036v_21"/><space quantity="14" unit="char"/>tum</w>
+          <w>est</w><space quantity="7" unit="char"/>
 
           <!-- #######################################  folio   ####################################### -->
 
@@ -10691,13 +10707,13 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice>
-          <w>reliqu<space extent="1" unit="chars"/>a</w>
+          <w>reliqu<space quantity="1" unit="char"/>a</w>
           <w><c corresp="#v">u</c>e <lb n="6" xml:id="CV188_lb_037r_06"/>ro</w>
           <w>medietas</w>
           <w>suspendatur</w>
           <w>
             <choice>
-              <abbr><gap extent="2" unit="chars"/><supplied reason="illegible" resp="leges">d</supplied><am><g
+              <abbr><gap quantity="2" unit="char"/><supplied reason="illegible" resp="leges">d</supplied><am><g
                     ref="#umacr"/></am></abbr>
               <expan>du<ex>m</ex></expan>
             </choice>
@@ -10836,7 +10852,7 @@
             <orig>homenis</orig>
             <reg>hominis</reg>
           </choice></w>
-          <lb n="4" xml:id="CV188_lb_037v_04"/><space extent="9" unit="chars"/><w>arbitratum</w>
+          <lb n="4" xml:id="CV188_lb_037v_04"/><space quantity="9" unit="char"/><w>arbitratum</w>
           <w>fuerit</w>
         </p>
 
@@ -10851,7 +10867,7 @@
           <w>quis</w>
           <w>al<space/>dium</w>
           <w>occiderit</w>
-          <w>con<lb n="7" xml:id="CV188_lb_037v_07"/><space extent="11" unit="chars"/>ponat</w>
+          <w>con<lb n="7" xml:id="CV188_lb_037v_07"/><space quantity="11" unit="char"/>ponat</w>
           <w>
             <choice>
               <abbr>so<am><g ref="#ltailstrok"/></am></abbr>
@@ -10943,7 +10959,7 @@
                 ><num><w>CXXXII</w></num></label>
           <w><hi>D</hi>e</w>
           <w>ser<c corresp="#v">u</c>o</w>
-          <w>mas<space extent="1" unit="chars"/>sario</w>
+          <w>mas<space quantity="1" unit="char"/>sario</w>
           <lb n="16" xml:id="CV188_lb_037v_16"/><w>si</w>
           <w>quis</w>
           <w>se<space/>r<c corresp="#v">u</c>um</w>
@@ -10992,7 +11008,7 @@
           <w>a<space/>lienum</w>
           <w>bo<c corresp="#v">u</c>ulco</w>
           <w>de</w>
-          <w>sa<lb n="20" xml:id="CV188_lb_037v_20"/><space extent="10" unit="chars"/>la</w>
+          <w>sa<lb n="20" xml:id="CV188_lb_037v_20"/><space quantity="10" unit="char"/>la</w>
           <w>occiderit</w>
           <w>
             <choice>
@@ -11071,7 +11087,7 @@
           </choice>
           <w>si</w>
           <w>quis</w>
-          <lb n="6" xml:id="CV188_lb_038r_06"/><space extent="4" unit="chars"/><w>pe<space/>corarius</w>
+          <lb n="6" xml:id="CV188_lb_038r_06"/><space quantity="4" unit="char"/><w>pe<space/>corarius</w>
           <w>occiderit</w><reg>,</reg>
           <w>ma<lb n="7" xml:id="CV188_lb_038r_07"/>gistrum</w>
           <w>tamen</w>
@@ -11507,7 +11523,7 @@
             </choice>
           </w>
           <lb n="21" xml:id="CV188_lb_039r_21"/><w>occidissit</w>
-          <w>conponat</w><space extent="8" unit="chars"/>
+          <w>conponat</w><space quantity="8" unit="char"/>
         </p>
 
         <!-- #######################################  folio   ####################################### -->
@@ -11522,7 +11538,7 @@
           <w>ad</w>
           <w>
             <choice>
-              <abbr>be<c corresp="#v">u</c><gap extent="2" unit="chars"/><supplied reason="illegible" resp="leges"
+              <abbr>be<c corresp="#v">u</c><gap quantity="2" unit="char"/><supplied reason="illegible" resp="leges"
                   >en</supplied><lb n="2" xml:id="CV188_lb_039v_02_abbr"/>d<am><g ref="#umacr"/></am></abbr>
               <expan>beven<lb n="2" xml:id="CV188_lb_039v_02_expan"/>du<ex>m</ex></expan>
             </choice>
@@ -11540,7 +11556,7 @@
           <w>persone</w>
           <w>in</w>
           <lb n="5" xml:id="CV188_lb_039v_05"/><w>integrum</w>
-          <w>conponat</w><space extent="9" unit="chars"/></p>
+          <w>conponat</w><space quantity="9" unit="char"/></p>
         <p xml:id="CV188_p_039v_02"><lb n="6" type="rubric" xml:id="CV188_lb_039v_06"/><label n="142"
               ><num><w>CXLII</w></num></label>
           <w><hi rend="decorated">S</hi>i</w>
@@ -11601,14 +11617,14 @@
           <w>fuerit</w><reg>,</reg>
           <w>ad</w>
           <w>occidendum</w>
-          <w>t<gap extent="2" unit="chars"/><supplied reason="illegible" resp="leges">ra</supplied><lb n="15"
+          <w>t<gap quantity="2" unit="char"/><supplied reason="illegible" resp="leges">ra</supplied><lb n="15"
               xml:id="CV188_lb_039v_15"/>datur</w><reg>.</reg>
           <w>et</w>
           <w><add place="above">si</add></w>
           <w>mortuos</w>
           <w>fuerit</w><reg>,</reg>
           <w>qui</w>
-          <w>a<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">c</supplied><lb n="16"
+          <w>a<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">c</supplied><lb n="16"
               xml:id="CV188_lb_039v_16"/>cepit</w>
           <w>tunc</w>
           <w>
@@ -11640,7 +11656,7 @@
           <w>ipsa</w>
           <w>conpositione</w>
           <w>pro</w>
-          <w>quant<gap extent="2" unit="chars"/><supplied reason="illegible" resp="leges">um</supplied></w>
+          <w>quant<gap quantity="2" unit="char"/><supplied reason="illegible" resp="leges">um</supplied></w>
           <lb n="20" xml:id="CV188_lb_039v_20"/><w>adpretiatus</w>
           <w>fuerit</w>
           <w>ad</w>
@@ -11699,7 +11715,7 @@
           <w>ipsam</w>
           <w>con<lb n="7" xml:id="CV188_lb_040r_07"/>positio</w>
           <w>facta</w>
-          <space extent="8" unit="chars"/>
+          <space quantity="8" unit="char"/>
           <w>fuerit</w>
           <w>et</w>
           <lb n="8" xml:id="CV188_lb_040r_08"/><w>pro</w>
@@ -11714,7 +11730,7 @@
           <w>ille</w>
           <w>qui</w>
           <w>conpositionem</w>
-          <w><gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">a</supplied>c<lb n="11"
+          <w><gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">a</supplied>c<lb n="11"
               xml:id="CV188_lb_040r_11"/>cepit</w>
           <w>re<c corresp="#v">u</c>indigand<subst><del rend="overwrite">i</del><add place="inline">um</add></subst></w>
           <w>causam</w>
@@ -12135,7 +12151,7 @@
           <gloss target="#CV188_term_ferquido_147" xml:id="CV188_ferquido_147">
             <w>id</w>
             <w>est</w>
-            <w>semil<space extent="2" unit="chars"/>em</w>
+            <w>semil<space quantity="2" unit="char"/>em</w>
           </gloss>
           <w>ideo</w>
           <lb n="11" xml:id="CV188_lb_041v_11"/><w>quia</w>
@@ -12691,7 +12707,7 @@
           <w>tunc</w>
           <w>ille</w>
           <w>qui</w>
-          <w>quiq<gap extent="2" unit="chars"/><supplied reason="illegible" resp="leges">ue</supplied><lb n="5"
+          <w>quiq<gap quantity="2" unit="char"/><supplied reason="illegible" resp="leges">ue</supplied><lb n="5"
               xml:id="CV188_lb_043v_05"/>rit</w>
           <w>pre<c corresp="#v">u</c>eat</w>
           <w>sagramentum</w>
@@ -13081,7 +13097,7 @@
           <w>aut</w>
           <w>pluris</w>
           <lb n="8" xml:id="CV188_lb_045r_08"/><w>et</w>
-          <space extent="6" unit="chars"/><w>filius</w>
+          <space quantity="6" unit="char"/><w>filius</w>
           <w>naturalis</w>
           <w>
             <choice>
@@ -13832,7 +13848,7 @@
           <w>duxerit</w>
           <w>et</w>
           <w>de</w>
-          <w>reb<gap extent="2" unit="chars"/><supplied reason="illegible" resp="leges">us</supplied></w>
+          <w>reb<gap quantity="2" unit="char"/><supplied reason="illegible" resp="leges">us</supplied></w>
           <lb n="12" xml:id="CV188_lb_047v_12"/><w>communes</w>
           <term ref="#meta" xml:id="CV188_term_meta_167" xml:lang="lng">
             <w>meta</w>
@@ -13885,7 +13901,7 @@
           <w>fuerit</w>
           <w>inter</w>
           <w>se</w>
-          <w>aequalit<unclear reason="faded">e</unclear><gap extent="1" unit="chars"/><supplied reason="illegible"
+          <w>aequalit<unclear reason="faded">e</unclear><gap quantity="1" unit="char"/><supplied reason="illegible"
               resp="leges">r</supplied></w>
           <lb n="21" rend="align_right" xml:id="CV188_lb_047v_21"/><w>di<c corresp="#v">u</c>idant</w>
           <choice>
@@ -13958,7 +13974,7 @@
           <w>patri</w>
           <w>insidiatus</w>
           <w>a<add hand="scribe_1" place="above">u</add>t</w>
-          <w>consili<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">a</supplied><lb n="10"
+          <w>consili<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">a</supplied><lb n="10"
               xml:id="CV188_lb_048r_10"/>tor</w>
           <w>fuerit</w>
           <w>aut</w>
@@ -13998,7 +14014,7 @@
           <w><hi rend="decorated">I</hi>tem</w>
           <w>sicut</w>
           <w>nec</w>
-          <w>patrib<gap extent="2" unit="chars"/><supplied reason="illegible" resp="leges">us</supplied></w>
+          <w>patrib<gap quantity="2" unit="char"/><supplied reason="illegible" resp="leges">us</supplied></w>
           <lb n="15" xml:id="CV188_lb_048r_15"/><w>licitum</w>
           <w>est</w>
           <w>filium</w>
@@ -14976,7 +14992,7 @@
           <w>suas</w>
           <w>et</w>
           <w>non</w>
-          <lb n="15" xml:id="CV188_lb_051v_15"/><w>conpella<space extent="2" unit="chars"/>tur</w>
+          <lb n="15" xml:id="CV188_lb_051v_15"/><w>conpella<space quantity="2" unit="char"/>tur</w>
           <w>ut</w>
           <w>ipsam</w>
           <w>
@@ -16385,7 +16401,7 @@
           <w>qui</w>
           <w>eam</w>
           <w>aut</w>
-          <w><c corresp="#v">u</c>i<lb n="19" xml:id="CV188_lb_056r_19"/><gap extent="1" unit="chars"/><supplied
+          <w><c corresp="#v">u</c>i<lb n="19" xml:id="CV188_lb_056r_19"/><gap quantity="1" unit="char"/><supplied
               reason="illegible" resp="leges">o</supplied>lenter</w>
           <w>aut</w>
           <w>ipsam</w>
@@ -16830,7 +16846,7 @@
           <lb n="13" xml:id="CV188_lb_057v_13"/>
           <w>quis</w>
           <term ref="#mundio" xml:id="CV188_term_mundio_197" xml:lang="lng">
-            <w>mundi<space extent="2" unit="chars"/>um</w>
+            <w>mundi<space quantity="2" unit="char"/>um</w>
           </term>
           <w>de</w>
           <w>puella</w>
@@ -17383,7 +17399,7 @@
           <w>non</w>
           <w>sit</w>
           <lb n="2" xml:id="CV188_lb_059v_02"/><w>merita</w>
-          <w>mo<space extent="2" unit="chars"/>ri</w>
+          <w>mo<space quantity="2" unit="char"/>ri</w>
           <w>
             <choice>
               <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
@@ -17409,7 +17425,7 @@
           <w>dederunt</w>
           <lb n="5" xml:id="CV188_lb_059v_05"/><w>et</w>
           <w>mundium</w>
-          <w>susc<damage agent="rubbing">i</damage><space extent="2" unit="chars"/>perunt</w>
+          <w>susc<damage agent="rubbing">i</damage><space quantity="2" unit="char"/>perunt</w>
           <w>et</w>
           <w>me<lb n="6" xml:id="CV188_lb_059v_06"/>dietatem</w>
           <w>regi</w>
@@ -17436,7 +17452,7 @@
           <w>mu<lb n="9" xml:id="CV188_lb_059v_09"/>lierem</w>
           <w>habuerit</w>
           <w>habeant</w>
-          <space extent="7" unit="chars"/>
+          <space quantity="7" unit="char"/>
           <lb n="10" xml:id="CV188_lb_059v_10"/><w>filii</w>
           <term ref="#morgingab" xml:id="CV188_term_morgingab_200" xml:lang="lng">
             <w>
@@ -17502,8 +17518,8 @@
           <w>libera</w>
           <w>occisa</w>
           <lb n="19" xml:id="CV188_lb_059v_19"/><w>si</w>
-          <w>qu<space extent="3" unit="chars"/>is</w>
-          <w>puella<space extent="1" unit="chars"/>m</w>
+          <w>qu<space quantity="3" unit="char"/>is</w>
+          <w>puella<space quantity="1" unit="char"/>m</w>
           <w>liberam</w>
           <w>aut</w>
           <w>mu<lb n="20" xml:id="CV188_lb_059v_20"/>lierem</w>
@@ -17596,7 +17612,7 @@
           <w>mariti</w>
           <lb n="9" xml:id="CV188_lb_060r_9"/>
           <w>sui</w>
-          <w>con<space extent="2" unit="chars"/>silia<c corresp="#v">u</c>erit</w>
+          <w>con<space quantity="2" unit="char"/>silia<c corresp="#v">u</c>erit</w>
           <w>per</w>
           <w><add place="above">s</add>e</w>
           <w>aut</w>
@@ -17624,10 +17640,10 @@
           <w>et</w>
           <w>de</w>
           <w>res</w>
-          <w>ip<space extent="2" unit="chars"/>sius</w>
+          <w>ip<space quantity="2" unit="char"/>sius</w>
           <lb n="13" xml:id="CV188_lb_060r_13"/>
           <w>mulieris</w>
-          <space extent="1" unit="chars"/>
+          <space quantity="1" unit="char"/>
           <w>nam</w>
           <w>si</w>
           <w>illa</w>
@@ -17664,7 +17680,7 @@
         </p>
 
         <p n="203" xml:id="CV188_p_060r_203"><lb n="16" type="rubric" xml:id="CV188_lb_060r_16"/>
-          <label><num><space extent="1" unit="chars"/><w>CCIII</w></num></label>
+          <label><num><space quantity="1" unit="char"/><w>CCIII</w></num></label>
           <w><hi rend="cap2.5 halfempty">S</hi>i</w>
           <w>mulier</w>
           <w>maritum</w>
@@ -17674,7 +17690,7 @@
             </choice></w>
           <lb n="17" xml:id="CV188_lb_060r_17"/>
           <w>occiderit</w>
-          <space extent="2" unit="char"/>
+          <space quantity="2" unit="char"/>
           <w>ipsa</w>
           <w>occidatur</w>
           <w>et</w>
@@ -17682,7 +17698,7 @@
           <lb n="18" xml:id="CV188_lb_060r_18"/>
           <w>eius</w>
           <w>si</w>
-          <w>fi<space extent="4" unit="chars"/>lii</w>
+          <w>fi<space quantity="4" unit="char"/>lii</w>
           <w>non</w>
           <w>fuerint</w>
           <w><choice>
@@ -17708,8 +17724,8 @@
           <w>nostri</w>
           <lb n="21" xml:id="CV188_lb_060r_21"/>
           <w><choice>
-              <sic>dicio<space extent="3" unit="chars"/>ne</sic>
-              <corr>ditio<space extent="3" unit="chars"/>nem</corr>
+              <sic>dicio<space quantity="3" unit="char"/>ne</sic>
+              <corr>ditio<space quantity="3" unit="char"/>nem</corr>
             </choice></w>
           <w><choice>
               <sic>leceat</sic>
@@ -17810,7 +17826,7 @@
           </choice>
           <lb n="10" xml:id="CV188_lb_060v_10"/>
           <w>si</w>
-          <w>qui<space extent="2" unit="chars"/>s</w>
+          <w>qui<space quantity="2" unit="char"/>s</w>
           <w><choice>
               <orig>aldia</orig>
               <reg>aldiam</reg>
@@ -17834,7 +17850,7 @@
               <reg><c corresp="#v">u</c>iolentiam</reg>
             </choice></w>
           <lb n="12" xml:id="CV188_lb_060v_12"/>
-          <w>fece<space extent="2" unit="chars"/>rit</w>
+          <w>fece<space quantity="2" unit="char"/>rit</w>
           <w>conponat</w>
           <w>
             <choice>
@@ -17861,7 +17877,7 @@
           </choice>
           <lb n="14" xml:id="CV188_lb_060v_14"/>
           <w>si</w>
-          <w>qui<space extent="3" unit="chars"/>s</w>
+          <w>qui<space quantity="3" unit="char"/>s</w>
           <w><choice>
               <orig>libera</orig>
               <reg>libertam</reg>
@@ -17912,7 +17928,7 @@
           </choice>
           <lb n="18" xml:id="CV188_lb_060v_18"/>
           <w>si</w>
-          <w>qui<space extent="3" unit="chars"/>s</w>
+          <w>qui<space quantity="3" unit="char"/>s</w>
           <w>ancillam</w>
           <w>alienam</w>
           <w>
@@ -17948,7 +17964,7 @@
           </choice>
           <lb n="21" xml:id="CV188_lb_060v_21"/>
           <w>alienam</w>
-          <space extent="2" unit="chars"/>
+          <space quantity="2" unit="char"/>
           <w>et</w>
           <w>in</w>
           <w><choice>
@@ -17985,7 +18001,7 @@
           <w>ante<lb n="3" xml:id="CV188_lb_061r_3"/>steterit</w>
           <w>et</w>
           <w>non</w>
-          <space extent="7" unit="chars"/>
+          <space quantity="7" unit="char"/>
           <w>permise<lb n="4" xml:id="CV188_lb_061r_4"/>rit</w>
           <w><c corresp="#v">u</c>indicare</w>
           <w>aut</w>
@@ -18030,7 +18046,7 @@
           <w>si</w>
           <w>quis</w>
           <lb n="8" xml:id="CV188_lb_061r_8"/>
-          <w>rapue<space extent="2" unit="chars"/>rit</w>
+          <w>rapue<space quantity="2" unit="char"/>rit</w>
           <w>ancillam</w>
           <w>alienam</w>
           <w>et</w>
@@ -18081,7 +18097,7 @@
             </choice>
           </w>
           <measure quantity="20" type="currency" unit="soldi"><w>XX</w></measure>
-          <space extent="1" unit="chars"/>
+          <space quantity="1" unit="char"/>
           <orig>:</orig>
           <w>medietatem</w>
           <w>re<lb n="14" xml:id="CV188_lb_061r_14"/>gi</w>
@@ -18105,7 +18121,7 @@
           <w>in</w>
           <w>curtem</w>
           <w>re<lb n="16" xml:id="CV188_lb_061r_16"/>gis</w>
-          <w>du<space extent="2" unit="chars"/>xerit</w>
+          <w>du<space quantity="2" unit="char"/>xerit</w>
           <choice>
             <orig><pc>:</pc></orig>
             <reg>.</reg>
@@ -18160,7 +18176,7 @@
 
           <lb n="1" xml:id="CV188_lb_061v_1"/>
           <w>de</w>
-          <space extent="1" unit="chars"/>
+          <space quantity="1" unit="char"/>
           <w>suis</w>
           <w>propriis</w>
           <w>rebus</w>
@@ -18213,15 +18229,15 @@
             </choice></w>
           <lb n="4" xml:id="CV188_lb_061v_4"/>
           <w>alium</w>
-          <space extent="5" unit="chars"/>
+          <space quantity="5" unit="char"/>
           <w><choice>
               <sic>fornigantem</sic>
               <corr>fornicantem</corr>
             </choice></w>
-          <w>in<c corresp="#v">u</c>ene<lb n="5" xml:id="CV188_lb_061v_5"/>ri<space extent="6" unit="chars"/>t</w>
+          <w>in<c corresp="#v">u</c>ene<lb n="5" xml:id="CV188_lb_061v_5"/>ri<space quantity="6" unit="char"/>t</w>
           <!--<w>Si</w> <w>quis</w> <w>cum</w> <w>uxorem</w> <w>suam</w> <w>alium</w> <w>fornicantem</w> <w>invenerit</w>-->
           <!-- see diary-->
-          <space extent="1" unit="chars"/>
+          <space quantity="1" unit="char"/>
           <w>liberum</w>
           <w>aut</w>
           <w>ser<c corresp="#v">u</c>um</w>
@@ -18254,19 +18270,19 @@
             </choice></w>
           <w>alteri<lb n="9" xml:id="CV188_lb_061v_9"/>us</w>
           <w><choice>
-              <sic>tole<space extent="3" unit="chars"/>rit</sic>
-              <corr>tule<space extent="3" unit="chars"/>rit</corr>
+              <sic>tole<space quantity="3" unit="char"/>rit</sic>
+              <corr>tule<space quantity="3" unit="char"/>rit</corr>
             </choice></w>
           <orig>.</orig>
           <w>si</w>
-          <w>libe<space extent="1" unit="chars"/>r</w>
+          <w>libe<space quantity="1" unit="char"/>r</w>
           <w>aut</w>
           <w><choice>
               <abbr>ser<c corresp="#v">u</c><am><g ref="#umacr"/></am></abbr>
               <expan>ser<c corresp="#v">u</c>u<ex>m</ex></expan>
             </choice></w>
           <lb n="10" xml:id="CV188_lb_061v_10"/>
-          <w>uxor<space extent="3" unit="chars"/>em</w>
+          <w>uxor<space quantity="3" unit="char"/>em</w>
           <w>alterius</w>
           <w><choice>
               <sic>tolerit</sic>
@@ -18307,7 +18323,7 @@
           <lb n="13" type="rubric" xml:id="CV188_lb_061v_13"/>
           <label n="213"><num><w>CCXIII</w></num></label>
           <w><hi rend="cap2.0 halfempty">D</hi>e</w>
-          <w>crime<space extent="2" unit="chars"/>n</w>
+          <w>crime<space quantity="2" unit="char"/>n</w>
           <w>adulterii</w>
           <choice>
             <orig><pc>:</pc></orig>
@@ -18316,7 +18332,7 @@
           <lb n="14" xml:id="CV188_lb_061v_14"/>
           <w>Si</w>
           <w>quis</w>
-          <space extent="3" unit="chars"/>
+          <space quantity="3" unit="char"/>
           <w><choice>
               <orig>alium</orig>
               <reg>alii</reg>
@@ -18376,7 +18392,7 @@
           <w>puellam</w>
           <lb n="21" xml:id="CV188_lb_061v_21"/>
           <w>absque</w>
-          <space extent="5" unit="chars"/>
+          <space quantity="5" unit="char"/>
           <w><choice>
               <orig>consilium</orig>
               <reg>consilio</reg>
@@ -18479,7 +18495,7 @@
           <lb n="7" xml:id="CV188_lb_062r_7"/>
           <w>Si</w>
           <w>quis</w>
-          <space extent="3" unit="chars"/>
+          <space quantity="3" unit="char"/>
           <w>puellam</w>
           <w>aut</w>
           <w><choice>
@@ -18603,8 +18619,8 @@
             </choice></w>
           <w>lib<add place="above">e</add><lb n="19" xml:id="CV188_lb_062r_19"/>ra</w>
           <w><choice>
-              <sic>tol<space extent="6" unit="chars"/>erit</sic>
-              <corr>tul<space extent="6" unit="chars"/>erit</corr>
+              <sic>tol<space quantity="6" unit="char"/>erit</sic>
+              <corr>tul<space quantity="6" unit="char"/>erit</corr>
             </choice></w>
           <!--<w>Si</w> <w>aldius</w>-->
           <w>cui<add place="above">u</add>scumque</w>
@@ -18612,7 +18628,7 @@
           <!--<w>libera</w> <w>uxorem</w> <w>tulerit</w> <w>id</w> <w>est</w>-->
           <term ref="#fulcfrea" xml:id="CV188_term_fulcfrea_216" xml:lang="lng">
             <w><choice>
-              <orig>f<space extent="10" unit="chars"/>ulfrea</orig>
+              <orig>f<space quantity="10" unit="char"/>ulfrea</orig>
               <reg>fulcfrea</reg>
             </choice></w>
           </term>
@@ -18627,9 +18643,9 @@
               <expan>mundiu<ex>m</ex></expan>
             </choice></w>
           <lb n="21" xml:id="CV188_lb_062r_21"/>
-          <w>d<space extent="1" unit="chars"/>e</w>
+          <w>d<space quantity="1" unit="char"/>e</w>
           <w>ea</w>
-          <space extent="5" unit="chars"/>
+          <space quantity="5" unit="char"/>
           <w>fecerit</w>
           <w><choice>
               <abbr>posteaqu<am><g ref="#amacr"/></am></abbr>
@@ -18738,7 +18754,7 @@
           </subst></w>
           <add place="above"><w>res</w></add>
           <w>de</w>
-          <w>parente<space extent="1" unit="chars"/><subst resp="#hand2"><!-- CHECK -->
+          <w>parente<space quantity="1" unit="char"/><subst resp="#hand2"><!-- CHECK -->
             <del rend="erasure">a</del><!-- CHECK -->
             <add>s</add>
           </subst></w>
@@ -18800,7 +18816,7 @@
           <w>sibi</w>
           <w>ubi</w>
           <lb n="18" xml:id="CV188_lb_062v_18"/>
-          <space extent="5" unit="chars"/>
+          <space quantity="5" unit="char"/>
           <w><choice>
               <orig><c corresp="#v">u</c>oluerent</orig>
               <reg><c corresp="#v">u</c>oluerint</reg>
@@ -18821,8 +18837,8 @@
           <w>ser<c corresp="#v">u</c>um</w>
           <lb n="20" xml:id="CV188_lb_062v_20"/>
           <w><choice>
-              <orig>toleri<space extent="2" unit="chars"/>t</orig>
-              <reg>tuleri<space extent="2" unit="chars"/>t</reg>
+              <orig>toleri<space quantity="2" unit="char"/>t</orig>
+              <reg>tuleri<space quantity="2" unit="char"/>t</reg>
             </choice></w>
           <w><choice>
               <orig>maritus</orig>
@@ -18943,7 +18959,7 @@
               <reg>quia</reg>
             </choice></w>
           <w>ser<c corresp="#v">u</c>um</w>
-          <add place="above"><w><c corresp="#v">u</c>olum<gap extent="5" reason="illegible" unit="chars"/></w></add><!-- CHECK hand -->
+          <add place="above"><w><c corresp="#v">u</c>olum<gap quantity="5" reason="illegible" unit="char"/></w></add><!-- CHECK hand -->
           <!-- CHECK supplied aris? -->
           <w>consensit</w>
           <choice>
@@ -18963,13 +18979,13 @@
               <corr>uxo<lb n="12" xml:id="CV188_lb_063r_12_corr"/>rem</corr>
             </choice></w>
           <w><choice>
-              <sic>to<space extent="4" unit="chars"/>lerit</sic>
-              <corr>tu<space extent="4" unit="chars"/>lerit</corr>
+              <sic>to<space quantity="4" unit="char"/>lerit</sic>
+              <corr>tu<space quantity="4" unit="char"/>lerit</corr>
             </choice></w>
           <reg>.</reg>
           <w>si</w>
           <w>aldius</w>
-          <w>cuius<lb n="13" xml:id="CV188_lb_063r_13"/>cum<space extent="7" unit="chars"/>que</w>
+          <w>cuius<lb n="13" xml:id="CV188_lb_063r_13"/>cum<space quantity="7" unit="char"/>que</w>
           <w><choice>
               <abbr>aldi<am><g ref="#amacr"/></am></abbr>
               <expan>aldia<ex>m</ex></expan>
@@ -19020,12 +19036,12 @@
           <label n="219"><num><w>CCX<am><g ref="#romnumsix"/></am>III</w></num></label>
           <w><hi rend="cap3.5">S</hi>i</w>
           <w>aldius</w>
-          <space extent="1" unit="chars"/>
+          <space quantity="1" unit="char"/>
           <w>ancillam</w>
           <lb n="18" xml:id="CV188_lb_063r_18"/>
           <w>suam</w>
-          <w>au<space extent="3" unit="chars"/>t</w>
-          <space extent="1" unit="chars"/>
+          <w>au<space quantity="3" unit="char"/>t</w>
+          <space quantity="1" unit="char"/>
           <w>alterius</w>
           <w><choice>
               <sic>tolerit</sic>
@@ -19034,15 +19050,15 @@
           <lb n="19" xml:id="CV188_lb_063r_19"/>
           <w>ad</w>
           <w><choice>
-              <sic>o<space extent="3" unit="chars"/>xor<space extent="1" unit="chars"/>em</sic>
-              <corr>u<space extent="3" unit="chars"/>xor<space extent="1" unit="chars"/>em</corr>
+              <sic>o<space quantity="3" unit="char"/>xor<space quantity="1" unit="char"/>em</sic>
+              <corr>u<space quantity="3" unit="char"/>xor<space quantity="1" unit="char"/>em</corr>
             </choice></w>
           <w>filii</w>
           <w>qui</w>
           <w>e<damage>x</damage></w>
           <w>ea</w>
           <w>nas<lb n="20" xml:id="CV188_lb_063r_20"/>cuntur</w>
-          <space extent="3" unit="chars"/>
+          <space quantity="3" unit="char"/>
           <w>sint</w>
           <w>ser<c corresp="#v">u</c>i</w>
           <w>cuius</w>
@@ -19066,12 +19082,12 @@
           <w>cui<add place="above">u</add>scumque</w>
           <w>in</w>
           <w>c<supplied reason="illegible" resp="leges">a</supplied><lb n="2" xml:id="CV188_lb_063v_2"/>sam</w>
-          <w>al<space extent="1" unit="chars"/>terius</w>
+          <w>al<space quantity="1" unit="char"/>terius</w>
           <w>ad</w>
           <w>maritum</w>
           <w>intrav<supplied reason="illegible" resp="leges">e</supplied><lb n="3" xml:id="CV188_lb_063v_3"/>rit</w>
           <w>et</w>
-          <w>s<space extent="1" unit="chars"/>er<c corresp="#v">u</c>um</w>
+          <w>s<space quantity="1" unit="char"/>er<c corresp="#v">u</c>um</w>
           <w><choice>
               <sic>tolerit</sic>
               <corr>tulerit</corr>
@@ -19106,11 +19122,11 @@
             </choice></w>
           <w>mul<supplied reason="illegible" resp="leges">i</supplied><lb n="7" xml:id="CV188_lb_063v_7"/>erem</w>
           <w>aut</w>
-          <space extent="3" unit="chars"/>
+          <space quantity="3" unit="char"/>
           <w>puellam</w>
           <w>ausus</w>
           <w>fue<lb n="8" xml:id="CV188_lb_063v_8"/>rit</w>
-          <w>si<space extent="7" unit="chars"/>bi</w>
+          <w>si<space quantity="7" unit="char"/>bi</w>
           <w>in</w>
           <w><choice>
               <orig>coniugio</orig>
@@ -19219,8 +19235,8 @@
           <w>ancilla</w>
           <w>matrimonii</w>
           <lb n="20" xml:id="CV188_lb_063v_20"/>
-          <w>gratia<space extent="3" unit="chars"/><del rend="expunction">ta</del></w>
-          <space extent="1" unit="chars"/>
+          <w>gratia<space quantity="3" unit="char"/><del rend="expunction">ta</del></w>
+          <space quantity="1" unit="char"/>
           <w>si</w>
           <w>quis</w>
           <w>ancillam</w>
@@ -19263,7 +19279,7 @@
           <w>eam</w>
           <w>libera</w>
           <w>thinga<lb n="3" xml:id="CV188_lb_064r_3"/>re</w>
-          <space extent="1" unit="chars"/>
+          <space quantity="1" unit="char"/>
           <w>sic</w>
           <w>libera</w>
           <w>quod</w>
@@ -19284,7 +19300,7 @@
           <term ref="#gairethinx" xml:id="CV188_term_gairethinx_222" xml:lang="lng">
             <w>gaire<lb n="5" xml:id="CV188_lb_064r_5"/>thinx</w>
           </term>
-          <space extent="1" unit="chars"/>
+          <space quantity="1" unit="char"/>
           <w>tunc</w>
           <w>intellegatur</w>
           <w>libera</w>
@@ -19332,7 +19348,7 @@
           <w>qui</w>
           <w>sine</w>
           <w>here<lb n="10" xml:id="CV188_lb_064r_10"/>dis</w>
-          <w>morit<space extent="4" unit="chars"/>ur</w>
+          <w>morit<space quantity="4" unit="char"/>ur</w>
           <orig>.</orig>
           <w>si</w>
           <w>quis</w>
@@ -19405,7 +19421,7 @@
             </w>
           </add>
           <w>repetitionem</w>
-          <w>ce<space extent="2" unit="chars"/>cidit</w>
+          <w>ce<space quantity="2" unit="char"/>cidit</w>
           <choice>
             <orig><pc>:</pc></orig>
             <reg>.</reg>
@@ -19426,7 +19442,7 @@
           <lb n="20" xml:id="CV188_lb_064r_20"/>
           <w>si</w>
           <w>quis</w>
-          <w>ser<space extent="3" unit="chars"/><c corresp="#v">u</c>um</w>
+          <w>ser<space quantity="3" unit="char"/><c corresp="#v">u</c>um</w>
           <w>proprium</w>
           <w>aut</w>
           <lb n="21" xml:id="CV188_lb_064r_21"/>
@@ -19557,7 +19573,7 @@
           <w>potestatem</w>
           <orig>.</orig>
           <w>si</w>
-          <space extent="1" unit="chars"/>
+          <space quantity="1" unit="char"/>
           <w>sic</w>
           <w><choice>
               <abbr>fact<am><g ref="#umacr"/></am></abbr>
@@ -19763,7 +19779,7 @@
             </choice></w>
           <w>alio</w>
           <w>kap</w>
-          <space extent="1" unit="chars"/><w><choice>
+          <space quantity="1" unit="char"/><w><choice>
               <abbr>It</abbr>
               <expan>It<ex>em</ex></expan>
             </choice></w>
@@ -19843,7 +19859,7 @@
             </choice>
           </w>
           <w>si</w>
-          <lb n="2" xml:id="CV188_lb_065v_2"/><w>libertu<space extent="4" unit="chars"/>s</w>
+          <lb n="2" xml:id="CV188_lb_065v_2"/><w>libertu<space quantity="4" unit="char"/>s</w>
           <w>qui</w>
           <term ref="#fulcfree" xml:id="CV188_term_fulfree_225" xml:lang="lng">
             <w>
@@ -20049,7 +20065,7 @@
           <w>qui</w>
           <w>a</w>
           <w>do<lb n="2" xml:id="CV188_lb_066r_2"/>minis</w>
-          <w>s<space extent="3" unit="chars"/>uis</w>
+          <w>s<space quantity="3" unit="char"/>uis</w>
           <w>libertatem</w>
           <w>lango<lb n="3" xml:id="CV188_lb_066r_3"/>bardis</w>
           <w><choice>
@@ -20092,7 +20108,7 @@
               <corr><c corresp="#v">u</c>indi<lb n="8" xml:id="CV188_lb_066r_8_corr"/>tionibus</corr>
             </choice></w>
           <orig><pc>:</pc></orig>
-          <space extent="2" unit="chars"/><w>si</w>
+          <space quantity="2" unit="char"/><w>si</w>
           <w>quis</w>
           <w>conpara<c corresp="#v">u</c>erit</w>
           <lb n="9" xml:id="CV188_lb_066r_9"/><w>terram</w>
@@ -20140,7 +20156,7 @@
               <reg>set</reg>
             </choice></w>
           <w>nam</w>
-          <space extent="2" unit="chars"/><w>non</w>
+          <space quantity="2" unit="char"/><w>non</w>
           <lb n="15" xml:id="CV188_lb_066r_15"/><w><c corresp="#v">u</c>indedissit</w>
           <w>ostendat</w>
           <w><choice>
@@ -20158,7 +20174,7 @@
               <orig>pre<lb n="17" xml:id="CV188_lb_066r_17_orig"/>standi</orig>
               <reg>prae<lb n="17" xml:id="CV188_lb_066r_17_reg"/>standi</reg>
             </choice></w>
-          <space extent="1" unit="chars"/><w>et</w>
+          <space quantity="1" unit="char"/><w>et</w>
           <w>si</w>
           <w>libellus</w>
           <w>non</w>
@@ -20230,14 +20246,14 @@
           <lb n="4" type="rubric" xml:id="CV188_lb_066v_4"/><label n="228"><num><w>CCXX<am><g ref="#romnumsix"/></am>II</w></num></label>
           <w><hi rend="cap2.0 empty">D</hi>e</w>
           <w>possessione</w>
-          <space extent="1" unit="chars"/><w>si</w>
+          <space quantity="1" unit="char"/><w>si</w>
           <w>quis</w>
           <lb n="5" xml:id="CV188_lb_066v_5"/><w><choice>
               <orig>alii</orig>
               <reg>alium</reg>
             </choice></w>
           <w>de</w>
-          <w>re<space extent="3" unit="chars"/>m</w>
+          <w>re<space quantity="3" unit="char"/>m</w>
           <w>mobilem</w>
           <w>aut</w>
           <w>inmo<lb n="6" xml:id="CV188_lb_066v_6"/>bilem</w>
@@ -20299,7 +20315,7 @@
               <reg>alienam</reg>
             </choice></w>
           <w>asto</w>
-          <lb n="14" xml:id="CV188_lb_066v_14"/><w><c corresp="#v">u</c>indede<space extent="2" unit="chars"/>ri<space extent="2" unit="chars"/>t</w>
+          <lb n="14" xml:id="CV188_lb_066v_14"/><w><c corresp="#v">u</c>indede<space quantity="2" unit="char"/>ri<space quantity="2" unit="char"/>t</w>
           <orig><pc>.</pc></orig>
           <w>si</w>
           <w>quis</w>
@@ -20309,7 +20325,7 @@
             </choice></w>
           <w>ali<lb n="15" xml:id="CV188_lb_066v_15"/>enam</w>
           <w>id</w>
-          <w>e<space extent="4" unit="chars"/>st</w>
+          <w>e<space quantity="4" unit="char"/>st</w>
           <w><choice>
               <orig>ser<c corresp="#v">u</c>o</orig>
               <reg>ser<c corresp="#v">u</c>um</reg>
@@ -20321,7 +20337,7 @@
             </choice></w>
           <lb n="16" xml:id="CV188_lb_066v_16"/><w>seu</w>
           <w>alias</w>
-          <space extent="3" unit="chars"/><w>res</w>
+          <space quantity="3" unit="char"/><w>res</w>
           <w>s<add place="above">c</add>iens</w>
           <w>aliena<add place="above">s</add></w>
           <w>esse</w>
@@ -20407,7 +20423,7 @@
           <lb n="4" xml:id="CV188_lb_067r_4"/>
           <w>si</w>
           <w>quis</w>
-          <w>co<space extent="3" unit="chars"/>npara<c corresp="#v">u</c>erit</w>
+          <w>co<space quantity="3" unit="char"/>npara<c corresp="#v">u</c>erit</w>
           <w><choice>
               <orig>mancipio</orig>
               <reg>mancipium</reg>
@@ -20482,7 +20498,7 @@
           <lb n="13" xml:id="CV188_lb_067r_13"/>
           <w>s<add place="above">i</add></w>
           <w>quis</w>
-          <w>con<space extent="3" unit="chars"/>para<c corresp="#v">u</c>erit</w>
+          <w>con<space quantity="3" unit="char"/>para<c corresp="#v">u</c>erit</w>
           <w>ancillam</w>
           <lb n="14" xml:id="CV188_lb_067r_14"/>
           <w>alienam</w>
@@ -20721,8 +20737,8 @@
           <w>si</w>
           <w>quis</w>
           <w><choice>
-              <sic>ca<space extent="3" unit="chars"/>uallum</sic>
-              <corr>ca<space extent="3" unit="chars"/>ballum</corr>
+              <sic>ca<space quantity="3" unit="char"/>uallum</sic>
+              <corr>ca<space quantity="3" unit="char"/>ballum</corr>
             </choice></w>
           <w>emerit</w>
           <w>et</w>
@@ -20930,14 +20946,14 @@
           <w>de</w>
           <w>ser<c corresp="#v">u</c>o</w>
           <lb n="18" xml:id="CV188_lb_068r_18"/>
-          <w>conpara<c corresp="#v">u</c><space extent="3" unit="chars"/>er<space extent="1" unit="chars"/>it</w>
+          <w>conpara<c corresp="#v">u</c><space quantity="3" unit="char"/>er<space quantity="1" unit="char"/>it</w>
           <w>ser<c corresp="#v">u</c>us</w>
-          <w>cuius<lb n="19" xml:id="CV188_lb_068r_19"/>cum<space extent="10" unit="chars"/>que</w>
+          <w>cuius<lb n="19" xml:id="CV188_lb_068r_19"/>cum<space quantity="10" unit="char"/>que</w>
           <w>non</w>
           <w>liceat</w>
           <lb n="20" xml:id="CV188_lb_068r_20"/>
           <w>sine</w>
-          <w>per<space extent="6" unit="chars"/>missum</w>
+          <w>per<space quantity="6" unit="char"/>missum</w>
           <w>
             <choice>
               <abbr>d<am><g ref="#nmacr"/></am>i</abbr>
@@ -21008,7 +21024,7 @@
           <orig><pc>:</pc></orig>
           <lb n="7" xml:id="CV188_lb_068v_7"/>
           <w>ser<c corresp="#v">u</c>us</w>
-          <w>ma<space extent="3" unit="chars"/>ssarius</w>
+          <w>ma<space quantity="3" unit="char"/>ssarius</w>
           <w><choice>
               <abbr>licenti<am><g ref="#amacr"/></am></abbr>
               <expan>licentia<ex>m</ex></expan>
@@ -21129,7 +21145,7 @@
           <lb n="20" xml:id="CV188_lb_068v_20"/>
           <w>si</w>
           <w>quis</w>
-          <w>ho<space extent="2" unit="chars"/>mo</w>
+          <w>ho<space quantity="2" unit="char"/>mo</w>
           <w>liber</w>
           <w>terminum</w>
           <lb n="21" xml:id="CV188_lb_068v_21"/>
@@ -21189,7 +21205,7 @@
               <expan>terminu<ex>m</ex></expan>
             </choice></w>
           <lb n="6" xml:id="CV188_lb_069r_6"/>
-          <w>effosse<space extent="2" unit="chars"/>rit</w>
+          <w>effosse<space quantity="2" unit="char"/>rit</w>
           <orig><pc>.</pc></orig>
           <w>si</w>
           <w>ser<c corresp="#v">u</c>us</w>
@@ -21235,7 +21251,7 @@
           <w>si</w>
           <w>quis</w>
           <w>homo</w>
-          <space extent="2" unit="chars"/>
+          <space quantity="2" unit="char"/>
           <w>liber</w>
           <w>arborem</w>
           <w>ubi</w>
@@ -21339,8 +21355,8 @@
               <reg>auctu<lb n="20" xml:id="CV188_lb_069r_20_reg"/>ritate</reg>
             </choice></w>
           <w><choice>
-              <orig>arbo<space extent="2" unit="chars"/>re</orig>
-              <reg>arbo<space extent="2" unit="chars"/>rem</reg>
+              <orig>arbo<space quantity="2" unit="char"/>re</orig>
+              <reg>arbo<space quantity="2" unit="char"/>rem</reg>
             </choice></w>
           <w>ubi</w>
           <w><choice>
@@ -21350,7 +21366,7 @@
           <lb n="21" xml:id="CV188_lb_069r_21"/>
           <w>facta</w>
           <w>est</w>
-          <w>in<space extent="4" unit="chars"/>ter</w>
+          <w>in<space quantity="4" unit="char"/>ter</w>
           <w><choice>
               <orig>finis</orig>
               <reg>fines</reg>
@@ -21403,7 +21419,7 @@
           <w>alterius</w>
           <lb n="4" xml:id="CV188_lb_069v_4"/>
           <w>facta</w>
-          <space extent="2" unit="chars"/>
+          <space quantity="2" unit="char"/>
           <orig><pc>:</pc></orig>
           <w>Si</w>
           <w>quis</w>
@@ -21484,7 +21500,7 @@
           <w>fece<lb n="11" xml:id="CV188_lb_069v_11"/>rit</w>
           <orig><pc>.</pc></orig>
           <w>si</w>
-          <space extent="3" unit="chars"/>
+          <space quantity="3" unit="char"/>
           <w>ser<c corresp="#v">u</c>us</w>
           <w>extra</w>
           <w><choice>
@@ -21558,12 +21574,12 @@
           <w>iussionem</w>
           <lb n="17" xml:id="CV188_lb_069v_17"/>
           <w>regis</w>
-          <space extent="6" unit="chars"/>
+          <space quantity="6" unit="char"/>
           <w>aurum</w>
           <w>figura<c corresp="#v">u</c>erit</w>
           <lb n="18" xml:id="CV188_lb_069v_18"/>
           <w>aut</w>
-          <w>mo<space extent="4" unit="chars"/>neta</w>
+          <w>mo<space quantity="4" unit="char"/>neta</w>
           <w>confinxerit</w>
           <w>manu<add place="above">s</add></w>
           <lb rend="below"/>
@@ -21585,7 +21601,7 @@
           <lb n="20" xml:id="CV188_lb_069v_20"/>
           <w>si</w>
           <w>quis</w>
-          <w>c<space extent="3" unit="chars"/>artolam</w>
+          <w>c<space quantity="3" unit="char"/>artolam</w>
           <w>falsam</w>
           <w>scrip<lb n="21" xml:id="CV188_lb_069v_21"/>serit</w>
           <w>aut</w>
@@ -21625,7 +21641,7 @@
           <w>de</w>
           <lb n="2" xml:id="CV188_lb_070r_2"/>
           <w>castro</w>
-          <w>au<space extent="3" unit="chars"/>t</w>
+          <w>au<space quantity="3" unit="char"/>t</w>
           <w>ci<c corresp="#v">u</c>itatem</w>
           <w>sine</w>
           <lb n="3" xml:id="CV188_lb_070r_3"/>
@@ -21633,7 +21649,7 @@
               <sic>noditia</sic>
               <corr>noticia</corr>
             </choice></w>
-          <space extent="6" unit="chars"/>
+          <space quantity="6" unit="char"/>
           <w>iudecis</w>
           <w>sui</w>
           <w>exierit</w>
@@ -21732,7 +21748,7 @@
             </choice></w>
           <lb n="12" xml:id="CV188_lb_070r_12"/>
           <w>et</w>
-          <w>de<c corresp="#v">u</c>it<space extent="2" unit="chars"/>as</w>
+          <w>de<c corresp="#v">u</c>it<space quantity="2" unit="char"/>as</w>
           <orig><pc>.</pc></orig>
           <w>si</w>
           <w>quis</w>
@@ -21808,7 +21824,7 @@
               <abbr>contes<lb n="19" xml:id="CV188_lb_070r_19_abbr"/>tation<am><g ref="#emacr"/></am></abbr>
               <expan>contes<lb n="19" xml:id="CV188_lb_070r_19_expan"/>tatione<ex>m</ex></expan>
             </choice></w>
-          <space extent="2" unit="chars"/>
+          <space quantity="2" unit="char"/>
           <w>pigneraberit</w><orig><pc>.</pc></orig><!-- CHECK choice, carattere giusto in orig, punto basso in reg -->
           <w>si</w>
           <w>quis</w>
@@ -21817,7 +21833,7 @@
               <orig>alio</orig>
               <reg>alium</reg>
             </choice></w>
-          <space extent="6" unit="chars"/>
+          <space quantity="6" unit="char"/>
           <w>pro</w>
           <w><choice>
               <orig>qualibit</orig>
@@ -21885,7 +21901,7 @@
           <w>pro</w>
           <w>alio</w>
           <lb n="6" xml:id="CV188_lb_070v_6"/>
-          <w>pigner<space extent="4" unit="chars"/>are</w>
+          <w>pigner<space quantity="4" unit="char"/>are</w>
           <w>excepto</w>
           <w>illo</w>
           <w>qui</w>
@@ -21897,7 +21913,7 @@
               </choice>
             </w>
           </term>
-          <w>es<space extent="1" unit="chars"/>se</w>
+          <w>es<space quantity="1" unit="char"/>se</w>
           <w>in<c corresp="#v">u</c>enitur</w>
           <w>id</w>
           <w>est</w>
@@ -21944,20 +21960,20 @@
           </w>
           <lb n="11" xml:id="CV188_lb_070v_11"/>
           <w>pro</w>
-          <w>al<space extent="3" unit="chars"/>io</w>
-          <space extent="2" unit="chars"/>
+          <w>al<space quantity="3" unit="char"/>io</w>
+          <space quantity="2" unit="char"/>
           <w>pignera<c corresp="#v">u</c>erit</w>
           <w>p<gap/><supplied resp="leges">er</supplied></w>
           <lb n="12" xml:id="CV188_lb_070v_12"/>
           <w>ser<c corresp="#v">u</c>um</w>
-          <space extent="1" unit="chars"/>
+          <space quantity="1" unit="char"/>
           <w>aut</w>
           <w>ancillam</w>
           <w>ita</w>
           <w>
             <choice>
-              <orig>dicer<lb n="13" xml:id="CV188_lb_070v_13_orig"/>ni<space extent="6" unit="chars"/>mus</orig>
-              <reg>decer<lb n="13" xml:id="CV188_lb_070v_13_reg"/>ni<space extent="6" unit="chars"/>mus</reg>
+              <orig>dicer<lb n="13" xml:id="CV188_lb_070v_13_orig"/>ni<space quantity="6" unit="char"/>mus</orig>
+              <reg>decer<lb n="13" xml:id="CV188_lb_070v_13_reg"/>ni<space quantity="6" unit="char"/>mus</reg>
             </choice>
           </w>
           <w>ut</w>
@@ -22101,7 +22117,7 @@
             </choice></w>
           <lb n="7" xml:id="CV188_lb_071r_7"/>
           <w>seu</w>
-          <w>porcor<space extent="2" unit="chars"/>um</w>
+          <w>porcor<space quantity="2" unit="char"/>um</w>
           <orig><pc>.</pc></orig>
           <w>si</w>
           <w>quis</w>
@@ -22278,7 +22294,7 @@
           <w>domito<supplied reason="illegible" resp="leges">s</supplied></w>
           <lb n="2" xml:id="CV188_lb_071v_2"/>
           <w>aut</w>
-          <space extent="4" unit="chars"/>
+          <space quantity="4" unit="char"/>
           <w>bo<c corresp="#v">u</c>es</w>
           <w>seu</w>
           <w><c corresp="#v">u</c>accas</w>
@@ -22286,7 +22302,7 @@
               <orig>ioco</orig>
               <reg>iugo</reg>
             </choice></w>
-          <w>do<lb n="3" xml:id="CV188_lb_071v_3"/>mi<space extent="5" unit="chars"/>tas</w>
+          <w>do<lb n="3" xml:id="CV188_lb_071v_3"/>mi<space quantity="5" unit="char"/>tas</w>
           <w>pignera<c corresp="#v">u</c>erit</w>
           <w>sine</w>
           <lb n="4" xml:id="CV188_lb_071v_4"/>
@@ -22308,12 +22324,12 @@
           <w>debit<supplied reason="illegible" resp="leges">or</supplied></w>
           <lb n="6" xml:id="CV188_lb_071v_6"/>
           <w>est</w>
-          <w>al<space extent="2" unit="chars"/>ias</w>
+          <w>al<space quantity="2" unit="char"/>ias</w>
           <w>res</w>
           <w>non</w>
           <w>habuerit</w>
           <w>ni<lb n="7" xml:id="CV188_lb_071v_7"/>si</w>
-          <space extent="5" unit="chars"/>
+          <space quantity="5" unit="char"/>
           <w><choice>
               <sic>cauallos</sic>
               <corr>caballos</corr>
@@ -22414,7 +22430,7 @@
               <orig><num value="12">XII</num></orig>
               <reg><num value="12">duodecim</num></reg>
             </choice></w>
-          <space extent="1" unit="chars"/>
+          <space quantity="1" unit="char"/>
           <w>et</w>
           <w>iustit<supplied reason="illegible" resp="leges">ia</supplied></w>
           <lb n="19" xml:id="CV188_lb_071v_19"/>
@@ -22442,8 +22458,8 @@
             </choice></w>
           <lb n="21" xml:id="CV188_lb_071v_21"/>
           <w><choice>
-              <sic>deuit<space extent="3" unit="chars"/>um</sic>
-              <corr>debit<space extent="3" unit="chars"/>um</corr>
+              <sic>deuit<space quantity="3" unit="char"/>um</sic>
+              <corr>debit<space quantity="3" unit="char"/>um</corr>
             </choice></w>
           <w>casa</w>
           <w>ordinata</w>
@@ -22521,7 +22537,7 @@
           <w>intra</w>
           <w>se</w>
           <w><choice>
-              <orig>ha<space extent="1" unit="chars"/>bitant</orig>
+              <orig>ha<space quantity="1" unit="char"/>bitant</orig>
               <reg>habetant</reg>
             </choice></w>
           <w>dies</w>
@@ -22725,7 +22741,7 @@
           <w>liber</w>
           <w>homo</w>
           <lb n="8" xml:id="CV188_lb_072v_8"/>
-          <w>furtu<space extent="3" unit="chars"/>m</w>
+          <w>furtu<space quantity="3" unit="char"/>m</w>
           <w>fecerit</w>
           <orig><pc>.</pc></orig>
           <w>et</w>
@@ -22800,13 +22816,13 @@
           <w>ser<c corresp="#v">u</c>us</w>
           <w>furtum</w>
           <w>fe<lb n="15" xml:id="CV188_lb_072v_15"/>cerit</w>
-          <space extent="4" unit="chars"/>
+          <space quantity="4" unit="char"/>
           <w>et</w>
           <w>tentus</w>
           <w>in</w>
           <w>ipsum</w>
           <lb n="16" xml:id="CV188_lb_072v_16"/>
-          <w>fur<space extent="6" unit="chars"/>tum</w>
+          <w>fur<space quantity="6" unit="char"/>tum</w>
           <w>fuerit</w>
           <w><choice>
               <abbr>usq</abbr>
@@ -22819,7 +22835,7 @@
               <orig><num value="10">decem</num></orig>
               <reg><num value="10">X</num></reg>
             </choice></w>
-          <space extent="2" unit="chars"/>
+          <space quantity="2" unit="char"/>
           <w>seliquas</w>
           <w>sibi</w>
           <w>nonum</w>
@@ -22866,7 +22882,7 @@
           <lb n="21" xml:id="CV188_lb_072v_21"/>
           <w>id</w>
           <w>est</w>
-          <w>pe<space extent="5" unit="chars"/>r</w>
+          <w>pe<space quantity="5" unit="char"/>r</w>
           <w>certum</w>
           <w>indica<lb rend="below"/>torem</w>
           <orig><pc>:</pc></orig>
@@ -22907,19 +22923,19 @@
               <abbr>furt<am><g ref="#umacr"/></am></abbr>
               <expan>furtu<ex>m</ex></expan>
             </choice></w>
-          <space extent="3" unit="chars"/>
+          <space quantity="3" unit="char"/>
           <w>aut</w>
           <w>damnum</w>
           <w>fecerit</w>
           <lb n="5" xml:id="CV188_lb_073r_5"/>
           <w>et</w>
           <w>in</w>
-          <space extent="5" unit="chars"/>
+          <space quantity="5" unit="char"/>
           <w>ipsa</w>
           <w>fuga</w>
           <w>foris</w>
           <w>pro<c corresp="#v">u</c>in<lb n="6" xml:id="CV188_lb_073r_6"/>cia</w>
-          <space extent="4" unit="chars"/>
+          <space quantity="4" unit="char"/>
           <w><choice>
               <orig>fugierit</orig>
               <reg>migraverit</reg>
@@ -23027,14 +23043,14 @@
           </term>
           <lb n="16" xml:id="CV188_lb_073r_16"/>
           <w>super</w>
-          <space extent="4" unit="chars"/>
+          <space quantity="4" unit="char"/>
           <w>furtum</w>
           <w><choice>
               <orig>conpreh<add place="above">i</add>nsa</orig>
               <reg>conprehensa</reg>
             </choice></w>
           <lb n="17" xml:id="CV188_lb_073r_17"/>
-          <w>fue<space extent="6" unit="chars"/>rit</w>
+          <w>fue<space quantity="6" unit="char"/>rit</w>
           <w>furtum</w>
           <w>quod</w>
           <w>fe<lb n="18" xml:id="CV188_lb_073r_18"/>cerit</w>
@@ -23104,7 +23120,7 @@
           <w>ancilla</w>
           <lb n="2" xml:id="CV188_lb_073v_2"/>
           <w>super</w>
-          <w>fu<space extent="3" unit="chars"/>rtum</w>
+          <w>fu<space quantity="3" unit="char"/>rtum</w>
           <w>tempta</w>
           <w>fuerit</w>
           <lb n="3" xml:id="CV188_lb_073v_3"/>
@@ -23120,12 +23136,12 @@
               <expan>d<ex>omi</ex>n<ex>u</ex>s</expan>
             </choice>
           </w>
-          <space extent="1" unit="chars"/>
+          <space quantity="1" unit="char"/>
           <w>earum</w>
           <w>furtum</w>
           <w>ip<lb n="4" xml:id="CV188_lb_073v_4"/>sum</w>
           <w>sibi</w>
-          <space extent="5" unit="chars"/>
+          <space quantity="5" unit="char"/>
           <w>nonum</w>
           <w>excepto</w>
           <w>pro</w>
@@ -23152,10 +23168,10 @@
           <label n="259"><num><w>CCL<am><g ref="#romnumsix"/></am>III</w></num></label>
           <w><hi rend="cap3.0 halfempty">S</hi>i</w>
           <w>liber</w>
-          <w>hom<space extent="4" unit="chars"/>o</w>
+          <w>hom<space quantity="4" unit="char"/>o</w>
           <w>pue<lb n="7" xml:id="CV188_lb_073v_7"/>rum</w>
           <w>aut</w>
-          <w>s<space extent="4" unit="chars"/>er<c corresp="#v">u</c>um</w>
+          <w>s<space quantity="4" unit="char"/>er<c corresp="#v">u</c>um</w>
           <w>suum</w>
           <w><choice>
               <abbr>furt<am><g ref="#umacr"/></am></abbr>
@@ -23163,7 +23179,7 @@
             </choice></w>
           <lb n="8" xml:id="CV188_lb_073v_8"/>
           <w>facere</w>
-          <space extent="6" unit="chars"/>
+          <space quantity="6" unit="char"/>
           <w>iusserit</w>
           <w>et</w>
           <w>ipse</w>
@@ -23187,7 +23203,7 @@
           <orig><pc>.</pc></orig>
           <w>quia</w>
           <w>inhone<add place="above">s</add><lb n="12" xml:id="CV188_lb_073v_12"/>tum</w>
-          <w>es<space extent="1" unit="chars"/>se</w>
+          <w>es<space quantity="1" unit="char"/>se</w>
           <w><c corresp="#v">u</c>edetur</w>
           <orig><pc>.</pc></orig>
           <w>et</w>
@@ -23235,22 +23251,22 @@
           <lb n="17" xml:id="CV188_lb_073v_17"/>
           <w>seu</w>
           <w><choice>
-              <orig>qu<space extent="2" unit="chars"/>ale<c corresp="#v">u</c>it</orig>
-              <reg>qu<space extent="2" unit="chars"/>alibet</reg>
+              <orig>qu<space quantity="2" unit="char"/>ale<c corresp="#v">u</c>it</orig>
+              <reg>qu<space quantity="2" unit="char"/>alibet</reg>
             </choice></w>
           <w>rem</w>
           <w>in</w>
           <w><c corresp="#v">u</c>ia</w>
           <w>in<c corresp="#v">u</c>ene<lb n="18" xml:id="CV188_lb_073v_18"/>rit</w>
           <w>et</w>
-          <w>supe<space extent="1" unit="chars"/>r</w>
+          <w>supe<space quantity="1" unit="char"/>r</w>
           <w><choice>
               <orig>geniculum</orig>
               <reg>genuculum</reg>
             </choice></w>
           <w>le<c corresp="#v">u</c>a<c corresp="#v">u</c>e<lb n="19" xml:id="CV188_lb_073v_19"/>rit</w>
-          <w>e<space extent="1" unit="chars"/>t</w>
-          <space extent="4" unit="chars"/>
+          <w>e<space quantity="1" unit="char"/>t</w>
+          <space quantity="4" unit="char"/>
           <w>non</w>
           <w>manefesta<c corresp="#v">u</c>erit</w>
           <lb n="20" xml:id="CV188_lb_073v_20"/>
@@ -23289,8 +23305,8 @@
               <reg>alienam</reg>
             </choice></w>
           <w><choice>
-              <orig>ha<space extent="3" unit="chars"/>bens</orig>
-              <reg>ha<space extent="3" unit="chars"/>bet</reg>
+              <orig>ha<space quantity="3" unit="char"/>bens</orig>
+              <reg>ha<space quantity="3" unit="char"/>bet</reg>
             </choice></w>
           <w><choice>
               <orig>oxorem</orig>
@@ -23299,7 +23315,7 @@
           <w>furtum</w>
           <w>fe<lb n="3" xml:id="CV188_lb_074r_3"/>cerit</w>
           <w>et</w>
-          <w>anc<space extent="1" unit="chars"/>illam</w>
+          <w>anc<space quantity="1" unit="char"/>illam</w>
           <w>aut</w>
           <w>filius</w>
           <w>ser<c corresp="#v">u</c>us</w>
@@ -23391,7 +23407,7 @@
           <w>fuga</w>
           <w>est</w>
           <lb n="13" xml:id="CV188_lb_074r_13"/>
-          <w>positu<space extent="4" unit="chars"/>s</w>
+          <w>positu<space quantity="4" unit="char"/>s</w>
           <w>res</w>
           <w>aliquas </w>
           <w><choice>
@@ -23400,15 +23416,15 @@
             </choice></w>
           <lb n="14" xml:id="CV188_lb_074r_14"/>
           <w><choice>
-              <orig>hom<space extent="6" unit="chars"/>inum</orig>
-              <reg>hom<space extent="6" unit="chars"/>ini</reg>
+              <orig>hom<space quantity="6" unit="char"/>inum</orig>
+              <reg>hom<space quantity="6" unit="char"/>ini</reg>
             </choice></w>
           <w><choice>
               <orig>comenda<c corresp="#v">u</c>erit</orig>
               <reg>commenda<c corresp="#v">u</c>erit</reg>
             </choice></w>
           <lb n="15" xml:id="CV188_lb_074r_15"/>
-          <w>poste<space extent="1" unit="chars"/>aque</w>
+          <w>poste<space quantity="1" unit="char"/>aque</w>
           <w>proprius</w>
           <w>
             <choice>
@@ -23461,7 +23477,7 @@
 
           <lb n="1" xml:id="CV188_lb_074v_01"/>
           <w>si</w>
-          <w>volueren<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">t</supplied></w>
+          <w>volueren<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">t</supplied></w>
           <w>se</w>
           <w>insimul</w>
           <w>aduna<lb n="2" xml:id="CV188_lb_074v_02"/>re</w>
@@ -23511,7 +23527,7 @@
           <w>fugire</w>
           <w>et</w>
           <lb n="8" xml:id="CV188_lb_074v_08"/><w>iudex</w>
-          <space quantity="6" unit="chars"/><w>aut</w>
+          <space quantity="6" unit="char"/><w>aut</w>
           <w>quicumque</w>
           <w>in</w>
           <w>fi<lb n="9" xml:id="CV188_lb_074v_09"/>nis</w>
@@ -23684,7 +23700,7 @@
             </choice>
           </w>
           <lb n="10" xml:id="CV188_lb_075r_10"/><w>flumen</w>
-          <space quantity="3" unit="chars"/>
+          <space quantity="3" unit="char"/>
           <w>portum</w>
           <w>custodit</w>
           <lb n="11" xml:id="CV188_lb_075r_11"/><w>si</w>
@@ -24035,7 +24051,7 @@
           <lb n="14" xml:id="CV188_lb_076r_14"/><w>dixerit</w>
           <w>quod</w>
           <w>pro</w>
-          <space quantity="4" unit="chars"/>
+          <space quantity="4" unit="char"/>
           <w>ipsam</w>
           <w>
             <choice>
@@ -24179,10 +24195,10 @@
             </choice>
           </w>
           <w>quem</w>
-          <w>dilata<c corresp="#v">u</c>e<gap extent="2" unit="chars"/><supplied reason="illegible">ri</supplied>t</w>
+          <w>dilata<c corresp="#v">u</c>e<gap quantity="2" unit="char"/><supplied reason="illegible">ri</supplied>t</w>
           <w>redde<lb n="14" xml:id="CV188_lb_076v_14"/>re</w>
           <w>cogator</w>
-          <space quantity="4" unit="chars"/>
+          <space quantity="4" unit="char"/>
           <w>et</w>
           <w>si</w>
           <w>ille</w>
@@ -24286,9 +24302,9 @@
           <w>post</w>
           <w>
             <choice>
-              <abbr>ter<damage/><space quantity="8" unit="chars"/><lb n="4" xml:id="CV188_lb_077r_04_abbr"/>ti<am><g
+              <abbr>ter<damage/><space quantity="8" unit="char"/><lb n="4" xml:id="CV188_lb_077r_04_abbr"/>ti<am><g
                     ref="#amacr"/></am></abbr>
-              <expan>ter<damage/><space quantity="8" unit="chars"/><lb n="4" xml:id="CV188_lb_077r_04_expan"
+              <expan>ter<damage/><space quantity="8" unit="char"/><lb n="4" xml:id="CV188_lb_077r_04_expan"
                   />tia<ex>m</ex></expan>
             </choice>
           </w>
@@ -24301,13 +24317,13 @@
           <w>dilata<c corresp="#v">u</c>erit</w>
           <lb n="5" xml:id="CV188_lb_077r_05"/><w>ita</w>
           <w>decernimus</w>
-          <w>u<damage/><space quantity="2" unit="chars"/>t</w>
+          <w>u<damage/><space quantity="2" unit="char"/>t</w>
           <w>ipsum</w>
           <w>mancipi<lb n="6" xml:id="CV188_lb_077r_06"/>um</w>
           <w>et</w>
           <w>alium</w>
           <w><choice>
-            <orig>semile<space quantity="1" unit="chars"/>m</orig>
+            <orig>semile<space quantity="1" unit="char"/>m</orig>
             <reg>similem</reg>
           </choice></w>
           <w>de</w>
@@ -24446,11 +24462,11 @@
               <expan>suu<ex>m</ex></expan>
             </choice>
           </w>
-          <lb n="2" xml:id="CV188_lb_077v_02"/><w>habe<damage/><space quantity="2" unit="chars"/>ns</w>
+          <lb n="2" xml:id="CV188_lb_077v_02"/><w>habe<damage/><space quantity="2" unit="char"/>ns</w>
           <w>rem</w>
           <w>suam</w>
           <w>prehindere</w>
-          <w><c corresp="#v">u</c>i<lb n="3" xml:id="CV188_lb_077v_03"/>su<damage/><space quantity="6" unit="chars"
+          <w><c corresp="#v">u</c>i<lb n="3" xml:id="CV188_lb_077v_03"/>su<damage/><space quantity="6" unit="char"
             />s</w>
           <w>est</w>
           <w>et</w>
@@ -24479,7 +24495,7 @@
           </w>
           <lb n="6" xml:id="CV188_lb_077v_06"/><w>tolerit</w>
           <w>aut</w>
-          <w>a<space quantity="1" unit="chars"/>ntesteterit</w>
+          <w>a<space quantity="1" unit="char"/>ntesteterit</w>
           <w>
             <choice>
               <abbr>null<am><g ref="#umacr"/></am></abbr>
@@ -24978,7 +24994,7 @@
         </ab>
 
         <ab n="277" xml:id="CV188_p_078r_277"><!--<lb type="rubric"/>--><label><num><w><choice>
-          <sic>CCLX<space extent="2" unit="char"/>XII</sic>
+          <sic>CCLX<space quantity="2" unit="char"/>XII</sic>
           <corr>CCLXXVII</corr>
         </choice></w></num></label>
           <w>De</w>
@@ -25046,7 +25062,7 @@
             </choice>
           </w>
           <w>fue<damage agent="rubbing"/>
-            <gap extent="3" unit="chars"/><supplied reason="illegible">rit</supplied></w>
+            <gap quantity="3" unit="char"/><supplied reason="illegible">rit</supplied></w>
         </ab>
 
         <ab n="278" xml:id="CV188_p_078r_278">
@@ -25389,7 +25405,7 @@
           <w>aut</w>
           <w>
             <choice>
-              <abbr>pe<gap extent="2" unit="chars"/><supplied reason="illegible">ri</supplied><lb n="29"
+              <abbr>pe<gap quantity="2" unit="char"/><supplied reason="illegible">ri</supplied><lb n="29"
                   xml:id="CV188_lb_078r_29_abbr"/>cul<am><g ref="#umacr"/></am></abbr>
               <expan>peri<lb n="29" xml:id="CV188_lb_078r_29_expan"/>culu<ex>m</ex></expan>
             </choice>
@@ -25464,7 +25480,7 @@
           </w>
           <w>fuerit</w>
           <w>et</w>
-          <w>u<gap extent="3" unit="chars"/><supplied reason="illegible">nus</supplied></w>
+          <w>u<gap quantity="3" unit="char"/><supplied reason="illegible">nus</supplied></w>
           <lb n="31" xml:id="CV188_lb_078r_31"/>
           <w>
             <choice>
@@ -25523,9 +25539,9 @@
           <w>et</w>
           <w>
             <choice>
-              <abbr>m<gap extent="1" unit="chars"/><supplied reason="illegible">e</supplied><lb n="32"
+              <abbr>m<gap quantity="1" unit="char"/><supplied reason="illegible">e</supplied><lb n="32"
                   xml:id="CV188_lb_078r_32_abbr"/>dietat<am><g ref="#emacr"/></am></abbr>
-              <expan>m<gap extent="1" unit="chars"/><supplied reason="illegible">e</supplied>
+              <expan>m<gap quantity="1" unit="char"/><supplied reason="illegible">e</supplied>
                 <lb n="32" xml:id="CV188_lb_078r_32_expan"/>dietate<ex>m</ex></expan>
             </choice>
           </w>
@@ -25585,7 +25601,7 @@
           </w>
           <w>facta</w>
           <w>sicut</w>
-          <w>super<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">i</supplied><lb n="34"
+          <w>super<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">i</supplied><lb n="34"
               xml:id="CV188_lb_078r_34"/>us</w>
           <w>
             <choice>
@@ -25877,7 +25893,7 @@
           <w>rem</w>
           <w>ingreditur</w>
           <lb n="17" xml:id="CV188_lb_079r_17"/><w>et</w>
-          <w>dam<space quantity="3" unit="chars"/>num</w>
+          <w>dam<space quantity="3" unit="char"/>num</w>
           <w>non</w>
           <w>fecerit</w>
           <w>non</w>
@@ -25939,7 +25955,7 @@
           </term>
           <w>si</w>
           <w>duas</w>
-          <w>tole<gap extent="3" unit="chars"/><supplied>rit</supplied></w>
+          <w>tole<gap quantity="3" unit="char"/><supplied>rit</supplied></w>
           <lb n="2" xml:id="CV188_lb_079v_02"/><w>conponat</w>
           <w>solido</w>
           <measure quantity="1" type="currency" unit="soldi"><w>uno</w></measure>
@@ -26091,7 +26107,7 @@
           <w>si</w>
           <w>qualemcum<lb n="20" xml:id="CV188_lb_079v_20"/>que</w>
           <w>rem</w>
-          <w>mediogr<space quantity="1" unit="chars"/>em</w>
+          <w>mediogr<space quantity="1" unit="char"/>em</w>
           <w>unde</w>
           <w>sex</w>
 
@@ -26224,7 +26240,7 @@
           <w><c corresp="#v">u</c>itis</w>
           <w>si</w>
           <w>quis</w>
-          <lb n="16" xml:id="CV188_lb_080r_16"/><w>tra<c corresp="#v">u</c>i<space quantity="3" unit="chars"/>cem</w>
+          <lb n="16" xml:id="CV188_lb_080r_16"/><w>tra<c corresp="#v">u</c>i<space quantity="3" unit="char"/>cem</w>
           <w>de</w>
           <w><c corresp="#v">u</c>item</w>
           <w>incide<lb n="17" xml:id="CV188_lb_080r_17"/>rit</w>
@@ -26252,7 +26268,7 @@
           <w>u<c corresp="#v">u</c>as</w>
           <lb n="19" xml:id="CV188_lb_080r_19"/>
           <w>de</w>
-          <w><c corresp="#v">u</c>ine<space quantity="2" unit="chars"/>a</w>
+          <w><c corresp="#v">u</c>ine<space quantity="2" unit="char"/>a</w>
           <w>alienam</w>
           <w>tolerit</w>
           <w>
@@ -26331,7 +26347,7 @@
           <w>de</w>
           <space/>
           <w>ca<c corresp="#v">u</c>allo</w>
-          <space quantity="2" unit="chars"/>
+          <space quantity="2" unit="char"/>
           <w>tolerit</w>
           <w>con<lb n="6" xml:id="CV188_lb_080v_06"/>ponat</w>
           <w>solidus</w>
@@ -26469,7 +26485,7 @@
               <expan>sol<ex>idos</ex></expan>
             </choice>
           </w>
-          <gap extent="3" unit="chars"/><supplied resp="leges">uno</supplied>
+          <gap quantity="3" unit="char"/><supplied resp="leges">uno</supplied>
         </p>
 
         <!-- #######################################  folio   ####################################### -->
@@ -27036,7 +27052,7 @@
             </choice>
           </w>
           <w>suum</w>
-          <w>pos<gap extent="1" unit="chars"/><supplied>t</supplied><lb n="8" xml:id="CV188_lb_082v_08"/>ponens</w>
+          <w>pos<gap quantity="1" unit="char"/><supplied>t</supplied><lb n="8" xml:id="CV188_lb_082v_08"/>ponens</w>
           <w>
             <choice>
               <sic><c corresp="#v">u</c>oles</sic>
@@ -27520,7 +27536,7 @@
           <w>qui<lb n="15" xml:id="CV188_lb_083v_15"/>cumque</w>
           <w>in<c corresp="#v">u</c>enerit</w>
           <w>iure</w>
-          <w>natural<gap extent="1" unit="chars"/><supplied>e</supplied></w>
+          <w>natural<gap quantity="1" unit="char"/><supplied>e</supplied></w>
           <lb n="16" xml:id="CV188_lb_083v_16"/><w>habeat</w>
           <w>excepto</w>
           <w>in</w>
@@ -28497,11 +28513,11 @@
           <w>oculum</w>
           <w>excusserit</w>
           <w>aut</w>
-          <w>aliqu<gap extent="2" unit="chars"/><supplied reason="illegible">am</supplied></w>
+          <w>aliqu<gap quantity="2" unit="char"/><supplied reason="illegible">am</supplied></w>
           <lb n="7" xml:id="CV188_lb_086v_07"/><w>lesionem</w>
           <w>corporis</w>
           <w>fecerit</w>
-          <w>recepia<gap extent="1" unit="chars"/><supplied reason="illegible">t</supplied></w>
+          <w>recepia<gap quantity="1" unit="char"/><supplied reason="illegible">t</supplied></w>
           <lb n="8" xml:id="CV188_lb_086v_08"/><w>ipsum</w>
           <w>qui</w>
           <w>lesus</w>
@@ -28532,7 +28548,7 @@
           <w>si</w>
           <w>quis</w>
           <lb n="11" xml:id="CV188_lb_086v_11"/>
-          <space quantity="5" unit="chars"/><w>ca<c corresp="#v">u</c>allum</w>
+          <space quantity="5" unit="char"/><w>ca<c corresp="#v">u</c>allum</w>
           <w>alienum</w>
           <w>coda</w>
           <lb n="12" xml:id="CV188_lb_086v_12"/><w>cappella<c corresp="#v">u</c>erit</w>
@@ -28751,7 +28767,7 @@
           <w>
             <choice>
               <orig>ca<c corresp="#v">u</c>a<lb n="18" xml:id="CV188_lb_087r_18_orig"/>lega<space quantity="1"
-                  unit="chars"/>re</orig>
+                  unit="char"/>re</orig>
               <reg resp="leges azzara beyerle">caba<lb n="18" xml:id="CV188_lb_087r_18_reg"/>llicare</reg>
             </choice>
           </w>
@@ -28776,7 +28792,7 @@
                 /><label><num><w>CCCXLI</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>disfigurato</w>
-          <w>ca<c corresp="#v">u</c>al<gap extent="2" unit="chars"/><supplied>lo</supplied></w>
+          <w>ca<c corresp="#v">u</c>al<gap quantity="2" unit="char"/><supplied>lo</supplied></w>
           <lb n="21" xml:id="CV188_lb_087r_21"/><w>si</w>
           <w>quis</w>
           <w>ca<c corresp="#v">u</c>allum</w>
@@ -29323,7 +29339,7 @@
           <w>si</w>
           <w>in</w>
           <w>curte</w>
-          <w>permena<c corresp="#v">u</c><gap extent="1" unit="chars"/><supplied resp="leges">e</supplied>rit</w>
+          <w>permena<c corresp="#v">u</c><gap quantity="1" unit="char"/><supplied resp="leges">e</supplied>rit</w>
           <lb n="9" xml:id="CV188_lb_089r_09"/><w>tunc</w>
           <w>ille</w>
           <w>cuius</w>
@@ -29332,7 +29348,6 @@
           <w>rogit</w>
           <lb n="10" xml:id="CV188_lb_089r_10"/><w>eum</w>
           <w>ut</w>
-          <w>ei</w>
           <w>reddatur</w>
           <w>sic</w>
           <w>tamen</w>
@@ -29376,7 +29391,7 @@
           <w>unam</w>
           <lb n="17" xml:id="CV188_lb_089r_17"/><w>noctem</w>
           <w>peculium</w>
-          <w>pos<gap extent="1" unit="chars"/><supplied resp="leges">t</supplied></w>
+          <w>pos<gap quantity="1" unit="char"/><supplied resp="leges">t</supplied></w>
           <w>se</w>
           <w>tenuerit</w>
           <lb n="18" xml:id="CV188_lb_089r_18"/>
@@ -29399,7 +29414,7 @@
           <w>cuius</w>
           <w>pe<lb n="19" xml:id="CV188_lb_089r_19"/>culius</w>
           <w>est</w>
-          <w>t<space quantity="1" unit="chars"/>enens</w>
+          <w>t<space quantity="1" unit="char"/>enens</w>
           <w>duritiam</w>
           <w>cor<lb n="20" xml:id="CV188_lb_089r_20"/>dis</w>
           <w>eum</w>
@@ -29434,7 +29449,6 @@
           <w>et</w>
           <w>de</w>
           <w>damnum</w>
-          <w>in</w>
           <w>hoc</w>
           <w>si<lb n="4" xml:id="CV188_lb_089v_04"/>bi</w>
           <w>sit</w>
@@ -29506,7 +29520,7 @@
           <lb n="15" xml:id="CV188_lb_089v_15"/><w>ipse</w>
           <w>eum</w>
           <w>sal<c corresp="#v">u</c>um</w>
-          <w>fa<space quantity="1" unit="chars"/>ciat</w>
+          <w>fa<space quantity="1" unit="char"/>ciat</w>
           <w>sicut</w>
           <lb n="16" xml:id="CV188_lb_089v_16"/><w>supra</w>
           <w>constitutum</w>
@@ -29531,7 +29545,7 @@
           <w><c corresp="#v">u</c>i<add hand="scribe_1" place="above">a</add></w>
           <lb n="19" xml:id="CV188_lb_089v_19"/><w>turna<c corresp="#v">u</c>it</w>
           <w>nulla</w>
-          <w>si<space quantity="1" unit="chars"/>t</w>
+          <w>si<space quantity="1" unit="char"/>t</w>
           <w>culpa</w>
           <w>illi</w>
           <lb n="20" xml:id="CV188_lb_089v_20"/><w>quem</w>
@@ -29675,7 +29689,7 @@
                   ref="#romnumsix"/>III</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>porcus</w>
-          <gap extent="2" unit="chars"/><supplied>si</supplied>
+          <gap quantity="2" unit="char"/><supplied>si</supplied>
           <w>in</w>
           <w>isca</w>
           <w>al<lb n="2" xml:id="CV188_lb_090v_02"/>terius</w>
@@ -29724,7 +29738,7 @@
           <w>seliquas</w>
           <w>tre<add hand="scribe_1" place="above">s</add></w>
           <lb n="8" xml:id="CV188_lb_090v_08"/><w>nam</w>
-          <w>s<space quantity="1" unit="chars"/>i</w>
+          <w>s<space quantity="1" unit="char"/>i</w>
           <w>supra</w>
           <w>fuerent</w>
           <w>de</w>
@@ -29847,9 +29861,12 @@
           <w>porcorum</w>
           <w>fuerit</w>
           <w>unus</w>
-          <w>co<am><g ref="#tildedot"/></am><lb n="4" xml:id="CV188_lb_091r_04"/>potetur</w>
+          <w><choice>
+            <abbr>c<am><g ref="#omacrdot"/></am><lb n="4" xml:id="CV188_lb_091r_04_abbr"/>potetur</abbr>
+            <expan>co<ex>n</ex><lb n="4" xml:id="CV188_lb_091r_04_expan"/>potetur</expan>
+          </choice></w>
           <term ref="#sonorpair" xml:lang="lng"><w>sonorpair</w></term>
-          <space quantity="11" unit="chars"/>
+          <space quantity="11" unit="char"/>
           <lb n="5" xml:id="CV188_lb_091r_05"/><w>nam</w>
           <w>si</w>
           <w>minor</w>
@@ -30094,7 +30111,7 @@
           </w>
           <w>frugis</w>
           <w>quod</w>
-          <w>de<space quantity="1" unit="chars"/><c corresp="#v">u</c>asta <lb n="19" xml:id="CV188_lb_091v_19"/><c
+          <w>de<space quantity="1" unit="char"/><c corresp="#v">u</c>asta <lb n="19" xml:id="CV188_lb_091v_19"/><c
               corresp="#v">u</c>it</w>
           <w>proprio</w>
           <w>
@@ -30243,7 +30260,7 @@
           <w>licentia</w>
           <w>
             <choice>
-              <abbr>etera<am><g ref="#tildedot"/></am><lb n="11" xml:id="CV188_lb_092r_11_abbr"/>tibus</abbr>
+              <abbr>eter<am><g ref="#amacrdot"/></am><lb n="11" xml:id="CV188_lb_092r_11_abbr"/>tibus</abbr>
               <expan resp="leges azzara beyerle">etera<ex>n</ex><lb n="11" xml:id="CV188_lb_092r_11_expan"
                 />tibus</expan>
             </choice>
@@ -30275,13 +30292,12 @@
           <w>potest</w>
           <w>
             <choice>
-              <abbr>defe<am><g ref="#tildedot"/></am><lb n="17" xml:id="CV188_lb_092r_17_abbr"/>dere</abbr>
+              <abbr>def<am><g ref="#emacrdot"/></am><lb n="17" xml:id="CV188_lb_092r_17_abbr"/>dere</abbr>
               <expan resp="leges azzara beyerle">defe<ex>n</ex><lb n="17" xml:id="CV188_lb_092r_17_expan"
                 />dere</expan>
             </choice>
           </w>
           <w>nam</w>
-          <w>si</w>
           <w>ca<c corresp="#v">u</c>allus</w>
           <w>iter</w>
           <w>facien<lb n="18" xml:id="CV188_lb_092r_18"/>tibus</w>
@@ -30333,7 +30349,7 @@
               </choice>
             </w>
           </term>
-          <w>mo<c corresp="#v">u</c>ere</w>
+          <w>rimo<c corresp="#v">u</c>ere</w>
           <w>presumps<lb rend="align_right" type="extra"/>it</w>
           <choice>
             <orig><pc>:</pc></orig>
@@ -30575,7 +30591,7 @@
           </w>
           <lb n="14" xml:id="CV188_lb_093r_14"/><w>est</w>
           <w>excepto</w>
-          <space quantity="2" unit="chars"/>
+          <space quantity="2" unit="char"/>
           <w>illum</w>
           <w>qui</w>
           <w>
@@ -30675,7 +30691,6 @@
           <w>sa<lb n="6" xml:id="CV188_lb_093v_06"/>cramentum</w>
           <w>dandum</w>
           <w>et</w>
-          <w>si</w>
           <w>forsi<lb n="7" xml:id="CV188_lb_093v_07"/>tan</w>
           <w>propter</w>
           <w>egritudinem</w>
@@ -30765,10 +30780,7 @@
           <w>nulla</w>
           <w>sit</w>
           <w>in</w>
-          <w>poste<lb n="3" xml:id="CV188_lb_094r_03"/><subst><!-- CHECK 1. no rum 2. rahabeat deleted? -->
-              <del>ra</del>
-              <add><g ref="#rum"/></add>
-            </subst></w>
+          <w>poste<lb n="3" xml:id="CV188_lb_094r_03"/>ra</w><!-- CHECK 1. letter after poste: rum? 2. rahabeat deleted? rend? -->
           <w>habeat</w>
           <w>
             <choice>
@@ -30894,7 +30906,7 @@
           <w>aut</w>
           <w>de</w>
           <w>natos</w>
-          <w>au<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">t</supplied></w>
+          <w>au<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">t</supplied></w>
           <lb n="4" xml:id="CV188_lb_094v_04"/><w>de</w>
           <term corresp="#CV188_gloss_gamahalos_362" ref="#gamahalos" xml:id="CV188_term_gamahalos_362" xml:lang="lng">
             <w>gamahalos</w>
@@ -30945,7 +30957,7 @@
                 /><label><num><w>CCCLXIII</w></num></label>
           <w><hi rend="decorated">D</hi>e</w>
           <w>sacramentum</w>
-          <w>ru<gap extent="1" unit="chars"/><supplied reason="illegible" resp="leges">p</supplied><lb n="13"
+          <w>ru<gap quantity="1" unit="char"/><supplied reason="illegible" resp="leges">p</supplied><lb n="13"
               xml:id="CV188_lb_094v_13"/>tum</w>
           <w>sac<space/>ramentum</w>
           <w>tunc</w>
@@ -30955,9 +30967,9 @@
           <lb n="15" xml:id="CV188_lb_094v_15"/><w>presentes</w>
           <w>
             <choice>
-              <abbr>s<am><g ref="#cmacr"/></am>a</abbr>
+              <orig><abbr>sacras<am><g ref="#cmacr"/></am>a</abbr></orig>
               <!-- CHECK cmacr -->
-              <expan>s<ex>ascrosan</ex>c<ex>t</ex>a</expan>
+              <reg><expan>sacros<ex>an</ex>c<ex>t</ex>a</expan></reg>
             </choice>
           </w>
           <w>e<c corresp="#v">u</c>ange<lb n="16" xml:id="CV188_lb_094v_16"/>lia</w>
@@ -31056,9 +31068,12 @@
               <reg><expan>aute<ex>m</ex></expan></reg>
             </choice>
           </w>
-          <lb n="9" xml:id="CV188_lb_095r_09"/><w>manifesta<c corresp="#v">u</c>erit</w>
+          <lb n="9" xml:id="CV188_lb_095r_09"/><w><choice>
+            <orig>manefesta<c corresp="#v">u</c>erit</orig>
+            <reg>manifesta<c corresp="#v">u</c>erit</reg>
+          </choice></w>
           <w>se</w>
-          <w>fecissit</w>
+          <w>fecisse</w>
           <w>
             <choice>
               <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
@@ -31117,8 +31132,11 @@
           <w>ad</w>
           <w>meliorem</w>
           <w>statum</w>
-          <lb n="21" rend="align_right" xml:id="CV188_lb_095r_21"/>
-          <w>re<space quantity="1" unit="chars"/><c corresp="#v">u</c>ocare</w>
+          <lb n="21" rend="align_center" xml:id="CV188_lb_095r_21"/>
+          <w><choice>
+            <orig>re<space quantity="3" unit="char"/><c corresp="#v">u</c>ogare</orig>
+            <reg>re<space quantity="3" unit="char"/><c corresp="#v">u</c>ocare</reg>
+          </choice></w>
         </p>
 
         <p n="365" xml:id="CV188_p_095v_365">
@@ -31198,8 +31216,8 @@
           <w>at<lb n="14" xml:id="CV188_lb_095v_14"/>que</w>
           <w>
             <choice>
-              <orig>fidiiussurem</orig>
-              <reg resp="leges azzara beyerle">fideiussurem</reg>
+              <orig>fidiiussorem</orig>
+              <reg resp="leges azzara beyerle">fideiussorem</reg>
             </choice>
           </w>
           <w>surre<lb n="15" xml:id="CV188_lb_095v_15"/>xerit</w>
@@ -31393,17 +31411,17 @@
             <orig><pc>:</pc></orig>
             <reg>.</reg>
           </choice>
-          <w>nec</w>
+          <lb n="20" xml:id="CV188_lb_096r_20"/><w>nec</w>
           <w>alias</w>
           <w>tales</w>
           <w>semelis</w>
           <w>res</w>
           <w>nisi</w>
-          <lb n="20" xml:id="CV188_lb_096r_20"/><w>tantum</w>
+          <lb n="21" xml:id="CV188_lb_096r_21"/><w>tantum</w>
           <w>arma</w>
           <w>sua</w>
           <w>que</w>
-          <w>con<c corresp="#v">u</c>e<lb n="21" rend="align_right" xml:id="CV188_lb_096r_21"/>nit</w>
+          <w>con<c corresp="#v">u</c>e<lb n="22" rend="align_right" xml:id="CV188_lb_096r_22"/>nit</w>
 
           <!-- #######################################  folio   ####################################### -->
 
@@ -31496,14 +31514,17 @@
           <w>dupli<lb n="18" xml:id="CV188_lb_096v_18"/>cetur</w>
           <w>secundum</w>
           <w>antiquam</w>
-          <w>consuitutinem</w>
+          <lb n="19" xml:id="CV188_lb_096v_19"/><w><choice>
+            <orig>consuitutinem</orig>
+            <reg>consuetudinem</reg>
+          </choice></w>
           <w>
             <choice>
               <abbr>co<am><g ref="#nmacr"/></am>p</abbr>
               <expan>conp<ex>onat</ex></expan>
             </choice>
           </w>
-          <w>excep<lb n="19" xml:id="CV188_lb_096v_19"/>to</w>
+          <w>excep<lb n="20" xml:id="CV188_lb_096v_20"/>to</w>
           <w>mundio</w>
           <w>de</w>
           <w>mulieris</w>
@@ -31516,7 +31537,7 @@
               </choice>
             </w>
           </term>
-          <lb n="20" xml:id="CV188_lb_096v_20"/><w>aut</w>
+          <lb n="21" xml:id="CV188_lb_096v_21"/><w>aut</w>
           <w>alias</w>
           <w>que</w>
           <w>semelis</w>
@@ -31619,9 +31640,9 @@
           <w>causas</w>
           <lb n="13" xml:id="CV188_lb_097r_13"/><w>unde</w>
           <w>libe<space/>ri</w>
-          <w>et</w>
+          <w>aut</w>
           <w>ser<c corresp="#v">u</c>i</w>
-          <w>alio <lb n="14" xml:id="CV188_lb_097r_14"/>rum</w>
+          <w>alieno<lb n="14" xml:id="CV188_lb_097r_14"/>rum</w>
           <w>hominum</w>
           <measure quantity="900" type="currency" unit="soldi"><w>dcccc</w></measure>
           <w>
@@ -31633,7 +31654,7 @@
           <w>fiun<add hand="scribe_1" place="above">t</add></w>
           <lb n="15" xml:id="CV188_lb_097r_15"/><w>culpa<c corresp="#v">u</c>elis</w>
           <w>id</w>
-          <w>es<gap extent="1" unit="chars"/><supplied resp="leges">t</supplied></w>
+          <w>es<gap quantity="1" unit="char"/><supplied resp="leges">t</supplied></w>
           <w>de</w>
           <w>muliere</w>
           <w>li <lb n="16" xml:id="CV188_lb_097r_16"/>bera</w>
@@ -31941,6 +31962,7 @@
           <lb n="11" xml:id="CV188_lb_098r_11"/><w>et</w>
           <w>causas</w>
           <w>regias</w>
+          <w>si</w>
           <w>
             <choice>
               <sic>aliquit</sic>
@@ -32281,8 +32303,14 @@
           <w>scandalo</w>
           <w>cocurrerit</w>
           <w>ubi</w>
-          <lb n="16" xml:id="CV188_lb_099r_16"/><w><c corresp="#v">u</c>iri</w>
-          <w>litig<space/>an<gap extent="1" unit="chars"/><supplied>t</supplied></w>
+          <lb n="16" xml:id="CV188_lb_099r_16"/><w><choice>
+            <orig><c corresp="#v">u</c>eri</orig>
+            <reg><c corresp="#v">u</c>iri</reg>
+          </choice></w>
+          <w><choice>
+            <orig>litic<space/>an<gap quantity="1" unit="char"/><supplied>t</supplied></orig>
+            <reg>litigan<supplied>t</supplied></reg>
+          </choice></w>
           <w>si</w>
           <w>plagam</w>
           <lb n="17" xml:id="CV188_lb_099r_17"/><w>aut</w>
@@ -32524,7 +32552,10 @@
           <w>dixe <lb n="7" xml:id="CV188_lb_100r_07"/>rit</w>
           <w>quod</w>
           <w>per</w>
-          <w>furorem</w>
+          <w><choice>
+            <orig>fororem</orig>
+            <reg>furorem</reg>
+          </choice></w>
           <w>dixissit</w>
           <choice>
             <orig><pc>:</pc></orig>
@@ -32993,9 +33024,12 @@
           <w>primatus</w>
           <w>iudices</w>
           <lb n="21" xml:id="CV188_lb_101r_21"/><w>cunctosque</w>
-          <w>felicissimum</w>
+          <w><choice>
+            <orig>filicissimum</orig>
+            <reg>felicissimum</reg>
+          </choice></w>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 101v  ####################################### -->
 
         <pb n="101v" xml:id="CV188_folio_101v"/>
 
@@ -33079,10 +33113,13 @@
           <w>firma</w>
           <w>et</w>
           <lb n="16" xml:id="CV188_lb_101v_16"/><w>stabelis</w>
-          <space quantity="4" unit="chars"/>
+          <space quantity="4" unit="char"/>
           <w>quatinus</w>
           <w>nostris</w>
-          <lb n="17" xml:id="CV188_lb_101v_17"/><w>felicissimis</w>
+          <lb n="17" xml:id="CV188_lb_101v_17"/><w><choice>
+            <orig>filicissimis</orig>
+            <reg>felicissimis</reg>
+          </choice></w>
           <w>et</w>
           <w>futuris</w>
           <w>tempori<lb n="18" xml:id="CV188_lb_101v_18"/>bus</w>
@@ -33229,7 +33266,7 @@
           <w>notario</w>
           <w>nostro</w>
 
-          <!-- #######################################  folio   ####################################### -->
+          <!-- #######################################  folio 102v  ####################################### -->
 
         <pb n="102v" xml:id="CV188_folio_102v"/>
 

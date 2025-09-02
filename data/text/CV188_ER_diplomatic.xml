@@ -416,6 +416,13 @@
           <mapping type="normalized">t</mapping>
         </char>
 
+        <char xml:id="tmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER T WITH MACRON"/>
+          <mapping subtype="composed" type="codepoint">U+0074 + U+00AF</mapping>
+          <mapping type="diplomatic">t̄</mapping>
+          <mapping type="normalized">t</mapping>
+        </char>
+        
         <!-- aggiunto 2018-12-05 -->
         <char xml:id="atilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER A WITH TILDE"/>
@@ -7747,7 +7754,7 @@
           <w>si</w>
           <w>
             <choice>
-              <abbr><am><g ref="#qtilde"/></am>s</abbr>
+              <abbr><am><g ref="#qmacr"/></am>s</abbr>
               <expan>q<ex>ui</ex>s</expan>
             </choice>
           </w>
@@ -8020,7 +8027,7 @@
           <w>si</w>
           <w>
             <choice>
-              <abbr><am><g ref="#qtilde"/></am>s</abbr>
+              <abbr><am><g ref="#qmacr"/></am>s</abbr>
               <expan>q<ex>ui</ex>s</expan>
             </choice>
           </w>
@@ -9044,7 +9051,7 @@
           <w>Si</w>
           <w>
             <choice>
-              <abbr><am><g ref="#qtilde"/></am></abbr>
+              <abbr><am><g ref="#qmacr"/></am></abbr>
               <expan>q<ex>uis</ex></expan>
             </choice>
           </w>
@@ -9083,7 +9090,7 @@
           <w>si</w>
           <w>
             <choice>
-              <abbr><am><g ref="#qtilde"/></am></abbr>
+              <abbr><am><g ref="#qmacr"/></am></abbr>
               <expan>q<ex>uis</ex></expan>
             </choice>
           </w>
@@ -9703,7 +9710,7 @@
           <w>si</w>
           <w>
             <choice>
-              <abbr><am><g ref="#qtilde"/></am></abbr>
+              <abbr><am><g ref="#qmacr"/></am></abbr>
               <expan>q<ex>uis</ex></expan>
             </choice>
           </w>
@@ -9821,7 +9828,7 @@
           <w>si</w>
           <w>
             <choice>
-              <abbr><am><g ref="#qtilde"/></am>s</abbr>
+              <abbr><am><g ref="#qmacr"/></am>s</abbr>
               <expan>q<ex>ui</ex>s</expan>
             </choice>
           </w>
@@ -11000,7 +11007,7 @@
           <w>si</w>
           <w>
             <choice>
-              <abbr><am><g ref="#qtilde"/></am>s</abbr>
+              <abbr><am><g ref="#qmacr"/></am>s</abbr>
               <expan>q<ex>ui</ex>s</expan>
             </choice>
           </w>
@@ -24274,7 +24281,7 @@
           <w>et</w>
           <w>
             <choice>
-              <abbr>e<am><g ref="#ptilde"/></am>s</abbr>
+              <abbr>e<am><g ref="#pmacr"/></am>s</abbr>
               <expan>ep<ex>iscopu</ex>s</expan>
             </choice>
           </w>
@@ -25024,7 +25031,7 @@
           <lb n="19" xml:id="CV188_lb_078r_19"/><w>Si</w>
           <w>
             <choice>
-              <abbr><am><g ref="#qtilde"/></am>s</abbr>
+              <abbr><am><g ref="#qmacr"/></am>s</abbr>
               <expan>q<ex>ui</ex>s</expan>
             </choice>
           </w>
@@ -25121,7 +25128,7 @@
           </w>
           <w>
             <choice>
-              <abbr><c corresp="#v">u</c>ide<am><g ref="#ttilde"/></am></abbr>
+              <abbr><c corresp="#v">u</c>ide<am><g ref="#tmacr"/></am></abbr>
               <expan>videt<ex>ur</ex></expan>
             </choice>
           </w>
@@ -25671,7 +25678,7 @@
           </w>
           <w>
             <choice>
-              <abbr>re<am><g ref="#qbardes"/></am>ra<am><g ref="#ttilde"/></am></abbr>
+              <abbr>re<am><g ref="#qbardes"/></am>ra<am><g ref="#tmacr"/></am></abbr>
               <expan>req<ex>ui</ex>rat<ex>ur</ex></expan>
             </choice>
           </w>
@@ -25788,8 +25795,8 @@
           </w>
           <w>
             <choice>
-              <orig>sca<am><g ref="#tildedot"/></am><lb n="7" xml:id="CV188_lb_079r_07_orig"/>dolam</orig>
-              <reg resp="leges azzara bluhme beyerle">scin<lb n="7" xml:id="CV188_lb_079r_07_reg"/>dolam</reg>
+              <abbr>sc<am><g ref="#amacrdot"/></am><lb n="7" xml:id="CV188_lb_079r_07_orig"/>dolam</abbr>
+              <expan>sca<ex>n</ex><lb n="7" xml:id="CV188_lb_079r_07_reg"/>dolam</expan>
             </choice>
           </w>
           <w>fura<c corresp="#v">u</c>erit</w>
@@ -30105,8 +30112,8 @@
           <w>alio</w>
           <w>
             <choice>
-              <abbr>ta<am><g ref="#tildedot"/></am><lb n="18" xml:id="CV188_lb_091v_18_abbr"/>tum</abbr>
-              <expan resp="leges azzara beyerle">ta<ex>n</ex><lb n="18" xml:id="CV188_lb_091v_18_expan"/>tum</expan>
+              <abbr>t<am><g ref="#amacrdot"/></am><lb n="18" xml:id="CV188_lb_091v_18_abbr"/>tum</abbr>
+              <expan>ta<ex>n</ex><lb n="18" xml:id="CV188_lb_091v_18_expan"/>tum</expan>
             </choice>
           </w>
           <w>frugis</w>
@@ -30395,7 +30402,7 @@
           <w>e<c corresp="#v">u</c>an<lb n="10" xml:id="CV188_lb_092v_10"/>gelia</w>
           <w>
             <choice>
-              <abbr>s<am><g ref="#ctilde"/>a</am></abbr>
+              <abbr>s<am><g ref="#cmacr"/>a</am></abbr>
               <expan>s<ex>an</ex>c<ex>t</ex>a</expan>
             </choice>
           </w>
@@ -31559,7 +31566,7 @@
           </w>
           <w>
             <choice>
-              <abbr>iudica<am><g ref="#tildedot"/></am>tur</abbr>
+              <abbr>iudic<am><g ref="#amacrdot"/></am>tur</abbr>
               <expan>iudica<ex>n</ex>tur</expan>
             </choice>
           </w>
@@ -32070,13 +32077,13 @@
           <w>quod</w>
           <w>
             <choice>
-              <abbr>x<am><g ref="#ptilde"/></am>ianis</abbr>
+              <abbr>x<am><g ref="#pmacr"/></am>ianis</abbr>
               <expan>ch<ex>rist</ex>iani</expan>
             </choice>
           </w>
           <w>
             <choice>
-              <abbr>me<am><g ref="#tildedot"/></am><lb n="6" xml:id="CV188_lb_098v_06_abbr"/>tibus</abbr>
+              <abbr>m<am><g ref="#emacrdot"/></am><lb n="6" xml:id="CV188_lb_098v_06_abbr"/>tibus</abbr>
               <expan resp="leges azzara beyerle">me<ex>n</ex><lb n="6" xml:id="CV188_lb_098v_06_expan"/>tibus</expan>
             </choice>
           </w>
@@ -33154,7 +33161,7 @@
           <w>facientem</w>
           <w>
             <choice>
-              <abbr>nole<am><g ref="#tildedot"/></am><lb n="3" xml:id="CV188_lb_102r_03_abbr"/>do</abbr>
+              <abbr>nol<am><g ref="#emacrdot"/></am><lb n="3" xml:id="CV188_lb_102r_03_abbr"/>do</abbr>
               <expan>nole<ex>n</ex><lb n="3" xml:id="CV188_lb_102r_03_expan"/>do</expan>
             </choice>
           </w>
@@ -33226,7 +33233,7 @@
           <w>edictum</w>
           <w>
             <choice>
-              <abbr>incida<am><g ref="#tildedot"/></am><lb n="14" xml:id="CV188_lb_102r_14_abbr"/>tur</abbr>
+              <abbr>incid<am><g ref="#amacrdot"/></am><lb n="14" xml:id="CV188_lb_102r_14_abbr"/>tur</abbr>
               <expan>incida<ex>n</ex><lb n="14" xml:id="CV188_lb_102r_14_expan"/>tur</expan>
             </choice>
           </w>

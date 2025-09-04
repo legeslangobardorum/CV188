@@ -4568,9 +4568,13 @@
           <w>ferita</w>
           <w>in</w>
           <choice>
-            <sic><w>ip<lb n="15"/>sum</w><!-- CHECK --> <w>hominem</w><!-- CHECK --></sic>
-            <corr><w>ip<lb n="15"/>so</w> <w>homine</w></corr><reg>,</reg>
+            <sic><w>ip<lb n="15"/>sum</w> <w>hominem</w></sic>
+            <corr><w>ip<lb n="15"/>so</w> <w>homine</w></corr>
           </choice>
+          <!--<w><choice>
+            <sic>hominem</sic>
+            <corr>homine</corr>
+          </choice></w>-->
           <w>qui</w>
           <w>occisus</w>
           <w>est</w><reg>,</reg>
@@ -4579,7 +4583,7 @@
           <w>tunc</w>
           <w>sit</w>
           <w><choice>
-            <orig>culpavelis</orig><!-- CHECK ok -->
+            <orig>culpavelis</orig>
             <reg>culpabiles</reg>
           </choice></w>
           <lb n="17"/><w>sicut</w>

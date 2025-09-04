@@ -645,6 +645,10 @@
          altre forme utilizzate: <lb rend="below"/>, <add place="below"/>
          solo per la diplomatica?
          CSS per gestire la posizione?
+         
+     GLOBAL
+     
+     - visualizzare integrazioni con <supplied> anche nella diplomatica o no?
 
     + cambiare resp="leges" in resp="leges" (o altro) in tutti i testimoni
     + valutare se mantenere dittongo ae nelle forme regolarizzate (es. adpraetiatum ma forse più corretto adpretiatum) >>> mantenere registro linguistico uniforme
@@ -23109,7 +23113,7 @@
             </choice></w>
           <w>facere</w>
           <w><choice>
-              <orig>tempta<c corresp="#v">u</c>et</orig>
+              <orig>tempta<c corresp="#v">u</c>et<damage>it</damage></orig>
               <reg>temptavit</reg>
             </choice></w>
           <choice>
@@ -23680,15 +23684,21 @@
           <w>ipsum</w>
           <w>
             <choice>
-              <abbr>fogac<am><g ref="#emacr"/></am></abbr>
-              <expan>fogace<ex>m</ex></expan>
+              <orig><abbr>fogac<am><g ref="#emacr"/></am></abbr></orig>
+              <reg><expan>fugace<ex>m</ex></expan></reg>
             </choice>
           </w>
-          <lb n="7" xml:id="CV188_lb_075r_07"/><w>prindere</w>
+          <lb n="7" xml:id="CV188_lb_075r_07"/><w><choice>
+            <orig>prindere</orig>
+            <reg>prendere</reg>
+          </choice></w>
           <w><c corresp="#v">u</c>oluerit</w>
           <w>ab</w>
           <w>ipso</w>
-          <w>occisus</w>
+          <w><choice>
+            <sic>occisu</sic>
+            <corr>occisus</corr>
+          </choice></w>
           <w>fu<lb n="8" xml:id="CV188_lb_075r_08"/>erit</w>
           <w>nec</w>
           <w>ipse</w>

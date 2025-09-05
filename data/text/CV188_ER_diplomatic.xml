@@ -311,6 +311,13 @@
           <mapping type="normalized">s</mapping>
         </glyph>
 
+        <char xml:id="middot">
+          <unicodeProp name="Name" value="MIDDLE DOT"/>
+          <mapping type="codepoint">U+00B7</mapping>
+          <mapping type="diplomatic">·</mapping>
+          <!--<mapping type="normalized"></mapping>-->
+        </char>
+        
         <!-- aggiunto 2018-11-21 -->
         <char xml:id="fourdot">
           <unicodeProp name="Name" value="FOUR DOT PUNCTUATION"/>
@@ -16356,7 +16363,8 @@
           <term ref="#meta" xml:id="CV188_term_meta_191" xml:lang="lng">
             <w>meta</w>
           </term>
-          <w>qua<am><g ref="#nmacr"/></am><lb n="7" xml:id="CV188_lb_056r_07"/>tum</w><!-- CHECK superscript S instead of macron??? -->
+          <w>qua<am><g ref="#nmacr"/></am><lb n="7" xml:id="CV188_lb_056r_07"/>tum</w><!-- CHECK superscript S instead of macron?
+            nope actually it's a macron with dot above -->
           <w>dictum</w>
           <w>est</w>
           <w>in</w>
@@ -22589,14 +22597,21 @@
           <w>reddens</w>
           <w>non</w>
           <w>libe<lb n="11" xml:id="CV188_lb_072r_11"/>ra<c corresp="#v">u</c>erit</w>
-          <w>et</w><!-- CHECK missing added text -->
+          <w>et</w>
           <w>post</w>
           <w>transactos</w>
+          <add hand="#scribe2" place="above"><!-- CHECK scribe -->
+            <w><choice>
+              <abbr>p<unclear>ig</unclear>n<am><g ref="#umacr"/></am></abbr><!-- CHECK reading, 'ig' in particular -->
+              <expan>pignu<ex>m</ex></expan>
+            </choice></w>
+            <w>suum</w>
+          </add>
           <w><choice>
               <orig><num value="20">XX</num></orig>
               <reg><num value="20">viginti</num></reg>
             </choice></w>
-          <orig><pc>.</pc></orig>
+          <orig><pc><g ref="#middot"/></pc></orig>
           <w>di<lb n="12" xml:id="CV188_lb_072r_12"/>es</w>
           <w><choice>
               <orig>contegerit</orig>
